@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="103" id="6Dq-FX-6ts" customClass="SwitchCell" customModule="PresenterKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="103"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Dq-FX-6ts" id="q9j-tq-R65">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="103"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="K1L-Fq-kVa">
+                        <rect key="frame" x="20" y="10" width="374" height="83"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sje-Bw-A9g" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="31.5" width="315" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7VK-tY-D2B" customClass="UISwitchComponent" customModule="ComponentKit">
+                                <rect key="frame" x="325" y="26" width="51" height="31"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="brandingStyle" value="switchOnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </switch>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="K1L-Fq-kVa" secondAttribute="trailing" constant="20" id="GhY-66-f7W"/>
+                    <constraint firstItem="K1L-Fq-kVa" firstAttribute="leading" secondItem="q9j-tq-R65" secondAttribute="leading" constant="20" id="NDe-aj-Qvm"/>
+                    <constraint firstAttribute="bottom" secondItem="K1L-Fq-kVa" secondAttribute="bottom" constant="10" id="hqU-Mw-qNC"/>
+                    <constraint firstItem="K1L-Fq-kVa" firstAttribute="top" secondItem="q9j-tq-R65" secondAttribute="top" constant="10" id="rgD-9N-ppJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="Sje-Bw-A9g" id="Mqc-tT-lD1"/>
+                <outlet property="uiSwitch" destination="7VK-tY-D2B" id="mvB-b7-riL"/>
+            </connections>
+            <point key="canvasLocation" x="31.884057971014496" y="57.254464285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

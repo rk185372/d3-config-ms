@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StandardBalanceHeaderView" customModule="TransactionsPresentation">
+            <connections>
+                <outlet property="accountNameLabel" destination="7mT-uT-dOF" id="MOt-EQ-qhS"/>
+                <outlet property="accountNumberLabel" destination="sth-E8-SrF" id="RHL-5j-qn8"/>
+                <outlet property="availableBalanceLeadingConstraint" destination="etz-lD-SBg" id="sCF-fE-2LN"/>
+                <outlet property="availableBalanceView" destination="ehr-uj-hOF" id="4Oo-fU-WnE"/>
+                <outlet property="availableBalanceViewTopConstraint" destination="2Gh-q3-2RS" id="R5g-KD-LK8"/>
+                <outlet property="balanceHeaderViewHeightConstraint" destination="kFw-Nq-Jci" id="yNx-vq-6zI"/>
+                <outlet property="balanceLabel" destination="MzI-U3-qKB" id="LRM-4z-Nsw"/>
+                <outlet property="manageButton" destination="yCz-3w-Oh6" id="4cE-Ce-JVe"/>
+                <outlet property="manageButtonTopConstraint" destination="WUN-Yy-nVs" id="834-iG-oY7"/>
+                <outlet property="manageButtonTrailingConstraint" destination="7BA-Y3-jC3" id="PUF-cz-hQe"/>
+                <outlet property="statusLabel" destination="2FR-o3-RD6" id="xEE-U3-V6V"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mr8-jO-XMI">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="98"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sarah's Checking Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mT-uT-dOF" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="16" width="215" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnCta"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCz-3w-Oh6" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="284" y="16" width="71" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="71" id="BNj-kN-gUg"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                    <state key="normal" title="Manage">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOutlineOnSecondary"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehr-uj-hOF">
+                    <rect key="frame" x="20" y="61" width="93" height="21"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sth-E8-SrF" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="0.0" width="37.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnCta"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8n-gB-SjO">
+                            <rect key="frame" x="45.5" y="0.0" width="2" height="21"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="UzJ-uJ-7MG"/>
+                                <constraint firstAttribute="width" constant="2" id="hls-U9-LmF"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FR-o3-RD6" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="55.5" y="0.0" width="37.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnCta"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="sth-E8-SrF" firstAttribute="leading" secondItem="ehr-uj-hOF" secondAttribute="leading" id="8gG-mt-Gdz"/>
+                        <constraint firstItem="2FR-o3-RD6" firstAttribute="top" secondItem="ehr-uj-hOF" secondAttribute="top" id="BGl-Gi-QM1"/>
+                        <constraint firstAttribute="bottom" secondItem="sth-E8-SrF" secondAttribute="bottom" id="MQa-id-zyO"/>
+                        <constraint firstItem="sth-E8-SrF" firstAttribute="top" secondItem="ehr-uj-hOF" secondAttribute="top" id="VX9-Zf-1ue"/>
+                        <constraint firstItem="2FR-o3-RD6" firstAttribute="leading" secondItem="L8n-gB-SjO" secondAttribute="trailing" constant="8" id="Zrn-fg-jNa"/>
+                        <constraint firstAttribute="trailing" secondItem="2FR-o3-RD6" secondAttribute="trailing" id="d6J-7o-qCC"/>
+                        <constraint firstItem="L8n-gB-SjO" firstAttribute="leading" secondItem="sth-E8-SrF" secondAttribute="trailing" constant="8" id="jfo-vH-yWL"/>
+                        <constraint firstItem="L8n-gB-SjO" firstAttribute="centerY" secondItem="ehr-uj-hOF" secondAttribute="centerY" id="lvA-lm-jJ7"/>
+                        <constraint firstAttribute="height" constant="21" id="uCp-2U-OZn"/>
+                        <constraint firstAttribute="bottom" secondItem="2FR-o3-RD6" secondAttribute="bottom" id="wAK-P7-Z0m"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzI-U3-qKB" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="313" y="61.5" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnCta"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ehr-uj-hOF" firstAttribute="top" secondItem="Mr8-jO-XMI" secondAttribute="top" constant="61" id="2Gh-q3-2RS"/>
+                <constraint firstItem="yCz-3w-Oh6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7mT-uT-dOF" secondAttribute="trailing" constant="16" id="4nn-9T-2zL"/>
+                <constraint firstAttribute="trailing" secondItem="yCz-3w-Oh6" secondAttribute="trailing" constant="20" id="7BA-Y3-jC3"/>
+                <constraint firstItem="MzI-U3-qKB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7mT-uT-dOF" secondAttribute="trailing" constant="16" id="9Fs-Ky-xM8"/>
+                <constraint firstItem="yCz-3w-Oh6" firstAttribute="top" secondItem="Mr8-jO-XMI" secondAttribute="top" constant="16" id="WUN-Yy-nVs"/>
+                <constraint firstItem="MzI-U3-qKB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7mT-uT-dOF" secondAttribute="top" id="bRd-mp-CMn"/>
+                <constraint firstItem="ehr-uj-hOF" firstAttribute="leading" secondItem="Mr8-jO-XMI" secondAttribute="leading" constant="20" id="etz-lD-SBg"/>
+                <constraint firstAttribute="bottom" secondItem="ehr-uj-hOF" secondAttribute="bottom" constant="16" id="hsM-zE-H56"/>
+                <constraint firstItem="7mT-uT-dOF" firstAttribute="leading" secondItem="Mr8-jO-XMI" secondAttribute="leading" constant="20" id="iR6-DK-P9j"/>
+                <constraint firstAttribute="height" constant="98" id="kFw-Nq-Jci"/>
+                <constraint firstItem="7mT-uT-dOF" firstAttribute="top" secondItem="Mr8-jO-XMI" secondAttribute="top" constant="16" id="lup-XF-reJ"/>
+                <constraint firstAttribute="trailing" secondItem="MzI-U3-qKB" secondAttribute="trailing" constant="20" id="oMY-Rs-uaS"/>
+                <constraint firstAttribute="bottom" secondItem="MzI-U3-qKB" secondAttribute="bottom" priority="999" constant="16" id="pOm-l7-WRY"/>
+                <constraint firstItem="MzI-U3-qKB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ehr-uj-hOF" secondAttribute="trailing" constant="16" id="toM-vL-1F7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fkv-o5-YTj"/>
+            <point key="canvasLocation" x="34.5" y="-233"/>
+        </view>
+    </objects>
+</document>

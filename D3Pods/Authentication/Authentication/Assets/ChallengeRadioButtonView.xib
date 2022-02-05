@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChallengeRadioButtonView" customModule="Authentication">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="159"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SBu-x9-rQh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="159"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yoj-gG-uSE">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="63"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="USe-uy-VmS">
+                                    <rect key="frame" x="53" y="11" width="312" height="41"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ef-iC-4wS" customClass="UILabelComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="0.0" width="312" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uq-UA-Xjc" customClass="UILabelComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="20.5" width="312" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYg-ii-Ca0" customClass="UIRadioButtonComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="8" y="16.5" width="30" height="30"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <accessibility key="accessibilityConfiguration">
+                                        <bool key="isElement" value="YES"/>
+                                    </accessibility>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="kaD-xZ-4XD"/>
+                                        <constraint firstAttribute="width" constant="30" id="wjj-dG-og1"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="radioButtonCta"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="USe-uy-VmS" secondAttribute="trailing" constant="10" id="8Nd-gG-2ie"/>
+                                <constraint firstAttribute="bottom" secondItem="WYg-ii-Ca0" secondAttribute="bottom" constant="16.5" id="9wx-pF-8pg"/>
+                                <constraint firstItem="USe-uy-VmS" firstAttribute="centerY" secondItem="WYg-ii-Ca0" secondAttribute="centerY" id="PAb-Hd-k7J"/>
+                                <constraint firstItem="WYg-ii-Ca0" firstAttribute="top" secondItem="Yoj-gG-uSE" secondAttribute="top" constant="16.5" id="b3o-3A-ACk"/>
+                                <constraint firstItem="USe-uy-VmS" firstAttribute="leading" secondItem="WYg-ii-Ca0" secondAttribute="trailing" constant="15" id="ni5-05-0SS"/>
+                                <constraint firstItem="WYg-ii-Ca0" firstAttribute="leading" secondItem="Yoj-gG-uSE" secondAttribute="leading" constant="8" id="vvV-b3-PUf"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csR-2h-avB">
+                            <rect key="frame" x="0.0" y="63" width="375" height="96"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ah7-9o-v0g">
+                                    <rect key="frame" x="8" y="2" width="359" height="92"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Txq-Ns-Ao8" customClass="UITextFieldComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="0.0" width="359" height="61.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="textInputOnDefault"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D11-IV-wMT" customClass="UILabelComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="71.5" width="359" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="ah7-9o-v0g" firstAttribute="leading" secondItem="csR-2h-avB" secondAttribute="leading" constant="8" id="IOJ-yc-42d"/>
+                                <constraint firstItem="ah7-9o-v0g" firstAttribute="centerY" secondItem="csR-2h-avB" secondAttribute="centerY" id="MQb-gi-awA"/>
+                                <constraint firstAttribute="trailing" secondItem="ah7-9o-v0g" secondAttribute="trailing" constant="8" id="RuO-s4-j9C"/>
+                                <constraint firstItem="ah7-9o-v0g" firstAttribute="top" secondItem="csR-2h-avB" secondAttribute="top" constant="2" id="VLu-J2-zJc"/>
+                            </constraints>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFr-C1-Ikl">
+                            <rect key="frame" x="0.0" y="159" width="375" height="20"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LkX-nD-csa" customClass="UILabelComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="10" y="10" width="355" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="LkX-nD-csa" firstAttribute="top" secondItem="hFr-C1-Ikl" secondAttribute="top" constant="10" id="2yc-84-o5p"/>
+                                <constraint firstItem="LkX-nD-csa" firstAttribute="leading" secondItem="hFr-C1-Ikl" secondAttribute="leading" constant="10" id="4mg-1c-UIk"/>
+                                <constraint firstAttribute="bottom" secondItem="LkX-nD-csa" secondAttribute="bottom" constant="10" id="LWY-91-X1N"/>
+                                <constraint firstItem="LkX-nD-csa" firstAttribute="centerY" secondItem="hFr-C1-Ikl" secondAttribute="centerY" id="OfA-dp-L3A"/>
+                                <constraint firstAttribute="trailing" secondItem="LkX-nD-csa" secondAttribute="trailing" constant="10" id="c2K-8Q-IHB"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SBu-x9-rQh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AHS-Fb-CBN"/>
+                <constraint firstAttribute="trailing" secondItem="SBu-x9-rQh" secondAttribute="trailing" id="Hqz-LF-qW2"/>
+                <constraint firstItem="SBu-x9-rQh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PnA-wh-9Kn"/>
+                <constraint firstAttribute="bottom" secondItem="SBu-x9-rQh" secondAttribute="bottom" id="btR-2A-F2E"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="errorLabel" destination="LkX-nD-csa" id="mnd-FC-UZw"/>
+                <outlet property="errorLabelHolder" destination="hFr-C1-Ikl" id="W9u-Ph-wSP"/>
+                <outlet property="inputField" destination="Txq-Ns-Ao8" id="gIJ-9I-NgF"/>
+                <outlet property="inputFieldTooltipLabel" destination="D11-IV-wMT" id="cG2-FD-TUw"/>
+                <outlet property="inputHolderView" destination="csR-2h-avB" id="jct-bM-Sei"/>
+                <outlet property="radioButtonComponent" destination="WYg-ii-Ca0" id="Ofg-qH-4jh"/>
+                <outlet property="radioButtonItemHolderView" destination="Yoj-gG-uSE" id="OTz-Wv-I4J"/>
+                <outlet property="subtitleLabel" destination="1Uq-UA-Xjc" id="vit-E0-o6F"/>
+                <outlet property="titleLabel" destination="6Ef-iC-4wS" id="6Mi-f6-lTh"/>
+            </connections>
+            <point key="canvasLocation" x="26.399999999999999" y="-164.16791604197903"/>
+        </view>
+    </objects>
+</document>

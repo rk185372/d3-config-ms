@@ -1,0 +1,27 @@
+D3 Banking WatchKit App:
+    type: application.watchapp2
+    platform: watchOS
+    deploymentTarget: "6.0"
+    sources:
+      - D3 Banking Watchkit App
+    dependencies:
+      - target: D3 Banking WatchKit App Extension
+        embed: true
+    configFiles:
+      Debug: environment/config/watchapp.debug.xcconfig
+      Release: environment/config/watchapp.xcconfig
+    settings:
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      CODE_SIGN_ENTITLEMENTS: D3 Banking Watchkit App/D3 Banking Watchkit App.entitlements
+      IBSC_MODULE: "$(PRODUCT_MODULE_NAME)_Extension"
+  D3 Banking WatchKit App Extension:
+    type: watchkit2-extension
+    platform: watchOS
+    deploymentTarget: "6.0"
+    sources:
+      - D3 Banking Watchkit App Extension
+    configFiles:
+      Debug: environment/config/watchappextension.debug.xcconfig
+      Release: environment/config/watchappextension.xcconfig
+    settings:
+      CODE_SIGN_ENTITLEMENTS: D3 Banking Watchkit App Extension/D3 Banking WatchKit App Extension.entitlements

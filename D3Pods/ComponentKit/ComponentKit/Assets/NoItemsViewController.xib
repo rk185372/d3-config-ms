@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoItemsViewController" customModule="ComponentKit" customModuleProvider="target">
+            <connections>
+                <outlet property="noItemsView" destination="tOe-nF-T0h" id="DW9-dP-eEt"/>
+                <outlet property="view" destination="iN0-l3-epB" id="YI6-Gh-IRX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tOe-nF-T0h" customClass="NoItemsView" customModule="ComponentKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tOe-nF-T0h" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="6Sw-5A-1Ih"/>
+                <constraint firstItem="tOe-nF-T0h" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="SZc-MR-SWW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="tOe-nF-T0h" secondAttribute="bottom" id="pK8-E4-2Fa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tOe-nF-T0h" secondAttribute="trailing" id="tYT-oU-sVt"/>
+            </constraints>
+            <point key="canvasLocation" x="138" y="133"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

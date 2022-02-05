@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <script>
+     function presentZelleContactBridgePage() {
+         window.webkit.messageHandlers["openUrl"].postMessage({url:"http://mockpage"});
+     };
+     function executeLogOutAction() {
+         window.webkit.messageHandlers["logout"].postMessage("");
+     };
+     function executeLogOutActionWithError() {
+         window.webkit.messageHandlers["logout"].postMessage({errorMessage:"Error message description"});
+     };
+     function executeStopSwitchTabAction() {
+         window.webkit.messageHandlers["allowTabSwitch"].postMessage({confirmation:{"title": "Alert Payment", "message": "Payment is in-progress", "confirmTitle":"Confirm", "cancelTitle":"Cancel"}, isTabSwitchingAllowed: false});
+     };
+     </script>
+ </head>
+ <body>
+     <h2>Test actions</h2>
+     <br/>
+     <button onclick="presentZelleContactBridgePage()">Open Zelle</button>
+     <br/>
+     <button onclick="executeLogOutAction()">Log Out</button>
+     <br/>
+     <button onclick="executeLogOutActionWithError()">Log Out with Error</button>
+     <br/>
+     <button onclick="executeStopSwitchTabAction()">Stop Switch Tab</button>
+ </body>
+</html>

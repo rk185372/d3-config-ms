@@ -1,0 +1,86 @@
+[
+    {
+        "name": "App Icon",
+        "path": "D3 Banking/Assets.xcassets/AppIcon.appiconset/Icon-App-iTunes.png"
+    },
+    {
+        "name": "Watch App Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/AppIcon.appiconset/Apple-watch-app-store.png"
+    },
+    {
+        "name": "Logo Mark",
+        "path": "D3 Banking/Assets.xcassets/LogoMark.imageset/LogoMark.pdf"
+    },
+    {
+        "name": "Full Logo",
+        "path": "D3 Banking/Assets.xcassets/FullLogo.imageset/FullLogo.pdf"
+    },
+    {
+        "name": "Launch Logo",
+        "path": "D3 Banking/Assets.xcassets/LaunchLogo.imageset/LaunchLogo.pdf"
+    },
+    {
+        "name": "Background Image",
+        "path": "D3 Banking/Assets.xcassets/Background.imageset/backgroundImage_Iphone@3x.jpg"
+    },
+    {
+        "name": "RDC Launch Page Background",
+        "path": "D3Pods/mRDC/mRDC/Common/Assets/Assets.xcassets/LandingBG.imageset/MRDC_bg_iphone.jpg"
+    },
+    {
+        "name": "Watch Customer Service Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/customerService.imageset/customerService.pdf"
+    },
+    {
+        "name": "Watch Location Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/location.imageset/location.pdf"
+    },
+    {
+        "name": "Watch Type Credit Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/typeCredit.imageset/credit.pdf"
+    },
+    {
+        "name": "Watch Type Deposit Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/typeDeposit.imageset/deposit.pdf"
+    },
+    {
+        "name": "Watch Menu Phone Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/menuPhone.imageset/customerServiceIcon.pdf"
+    },
+    {
+        "name": "Watch Accounts Balance Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/accounts.imageset/balance.pdf"
+    },
+    {
+        "name": "Watch Locations ATM Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/locationsAtm.imageset/atm.pdf"
+    },
+    {
+        "name": "Watch Menu Location Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/menuLocation.imageset/location.pdf"
+    },
+    {
+        "name": "Watch Menu Account Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/menuAccount.imageset/dollars.pdf"
+    },
+    {
+        "name": "Watch Locations Bank Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/locationsBank.imageset/bank.pdf"
+    },
+    {
+        "name": "Watch Menu Transactions Icon",
+        "path": "D3 Banking Watchkit App/Assets.xcassets/menuTransaction.imageset/wallet.pdf"
+    },
+    {
+        "name": "Accounts Header Image",
+        "path": "D3Pods/AccountsPresentation/AccountsPresentation/Assets/Assets.xcassets/AccountsHeader.imageset/AccountsHeader.pdf"
+    },
+    {
+        "name": "Accounts Logo Image",
+        "path": "D3Pods/AccountsPresentation/AccountsPresentation/Assets/Assets.xcassets/AccountsLogo.imageset/AccountsLogo.pdf"
+    },
+    {
+        "name": "Google Service Info.plist",
+        "path": "D3 Banking/GoogleService-Info.plist"
+    }
+]

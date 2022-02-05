@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddOfflineAccountViewController" customModule="AccountsPresentation" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationStyle" value="navigationBarOnSecondary"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationTextStyle" value="navigationTitleOnSecondary"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnPrimary"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="stackView" destination="6Wl-i5-9e9" id="SEg-ER-7PX"/>
+                <outlet property="view" destination="iN0-l3-epB" id="BrR-VI-y8x"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIViewComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lpf-0j-l7T" customClass="TPKeyboardAvoidingScrollView">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eec-jl-5bJ" customClass="UIViewComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="60.5"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6Wl-i5-9e9">
+                                    <rect key="frame" x="20" y="20" width="335" height="20.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Offline Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsh-iv-lP0" customClass="UILabelComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnSecondary"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="accounts.add.offline"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="6Wl-i5-9e9" secondAttribute="trailing" constant="20" id="E80-yN-8Gg"/>
+                                <constraint firstItem="6Wl-i5-9e9" firstAttribute="leading" secondItem="eec-jl-5bJ" secondAttribute="leading" constant="20" id="diU-HC-Dog"/>
+                                <constraint firstItem="6Wl-i5-9e9" firstAttribute="top" secondItem="eec-jl-5bJ" secondAttribute="top" constant="20" id="ffl-P7-vq1"/>
+                                <constraint firstAttribute="bottom" secondItem="6Wl-i5-9e9" secondAttribute="bottom" constant="20" id="rs6-P7-Y7F"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundSecondary"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="eec-jl-5bJ" secondAttribute="trailing" id="3HH-ee-HAY"/>
+                        <constraint firstAttribute="bottom" secondItem="eec-jl-5bJ" secondAttribute="bottom" id="4g1-nZ-zZy"/>
+                        <constraint firstItem="eec-jl-5bJ" firstAttribute="width" secondItem="Lpf-0j-l7T" secondAttribute="width" id="b57-zE-vVi"/>
+                        <constraint firstItem="eec-jl-5bJ" firstAttribute="top" secondItem="Lpf-0j-l7T" secondAttribute="top" id="dz2-3h-QCa"/>
+                        <constraint firstItem="eec-jl-5bJ" firstAttribute="leading" secondItem="Lpf-0j-l7T" secondAttribute="leading" id="nXF-Uu-aeA"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Lpf-0j-l7T" secondAttribute="bottom" id="12N-7y-2OO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Lpf-0j-l7T" secondAttribute="trailing" id="GWi-P9-FlT"/>
+                <constraint firstItem="Lpf-0j-l7T" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="R9p-Dh-Yhv"/>
+                <constraint firstItem="Lpf-0j-l7T" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ual-OI-5a5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundSecondary"/>
+            </userDefinedRuntimeAttributes>
+        </view>
+    </objects>
+</document>

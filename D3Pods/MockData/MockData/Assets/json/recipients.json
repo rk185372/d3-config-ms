@@ -1,0 +1,64 @@
+{
+    "transferRecipients": [{
+        "id": 1,
+        "name": "Ivan's Checking Account",
+        "abbreviatedName": "IC"
+    }, {
+        "id": 2,
+        "name": "Sarah's Checking Account",
+        "abbreviatedName": "SC"
+    }, {
+        "id": 3,
+        "name": "Emergency Savings Account",
+        "abbreviatedName": "ES"
+    }, {
+        "id": 4,
+        "name": "My Mortgage",
+        "abbreviatedName": "MM"
+    }],
+    "payRecipients": [{
+        "id": 5,
+        "name": "Angelique Edwards",
+        "abbreviatedName": "AE"
+    }, {
+        "id": 6,
+        "name": "Brigida Word",
+        "abbreviatedName": "BW"
+    }, {
+        "id": 7,
+        "name": "Carlee Tolentino",
+        "abbreviatedName": "CT"
+    }, {
+        "id": 8,
+        "name": "Darin Waterbury",
+        "abbreviatedName": "DW"
+    }, {
+        "id": 9,
+        "name": "Inga Ristow",
+        "abbreviatedName": "IR"
+    }, {
+        "id": 10,
+        "name": "Karl Gilkey",
+        "abbreviatedName": "KG"
+    }, {
+        "id": 11,
+        "name": "Liliana Degroff",
+        "abbreviatedName": "LD"
+    }, {
+        "id": 12,
+        "name": "Maisha Gracey",
+        "abbreviatedName": "MG"
+    }, {
+        "id": 13,
+        "name": "Piedad Malatesta",
+        "abbreviatedName": "PM"
+    }, {
+        "id": 14,
+        "name": "Shaquana Crigler",
+        "abbreviatedName": "SC"
+    }, {
+        "id": 15,
+        "name": "Van Martell",
+        "abbreviatedName": "VM"
+    }]
+}

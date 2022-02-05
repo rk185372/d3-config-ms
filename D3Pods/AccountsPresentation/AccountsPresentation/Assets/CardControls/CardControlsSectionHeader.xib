@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gZE-8V-RhU" userLabel="View" customClass="CardControlsSectionHeader" customModule="AccountsPresentation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gg1-xZ-kuV" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="16" width="337" height="40"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnPrimary"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Gg1-xZ-kuV" firstAttribute="leading" secondItem="VdY-BI-Tng" secondAttribute="leading" constant="20" id="7rz-bF-tFD"/>
+                <constraint firstItem="VdY-BI-Tng" firstAttribute="bottom" secondItem="Gg1-xZ-kuV" secondAttribute="bottom" constant="16" id="Pnv-6o-y7r"/>
+                <constraint firstItem="VdY-BI-Tng" firstAttribute="trailing" secondItem="Gg1-xZ-kuV" secondAttribute="trailing" constant="18" id="fmV-Wh-JCS"/>
+                <constraint firstItem="Gg1-xZ-kuV" firstAttribute="top" secondItem="VdY-BI-Tng" secondAttribute="top" constant="16" id="mrg-xr-SSc"/>
+                <constraint firstItem="Gg1-xZ-kuV" firstAttribute="centerY" secondItem="gZE-8V-RhU" secondAttribute="centerY" id="rRw-DY-ccO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="VdY-BI-Tng"/>
+            <connections>
+                <outlet property="titleLabel" destination="Gg1-xZ-kuV" id="ZY0-oI-VlZ"/>
+            </connections>
+            <point key="canvasLocation" x="-206.5" y="-282"/>
+        </view>
+    </objects>
+</document>

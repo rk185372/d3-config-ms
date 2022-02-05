@@ -1,0 +1,4 @@
+- target: D3 Banking Notification Service Extension
+        embed: true
+      - target: D3 Banking Notification Content Extension
+        embed: true

@@ -1,0 +1,64 @@
+{
+    "accounts": [{
+        "id": 5,
+        "balance": "$4,588.76",
+        "availableBalance": "$5856.83",
+        "name": "Ivan's Checking",
+        "number": "•••••4321",
+        "type": "ASSET"
+    }, {
+        "id": 6,
+        "balance": "$7,832,711.76",
+        "availableBalance": "$5856.83",
+        "name": "Ivan's Savings",
+        "number": "•••••6789",
+        "type": "ASSET"
+    }, {
+        "id": 7,
+        "balance": "$27,392.42",
+        "availableBalance": "$5856.83",
+        "name": "All D Points Credit Card",
+        "number": "•••••9876",
+        "type": "LIABILITY"
+    }, {
+        "id": 8,
+        "balance": "$5,899,711.76",
+        "availableBalance": "$5856.83",
+        "name": "Mansion On A Hill Mortgage",
+        "number": "•••••2345",
+        "type": "LIABILITY"
+    }],
+    "amounts": [{
+        "display": "$29.28 - Minimum Due",
+        "amount": 29.28,
+        "analyticsName": "MinimumDue"
+    }, {
+        "display": "$45.32 - Current Balance",
+        "amount": 45.32,
+        "analyticsName": "CurrentBalance"
+    }, {
+        "display": "$50.00",
+        "amount": 50.00,
+        "analyticsName": "Other"
+    }, {
+        "display": "$100.00",
+        "amount": 100.00,
+        "analyticsName": "Other"
+    }, {
+        "display": "$150.00",
+        "amount": 150.00,
+        "analyticsName": "Other"
+    }, {
+        "display": "$200.00",
+        "amount": 200.00,
+        "analyticsName": "Other"
+    }, {
+        "display": "$500.00",
+        "amount": 500.00,
+        "analyticsName": "Other"
+    }, {
+        "display": "$1,000.00",
+        "amount": 1000.00,
+        "analyticsName": "Other"
+    }]
+}

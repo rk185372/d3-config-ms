@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDCDepositErrorViewController" customModule="mRDC">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationTextStyle" value="navigationTitleOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationStyle" value="navigationBarOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="titleL10nKey" value="dashboard.widget.deposit-now"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="bottomDividerView" destination="ArK-lk-lwd" id="XrA-5h-g6J"/>
+                <outlet property="bottomDividerViewHeightConstraint" destination="eTv-Mc-ZAr" id="foH-NM-dhi"/>
+                <outlet property="descriptionLabel" destination="oXB-Mo-nbz" id="M1z-g8-ZEH"/>
+                <outlet property="dividerView" destination="FVM-5T-WEe" id="vYR-TZ-S3l"/>
+                <outlet property="dividerViewHeightConstraint" destination="WWU-Jb-bR4" id="qLB-ge-x2i"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Hz7-Sp-C7I"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIViewComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Failure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwA-qo-CeL" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="13" width="335" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="tIw-Qj-sP3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="dashboard.widget.deposit.failed"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXB-Mo-nbz" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="48" width="335" height="122"/>
+                    <string key="text">a slkdjflkasjdflk;jasdl;kfjasl;kdfjlaksjdfl;kajsdf;l kjasdl;kfja;slkd jf;laksjdf;lkajsd;lfkjas;ldkfja;lskdjf;lkajsd;flkjw oiefnwoienfoiwen k.mwanefjanwekfjnawklejfawkjefhakwjef</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FVM-5T-WEe" customClass="RDCDividerView" customModule="mRDC" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="183" width="375" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="WWU-Jb-bR4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ArK-lk-lwd" customClass="RDCDividerView" customModule="mRDC" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="534" width="375" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="eTv-Mc-ZAr"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="AN0-gz-G6M"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1f-ZI-t6d" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="10" y="612" width="355" height="33"/>
+                    <accessibility key="accessibilityConfiguration" identifier="rdc-deposit-error-try-again-button"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="NQ4-wo-GeB"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="TzY-fE-kSY"/>
+                    </constraints>
+                    <state key="normal" title="Try Again"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonCta"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="tryAgainDeposit" destination="-1" eventType="touchUpInside" id="O5V-Xm-bod"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rah-2V-Uzm" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="10" y="557" width="355" height="33"/>
+                    <accessibility key="accessibilityConfiguration" identifier="rdc-deposit-error-cancel-button"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="3Du-bT-weI"/>
+                        <constraint firstAttribute="height" constant="33" id="qyV-vs-1SX"/>
+                    </constraints>
+                    <state key="normal" title="Cancel"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOutlineOnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancelDeposit" destination="-1" eventType="touchUpInside" id="K7K-2a-Rey"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Rah-2V-Uzm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="3ru-uc-mCf"/>
+                <constraint firstItem="FVM-5T-WEe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5Yk-Ef-frr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oXB-Mo-nbz" secondAttribute="trailing" constant="20" id="78i-6Y-6Rq"/>
+                <constraint firstItem="y1f-ZI-t6d" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="DrJ-kZ-0Lx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Rah-2V-Uzm" secondAttribute="trailing" constant="10" id="E8B-Dy-c3s"/>
+                <constraint firstItem="oXB-Mo-nbz" firstAttribute="top" secondItem="OwA-qo-CeL" secondAttribute="bottom" constant="13" id="EH9-lz-Dei"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OwA-qo-CeL" secondAttribute="trailing" constant="20" id="KIg-Uy-7Iu"/>
+                <constraint firstItem="ArK-lk-lwd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PZA-kA-Des"/>
+                <constraint firstItem="oXB-Mo-nbz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="TFr-LN-MIG"/>
+                <constraint firstItem="FVM-5T-WEe" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="UdP-f1-6iE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="y1f-ZI-t6d" secondAttribute="bottom" constant="22" id="W8d-Cp-aq5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="y1f-ZI-t6d" secondAttribute="trailing" constant="10" id="Xiu-qc-msY"/>
+                <constraint firstAttribute="trailing" secondItem="ArK-lk-lwd" secondAttribute="trailing" id="aOT-f8-hSC"/>
+                <constraint firstItem="Rah-2V-Uzm" firstAttribute="top" secondItem="ArK-lk-lwd" secondAttribute="bottom" constant="22" id="i3K-JT-KGd"/>
+                <constraint firstItem="FVM-5T-WEe" firstAttribute="top" secondItem="oXB-Mo-nbz" secondAttribute="bottom" constant="13" id="p5M-cl-Klk"/>
+                <constraint firstItem="OwA-qo-CeL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="sae-Sb-VAA"/>
+                <constraint firstItem="OwA-qo-CeL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="13" id="vG7-r2-D0n"/>
+                <constraint firstItem="y1f-ZI-t6d" firstAttribute="top" secondItem="Rah-2V-Uzm" secondAttribute="bottom" constant="22" id="wQf-Yn-KEx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundDefault"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>
+        </view>
+    </objects>
+</document>

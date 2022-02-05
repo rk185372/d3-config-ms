@@ -1,0 +1,3 @@
+# Ignore Config files for shape security and Imperva
+/RequestTransformer/ShapeSecurity/Assets/APIGuardConfig_iOS.json
+/RequestTransformer/Imperva/Assets/ImpervaProperties.json

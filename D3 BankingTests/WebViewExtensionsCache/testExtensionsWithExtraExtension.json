@@ -1,0 +1,34 @@
+{
+    "extensions": [{
+        "path": "/extensions/nao-redirect-extension.js",
+        "extensionId": 763,
+        "assetType": "SCRIPT",
+        "sourceAssetId": "298",
+        "disabled": false,
+        "id": 298,
+        "assetVersion": "1.2.3",
+        "async": true,
+        "loadOrder": 3
+    }, {
+        "path": "https://extensions-synovusqa.d3vcloud.com/credentials-extension.js",
+        "extensionId": 864,
+        "assetType": "SCRIPT",
+        "sourceAssetId": "399",
+        "disabled": false,
+        "id": 399,
+        "async": false,
+        "loadOrder": 5
+    }, {
+        "path": "https://some-path.com",
+        "extensionId": 999,
+        "assetType": "SCRIPT",
+        "sourceAssetId": "999",
+        "disabled": false,
+        "id": 999,
+        "assetVersion": "1.2.3",
+        "async": true,
+        "loadOrder": 3
+    }],
+    "fonts": []
+}
+

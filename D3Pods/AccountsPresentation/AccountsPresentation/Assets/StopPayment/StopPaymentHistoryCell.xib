@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="91" id="128-fb-qZM" customClass="StopPaymentHistoryCell" customModule="AccountsPresentation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="501" height="91"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="128-fb-qZM" id="Rvb-lK-WvP">
+                <rect key="frame" x="0.0" y="0.0" width="501" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rHo-lm-tlH">
+                        <rect key="frame" x="0.0" y="0.0" width="300.5" height="90.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Expiration Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X53-sI-8tO" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="20" y="12" width="107.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbA-Ug-4T2" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="20" y="37" width="57.5" height="16.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Reason:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37j-Ve-IKH" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="20" y="61.5" width="54" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wr7-BT-siX" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="135" y="12" width="155.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wO7-RF-dJG" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="85" y="37" width="205.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulr-uJ-fEZ" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="82" y="61.5" width="208.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wO7-RF-dJG" firstAttribute="leading" secondItem="mbA-Ug-4T2" secondAttribute="trailing" constant="8" id="5vw-hf-chu"/>
+                            <constraint firstAttribute="trailing" secondItem="wO7-RF-dJG" secondAttribute="trailing" constant="10" id="9gt-HD-cQG"/>
+                            <constraint firstItem="wO7-RF-dJG" firstAttribute="centerY" secondItem="mbA-Ug-4T2" secondAttribute="centerY" id="BAE-3G-1uo"/>
+                            <constraint firstItem="Ulr-uJ-fEZ" firstAttribute="leading" secondItem="37j-Ve-IKH" secondAttribute="trailing" constant="8" id="Ck7-6z-xT9"/>
+                            <constraint firstItem="mbA-Ug-4T2" firstAttribute="top" secondItem="X53-sI-8tO" secondAttribute="bottom" constant="8" id="FWE-Mb-buR"/>
+                            <constraint firstItem="37j-Ve-IKH" firstAttribute="leading" secondItem="rHo-lm-tlH" secondAttribute="leading" constant="20" id="J1D-z5-iAG"/>
+                            <constraint firstItem="Wr7-BT-siX" firstAttribute="centerY" secondItem="X53-sI-8tO" secondAttribute="centerY" id="JD6-Cy-5gn"/>
+                            <constraint firstItem="mbA-Ug-4T2" firstAttribute="leading" secondItem="rHo-lm-tlH" secondAttribute="leading" constant="20" id="KBY-cx-KDh"/>
+                            <constraint firstItem="X53-sI-8tO" firstAttribute="top" secondItem="rHo-lm-tlH" secondAttribute="top" constant="12" id="KjF-IW-JUa"/>
+                            <constraint firstItem="Ulr-uJ-fEZ" firstAttribute="centerY" secondItem="37j-Ve-IKH" secondAttribute="centerY" id="cTn-YA-ixn"/>
+                            <constraint firstAttribute="bottom" secondItem="37j-Ve-IKH" secondAttribute="bottom" constant="12" id="eyF-fS-Ewm"/>
+                            <constraint firstItem="Wr7-BT-siX" firstAttribute="leading" secondItem="X53-sI-8tO" secondAttribute="trailing" constant="8" id="llS-JT-ez8"/>
+                            <constraint firstAttribute="trailing" secondItem="Wr7-BT-siX" secondAttribute="trailing" constant="10" id="nXC-V7-Fx6"/>
+                            <constraint firstItem="X53-sI-8tO" firstAttribute="leading" secondItem="rHo-lm-tlH" secondAttribute="leading" constant="20" id="rR1-PI-KKp"/>
+                            <constraint firstAttribute="trailing" secondItem="Ulr-uJ-fEZ" secondAttribute="trailing" constant="10" id="xes-bu-XcG"/>
+                            <constraint firstItem="37j-Ve-IKH" firstAttribute="top" secondItem="mbA-Ug-4T2" secondAttribute="bottom" constant="8" id="yOO-KY-9tx"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="yxM-hd-uOS">
+                        <rect key="frame" x="300.5" y="0.0" width="200.5" height="90.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Check:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYI-yf-QYL" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="10" y="12" width="47.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Payee:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4n8-fO-4BU" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="10" y="36.5" width="45" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="752" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yL-6K-kTe" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="10" y="61.5" width="48.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeF-PM-8HE" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="65.5" y="12" width="35.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccd-19-9Mw" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="63" y="36" width="35.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bb-Q4-Gih" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="66.5" y="61" width="35.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ccd-19-9Mw" firstAttribute="centerY" secondItem="4n8-fO-4BU" secondAttribute="centerY" id="48p-BH-OdI"/>
+                            <constraint firstItem="HeF-PM-8HE" firstAttribute="leading" secondItem="kYI-yf-QYL" secondAttribute="trailing" constant="8" id="5g2-3k-wg1"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HeF-PM-8HE" secondAttribute="trailing" constant="10" id="8iI-f6-AsC"/>
+                            <constraint firstItem="kYI-yf-QYL" firstAttribute="top" secondItem="yxM-hd-uOS" secondAttribute="top" constant="12" id="9M9-U6-hv0"/>
+                            <constraint firstItem="kYI-yf-QYL" firstAttribute="leading" secondItem="yxM-hd-uOS" secondAttribute="leading" constant="10" id="CBj-wF-x2g"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2bb-Q4-Gih" secondAttribute="trailing" constant="10" id="Da2-DD-Ms4"/>
+                            <constraint firstAttribute="bottom" secondItem="8yL-6K-kTe" secondAttribute="bottom" constant="12" id="NjL-Q4-ePc"/>
+                            <constraint firstItem="2bb-Q4-Gih" firstAttribute="centerY" secondItem="8yL-6K-kTe" secondAttribute="centerY" id="Ots-pQ-GxV"/>
+                            <constraint firstItem="8yL-6K-kTe" firstAttribute="top" secondItem="4n8-fO-4BU" secondAttribute="bottom" constant="8" id="Xc9-kQ-7c5"/>
+                            <constraint firstItem="8yL-6K-kTe" firstAttribute="leading" secondItem="yxM-hd-uOS" secondAttribute="leading" constant="10" id="Yb7-mJ-evd"/>
+                            <constraint firstItem="HeF-PM-8HE" firstAttribute="centerY" secondItem="kYI-yf-QYL" secondAttribute="centerY" id="dVH-He-MZB"/>
+                            <constraint firstItem="ccd-19-9Mw" firstAttribute="leading" secondItem="4n8-fO-4BU" secondAttribute="trailing" constant="8" id="rZA-dK-Oec"/>
+                            <constraint firstItem="4n8-fO-4BU" firstAttribute="leading" secondItem="yxM-hd-uOS" secondAttribute="leading" constant="10" id="vzh-LP-SqS"/>
+                            <constraint firstItem="4n8-fO-4BU" firstAttribute="top" secondItem="kYI-yf-QYL" secondAttribute="bottom" constant="8" id="w6p-AF-q26"/>
+                            <constraint firstItem="2bb-Q4-Gih" firstAttribute="leading" secondItem="8yL-6K-kTe" secondAttribute="trailing" constant="8" id="ycB-uS-Sy5"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ccd-19-9Mw" secondAttribute="trailing" constant="10" id="zxu-7b-mmD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rHo-lm-tlH" secondAttribute="bottom" id="8z4-Og-Tpc"/>
+                    <constraint firstItem="yxM-hd-uOS" firstAttribute="top" secondItem="Rvb-lK-WvP" secondAttribute="top" id="KZZ-X3-77y"/>
+                    <constraint firstItem="rHo-lm-tlH" firstAttribute="leading" secondItem="Rvb-lK-WvP" secondAttribute="leading" id="XaW-45-YEH"/>
+                    <constraint firstAttribute="bottom" secondItem="yxM-hd-uOS" secondAttribute="bottom" id="YT1-gh-oDq"/>
+                    <constraint firstItem="rHo-lm-tlH" firstAttribute="width" secondItem="Rvb-lK-WvP" secondAttribute="width" multiplier="0.6" id="Yg9-r7-unw"/>
+                    <constraint firstAttribute="trailing" secondItem="yxM-hd-uOS" secondAttribute="trailing" id="brV-w4-Rdi"/>
+                    <constraint firstItem="rHo-lm-tlH" firstAttribute="top" secondItem="Rvb-lK-WvP" secondAttribute="top" id="goX-ng-Ylx"/>
+                    <constraint firstItem="yxM-hd-uOS" firstAttribute="leading" secondItem="rHo-lm-tlH" secondAttribute="trailing" id="n0Y-Dd-fgX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="amountLabel" destination="wO7-RF-dJG" id="QnE-N2-qwL"/>
+                <outlet property="checkNumberLabel" destination="HeF-PM-8HE" id="svw-ve-WcK"/>
+                <outlet property="expirationDateLabel" destination="Wr7-BT-siX" id="4vp-CR-Al4"/>
+                <outlet property="payeeLabel" destination="ccd-19-9Mw" id="NWN-qa-a9s"/>
+                <outlet property="reasonLabel" destination="Ulr-uJ-fEZ" id="7HR-KH-VoG"/>
+                <outlet property="statusLabel" destination="2bb-Q4-Gih" id="mTf-FI-bIB"/>
+            </connections>
+            <point key="canvasLocation" x="184.5" y="1.5"/>
+        </tableViewCell>
+    </objects>
+</document>

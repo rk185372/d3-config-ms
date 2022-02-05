@@ -1,0 +1,471 @@
+{
+  "activeProfileType": "CONSUMER",
+  "csrfToken": "43238e5f9f27cdbcd3e6eb975572a7694b629adef1c0419a172086658f3169f2",
+  "estatementPromptAccounts": [],
+  "paperlessPromptAccounts": [],
+  "accountNoticePromptAccounts": [],
+  "promptForElectronicTaxDocuments": false,
+  "profiles": [
+      {
+          "loginId": "samueladamsiii",
+          "enrolled": true,
+          "firstName": "Samuel",
+          "middleName": "Quincy",
+          "lastName": "Adams III",
+          "taxIdExists": true,
+          "dateOfBirth": "1998-06-29",
+          "emailAddresses": [
+              {
+                  "id": 64,
+                  "type": "EMAIL",
+                  "label": "PRIMARY",
+                  "value": "samuel.adamsiii@d3banking.com",
+                  "primary": true,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "alternate": false,
+                  "subType": "PRIMARY"
+              },
+              {
+                  "id": 64,
+                  "type": "EMAIL",
+                  "label": "ADDITIONAL",
+                  "value": "samuel.adamsiii2@d3banking.com",
+                  "primary": true,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "alternate": false,
+                  "subType": "ADDITIONAL"
+              },
+              {
+                  "id": 64,
+                  "type": "EMAIL",
+                  "label": "ADDITIONAL",
+                  "value": "samuel.adamsiii3@d3banking.com",
+                  "primary": true,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "alternate": false,
+                  "subType": "ADDITIONAL"
+              },
+              {
+                  "id": 64,
+                  "type": "EMAIL",
+                  "label": "ADDITIONAL",
+                  "value": "samuel.adamsiii4@d3banking.com",
+                  "primary": true,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "alternate": false,
+                  "subType": "ADDITIONAL"
+              },
+              {
+                  "id": 64,
+                  "type": "EMAIL",
+                  "label": "ADDITIONAL",
+                  "value": "samuel.adamsiii5@d3banking.com",
+                  "primary": true,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "alternate": false,
+                  "subType": "ADDITIONAL"
+              }
+          ],
+          "phoneNumbers": [
+              {
+                  "id": 67,
+                  "type": "PHONE",
+                  "label": "HOME",
+                  "value": "4020896535",
+                  "primary": false,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "sms": true,
+                  "subType": "HOME"
+              },
+              {
+                  "id": 68,
+                  "type": "PHONE",
+                  "label": "WORK",
+                  "value": "4025050364",
+                  "primary": false,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "sms": true,
+                  "subType": "WORK"
+              },
+              {
+                  "id": 68,
+                  "type": "PHONE",
+                  "label": "MOBILE",
+                  "value": "4025050364",
+                  "primary": false,
+                  "outOfBand": false,
+                  "readOnly": false,
+                  "verified": false,
+                  "sms": true,
+                  "subType": "MOBILE"
+              }
+          ],
+          "inbox": {
+              "id": 62,
+              "type": "INBOX",
+              "label": "INBOX",
+              "value": "Inbox",
+              "primary": false,
+              "outOfBand": false,
+              "readOnly": false,
+              "verified": false
+          },
+          "push": {
+              "id": 63,
+              "type": "PUSH",
+              "label": "PUSH",
+              "value": "Push",
+              "primary": false,
+              "outOfBand": false,
+              "readOnly": false,
+              "verified": false
+          },
+          "mailingAddress": {
+              "line1": "61 W 5th Ave",
+              "city": "Atlantic",
+              "state": "IA",
+              "countryCode": "US",
+              "postalCode": "50022",
+              "latitude": 1.00000000,
+              "longitude": 1.00000000
+          },
+          "physicalAddress": {
+              "line1": "11656 W 9th Ave",
+              "line2": "Apartment 17",
+              "city": "New York",
+              "state": "NY",
+              "countryCode": "US",
+              "postalCode": "10256",
+              "latitude": 1.00000000,
+              "longitude": 1.00000000
+          },
+          "attributes": {
+              "mfaSmsPhoneNumberEnabled": "true",
+              "mfaVoicePhoneNumberEnabled": "false",
+              "mfaSmsPhoneNumber": "4025050364"
+          },
+          "validEmailTypes": [
+              {
+                  "interfaceName": "PRIMARY",
+                  "internalName": "PRIMARY",
+                  "order": 1,
+                  "repeatable": false,
+                  "destinationType": "EMAIL"
+              },
+              {
+                  "interfaceName": "ALTERNATE",
+                  "internalName": "ALTERNATE",
+                  "order": 2,
+                  "repeatable": true,
+                  "destinationType": "EMAIL"
+              },
+              {
+                  "interfaceName": "ADDITIONAL",
+                  "internalName": "ADDITIONAL",
+                  "order": 3,
+                  "repeatable": false,
+                  "destinationType": "EMAIL"
+              }
+          ],
+          "validPhoneTypes": [
+              {
+                  "interfaceName": "HOME",
+                  "internalName": "HOME",
+                  "repeatable": false,
+                  "mobileType": false,
+                  "destinationType": "PHONE"
+              },
+              {
+                  "interfaceName": "MOBILE",
+                  "internalName": "MOBILE",
+                  "repeatable": false,
+                  "mobileType": true,
+                  "destinationType": "PHONE"
+              },
+              {
+                  "interfaceName": "WORK",
+                  "internalName": "WORK",
+                  "repeatable": false,
+                  "mobileType": false,
+                  "destinationType": "PHONE"
+              }
+          ],
+          "validProfileModes": [
+              "CONSUMER"
+          ],
+          "type": "PRIMARY",
+          "servicePermissions": {
+              "settings.dashboard": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "dashboard.plan": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.alerts": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.schedule": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.external-p2p": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "self-service.faq": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.rules": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.usermanagement": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.security": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.zelle": {
+                  "access": []
+              },
+              "messages.secure": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.accounts": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.external-a2a": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.recipients": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "planning.budget": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.sso-p2p": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.categories": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "user.security.reset-mfa": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.multiple": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "self-service.request-forms": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.payment-approvals": {
+                  "access": []
+              },
+              "transactions.positive-pay": {
+                  "access": []
+              },
+              "settings.mobile": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "planning.goals": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "transactions": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.enroll": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "dashboard.manage": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "messages.notices": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.ebills": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.business.profile": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "settings.profile": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "accounts": {
+                  "access": [
+                      "READ",
+                      "UPDATE",
+                      "CREATE",
+                      "DELETE"
+                  ]
+              },
+              "money-movement.ach-upload": {
+                  "access": []
+              }
+          },
+          "profileType": "CONSUMER",
+          "authorizedApprovalTypes": ["foo", "bar"],
+          "previousLogin": "Thursday, Jul 19, 2018 1:59 PM GMT"
+      }
+            
+  ],
+  "rdcAllowed": false,
+  "serverTime": "2020-09-03T16:43:12.417Z",
+  "startupKey": 97,
+  "syncOps": [],
+  "tos": [],
+  "setupSteps": [],
+  "validProfileTypes": ["CONSUMER"],
+  "selectedProfileIndex": 0
+}

@@ -1,0 +1,54 @@
+{
+    "accounts": {
+        "position": 1,
+        "enabled": true
+    },
+    "payments": {
+        "position": 2,
+        "enabled": true
+    },
+    "transfers": {
+        "position": 3,
+        "enabled": true
+    },
+    "financialWellness": {
+        "position": 4,
+        "enabled": true
+    },
+    "rdc": {
+        "position": 5,
+        "enabled": true
+    },
+    "messages": {
+        "position": 6,
+        "enabled": true
+    },
+    "alerts": {
+        "position": 7,
+        "enabled": true
+    },
+    "locations": {
+        "position": 8,
+        "enabled": true
+    },
+    "documents": {
+        "position": 9,
+        "enabled": true
+    },
+    "selfService": {
+        "position": 10,
+        "enabled": true
+    },
+    "feedback": {
+        "position": 11,
+        "enabled": false
+    },
+    "approvals": {
+        "position": 12,
+        "enabled": true
+    },
+    "logout": {
+        "position": 13,
+        "enabled": true
+    }
+}

@@ -1,0 +1,126 @@
+{
+  "accounts": [
+    {
+      "id": 0,
+      "name": "Checking Account",
+      "number": "******7445",
+      "balance": {
+        "amount": 100,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance2": {
+        "amount": 18,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance3": {
+        "amount": 12345,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "currencyCode": "USD",
+      "transactions": [
+        {
+          "pending": true,
+          "postDate": "2020-08-18",
+          "type": "CREDIT",
+          "description": "Buffalo Wild Wings",
+          "amount": 90,
+          "category": "Dining"
+        },
+        {
+          "pending": false,
+          "postDate": "2020-08-18",
+          "type": "CREDIT",
+          "description": "GAP",
+          "amount": 203.83,
+          "category": "Clothing"
+        },
+        {
+          "pending": false,
+          "postDate": "2020-08-13",
+          "type": "CREDIT",
+          "description": "Autozone",
+          "amount": 23.89,
+          "category": "Gas"
+        }
+      ],
+      "source": "BASE",
+      "group": "Checking"
+    },
+    {
+      "id": 0,
+      "name": "Saving Account",
+      "number": "******7445",
+      "balance": {
+        "amount": 600000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance2": {
+        "amount": 590000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance3": {
+        "amount": 590000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "currencyCode": "USD",
+      "source": "BASE",
+      "group": "Checking"
+    }
+  ],
+  "transactions": [
+    {
+      "accountName": "Checking Account",
+      "currencyCode": "USD",
+      "transaction": {
+          "pending": false,
+          "postDate": "2020-08-13",
+          "type": "CREDIT",
+          "description": "Autozone",
+          "amount": 23.89,
+          "category": "Gas"
+      }
+    },
+    {
+      "accountName": "Credit Account",
+      "currencyCode": "USD",
+      "transaction": {
+          "pending": true,
+          "postDate": "2020-08-23",
+          "type": "CREDIT",
+          "description": "Toyzoone",
+          "amount": 500.00,
+          "category": "Entertainment"
+      }
+    },
+    {
+      "accountName": "Some Other Account",
+      "currencyCode": "USD",
+      "transaction": {
+          "pending": false,
+          "postDate": "2020-08-13",
+          "type": "CREDIT",
+          "description": "Zamazon",
+          "amount": 12.89,
+          "category": "Shopping"
+      }
+    },
+    {
+      "accountName": "Checking Account",
+      "currencyCode": "USD",
+      "transaction": {
+          "pending": false,
+          "postDate": "2020-08-13",
+          "type": "CREDIT",
+          "description": "Autozone",
+          "amount": 23.89,
+          "category": "Gas"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+    "challenge": {
+        "type": "MFA_ENROLL_EMAIL",
+        "items": [
+            {
+                "type": "NEW_EMAIL",
+                "id": 1234,
+                "value": "some.email@gmail.com",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            },
+            {
+                "type": "NEW_EMAIL",
+                "id": 12345,
+                "value": "some.email@yahoo.com",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            },
+            {
+                "type": "NEW_EMAIL",
+                "id": 0,
+                "value": "",
+                "field": {
+                    "type": "INPUT",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ".*@.*"
+                }
+            },
+            {
+                "type": "ACTION",
+                "value": "abort"
+            },
+            {
+                "type": "ACTION",
+                "id": 2,
+                "value": "restart",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            }
+        ]
+    },
+    "isAuthenticated": false,
+    "token": "token",
+    "previousItems": []
+}

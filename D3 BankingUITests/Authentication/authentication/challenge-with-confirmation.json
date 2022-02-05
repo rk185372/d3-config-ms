@@ -1,0 +1,24 @@
+{
+    "isAuthenticated": false,
+    "challenge": {
+        "items": [
+            {
+                "data": {
+                    "id": "mbl903r2p3GfLJ93Z1t7",
+                    "type": "SMS",
+                    "status": null
+                },
+                "type": "OOB",
+                "value": "+1 XXX-XXX-7388"
+            }
+        ],
+        "type": "NEW_MFA"
+    },
+    "token": "00gkuY3UbNwPqVgCanvpEfTRqN7nYvnSpCVB2p6ubY",
+    "previousItems": [
+        {
+            "type": "USER_NAME",
+            "response": "testuserfl46"
+        }
+    ]
+}

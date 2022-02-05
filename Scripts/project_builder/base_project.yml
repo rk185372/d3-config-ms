@@ -1,0 +1,154 @@
+name: D3 Banking
+options:
+  bundleIdPrefix: com.d3banking
+  transitivelyLinkDependencies: true
+  postGenCommand: bundle exec pod install --repo-update;
+settings:
+  base:
+    DEVELOPMENT_TEAM: 73T97N5D6G
+fileGroups:
+  - featureTour
+  - webComponents
+  - Scripts
+targets:
+  D3 Banking:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources:
+      - D3 Banking
+      - path: featureTour
+        buildPhase: resources
+        type: folder
+      - path: webComponents
+        buildPhase: resources
+        type: folder
+      - path: Scripts/set_active_template.rb
+        buildPhase: resources
+    #dependencies:
+      # Today_Dependencies
+      # Watch_Dependencies
+      # Notification_Dependencies
+    scheme:
+      testTargets:
+        - D3 BankingTests
+        - D3 BankingUITests
+      preActions:
+        - script: |
+                  killall "Simulator";
+                  defaults write com.apple.iphonesimulator ConnectHardwareKeyboard -bool false
+      environmentVariables: 
+        IMAGE_DIFF_DIR: $(SOURCE_ROOT)/$(PROJECT_NAME)Tests/FailureDiffs
+        OS_ACTIVITY_MODE: disable
+        FB_REFERENCE_IMAGE_DIR: $(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages
+    configFiles:
+      Debug: environment/config/mobileapp.debug.xcconfig
+      Release: environment/config/mobileapp.xcconfig
+    settings:
+      CODE_SIGN_ENTITLEMENTS: D3 Banking/D3 Banking.entitlements
+    preBuildScripts:
+      - name: 👷🏻‍♂️ NavigationComponentBuilder
+        script: '"${PROJECT_DIR}/NavigationComponentBuilder/NavigationComponentBuilder"'
+        inputFiles:
+          - $(SRCROOT)/navigation.json
+          - $(SRCROOT)/Templates/NavigationComponentBuilder/navigationcomponent.stencil
+          - $(SRCROOT)/NavigationComponentBuilder/NavigationComponentBuilder
+        outputFiles:
+          - $(SRCROOT)/D3 Banking/Generated/Navigation.swift
+      - name: 🧙🏼‍♂️ Sourcery
+        script: '"$PODS_ROOT/Sourcery/bin/sourcery"'
+        outputFiles:
+          - $(SRCROOT)/D3 Banking/Generated/componentkit-registration.generated.swift
+    postCompileScripts:
+      # - name: 🐛 Build local translation layer
+      #   script: '"${PROJECT_DIR}/Scripts/copy_translation_layer.sh"'
+      - name: ✨ Swiftlint
+        script: '"${PODS_ROOT}/SwiftLint/swiftlint"'
+      - name: "Touch pod resources scripts"
+        script: 'find "${SRCROOT}/Pods" -type f -name *-frameworks.sh -exec bash -c "touch \"{}\"" \;'
+    postBuildScripts:
+      - name: 💥 Crashlytics
+        script: '"${PODS_ROOT}/FirebaseCrashlytics/run"'
+        inputFiles:
+          - ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}
+          - $(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)
+      - name: 🏆 Style Validator
+        script: '"${PROJECT_DIR}/StyleValidator/StyleValidator"'
+  # Today_Extensions
+  # Watch_App
+  # Notification_Extensions
+  D3 BankingTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - D3 BankingTests
+    dependencies:
+      - target: D3 Banking
+    scheme:
+      commandLineArguments:
+        "-disableNotificationRegistration": true
+    settings:
+      TEST_HOST: $(BUILT_PRODUCTS_DIR)/D3 N3xt.app/D3 N3xt
+  D3 BankingUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: D3 BankingUITests
+        excludes:
+          - "**/*.json"
+          - "**/*.jpg"
+          - "**/*.html"
+          - "**/RDC"
+      - path: D3 BankingUITests/Snapshot/snapshot
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/EDocs/EDocsNetworkResponses
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/EDocs/EDocsSessions
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/UserProfileIcon/ProfileIconSessions
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/Authentication/authentication
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/AppInitialization/app-initialization
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/WebView/WebViewContents
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/EDocs/EDocsL10n
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/EDocs/EDocsDisclosures
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/Authentication/post-authentication
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/ExternalWebView/ExternalWebViewContents
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+      - path: D3 BankingUITests/CommonData
+        buildPhase: resources
+        type: folder
+        group: TestDependencies
+    dependencies:
+      - target: D3 Banking
+    scheme:
+      commandLineArguments:
+        "-disableNotificationRegistration": true

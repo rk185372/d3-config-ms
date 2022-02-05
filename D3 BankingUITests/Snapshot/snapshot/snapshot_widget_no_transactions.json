@@ -1,0 +1,52 @@
+{
+  "accounts": [
+    {
+      "id": 0,
+      "name": "Checking Account",
+      "number": "******7445",
+      "balance": {
+        "amount": 100,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance2": {
+        "amount": 18,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance3": {
+        "amount": 12345,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "currencyCode": "USD",
+      "transactions": [],
+      "source": "BASE",
+      "group": "Checking"
+    },
+    {
+      "id": 0,
+      "name": "Saving Account",
+      "number": "******7445",
+      "balance": {
+        "amount": 600000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance2": {
+        "amount": 590000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "balance3": {
+        "amount": 590000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-09-09"
+      },
+      "currencyCode": "USD",
+      "source": "BASE",
+      "group": "Checking"
+    }
+  ],
+  "transactions": []
+}

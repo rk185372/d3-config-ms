@@ -1,0 +1,48 @@
+{
+	"tosRequired": false,
+	"blacklisted": false,
+	"userAccounts": [{
+		"id": 494,
+		"name": "Consumer Checking Account",
+		"balance": 20.000000,
+		"currencyCode": "USD",
+		"attributes": [{
+			"name": "d3MoneyMovement.rdc.limit",
+			"value": "0",
+			"type": "INTEGER",
+			"displayOrder": 0
+		}, {
+			"name": "d3MoneyMovement.rdc.duration",
+			"value": "MONTHLY",
+			"type": "STRING",
+			"displayOrder": 0
+		}, {
+			"name": "d3MoneyMovement.rdc.amount",
+			"value": "0",
+			"type": "MONEY",
+			"displayOrder": 0
+		}]
+	}, {
+		"id": 495,
+		"name": "My Deposit - Savings Account",
+		"balance": 10099.000000,
+		"currencyCode": "USD",
+		"attributes": [{
+			"name": "d3MoneyMovement.rdc.limit",
+			"value": "0",
+			"type": "INTEGER",
+			"displayOrder": 0
+		}, {
+			"name": "d3MoneyMovement.rdc.duration",
+			"value": "MONTHLY",
+			"type": "STRING",
+			"displayOrder": 0
+		}, {
+			"name": "d3MoneyMovement.rdc.amount",
+			"value": "0",
+			"type": "MONEY",
+			"displayOrder": 0
+		}]
+	}],
+	"displayMessages": ["<h3>disclosure-title</h3>\n<p>disclosure-text</p>"]
+}

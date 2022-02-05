@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountAttributesView" customModule="AccountsPresentation" customModuleProvider="target">
+            <connections>
+                <outlet property="attributeLabel" destination="qkf-hM-iHN" id="OGn-HM-nPr"/>
+                <outlet property="valueLabel" destination="bzk-Qo-Ncr" id="zqj-C8-haD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkf-hM-iHN" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="0.0" y="0.0" width="37" height="43"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnCta"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzk-Qo-Ncr" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="45" y="0.0" width="35.5" height="43"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnCta"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="bzk-Qo-Ncr" secondAttribute="bottom" id="A2G-LJ-gLr"/>
+                <constraint firstItem="qkf-hM-iHN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="fJy-f3-IQG"/>
+                <constraint firstItem="qkf-hM-iHN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gjq-Mb-zcp"/>
+                <constraint firstItem="bzk-Qo-Ncr" firstAttribute="leading" secondItem="qkf-hM-iHN" secondAttribute="trailing" constant="8" id="lH0-r1-v3O"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="qkf-hM-iHN" secondAttribute="bottom" id="ldM-Iz-pn7"/>
+                <constraint firstItem="bzk-Qo-Ncr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="yqv-Y9-P2e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="-258.5"/>
+        </view>
+    </objects>
+</document>

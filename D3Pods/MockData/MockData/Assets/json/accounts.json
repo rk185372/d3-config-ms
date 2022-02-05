@@ -1,0 +1,57 @@
+{
+    "accounts":[
+        {
+            "id":1,
+            "name":"Ivan's Checking Account",
+            "number":"•••••4321",
+            "balance":6482.63,
+            "availableBalance":5856.83,
+            "currencyCode":"USD",
+            "type":"ASSET",
+            "accountProduct":"Deposit - Checking",
+            "status":"OPEN",
+            "hidden":false,
+            "lastSyncTime":"2018-02-14T16:13:20.000Z"
+        },
+        {
+            "id":2,
+            "name":"Sarah's Checking Account",
+            "number":"•••••9854",
+            "balance":4112.42,
+            "availableBalance":3956.76,
+            "currencyCode":"USD",
+            "type":"ASSET",
+            "accountProduct":"Deposit - Checking",
+            "status":"OPEN",
+            "hidden":false,
+            "lastSyncTime":"2018-02-14T16:13:20.000Z"
+        },
+        {
+            "id":3,
+            "name":"Emergency Savings Account",
+            "number":"•••••9724",
+            "balance":9412.87,
+            "availableBalance":9412.87,
+            "currencyCode":"USD",
+            "type":"ASSET",
+            "accountProduct":"Deposit - Savings",
+            "status":"OPEN",
+            "hidden":false,
+            "lastSyncTime":"2018-02-14T16:13:20.000Z"
+        },
+        {
+            "id":4,
+            "name":"My Credit Card Account",
+            "number":"•••••9834",
+            "balance":4712.42,
+            "nextPaymentDate":"4/29/17",
+            "nextPaymentAmount":135.00,
+            "currencyCode":"USD",
+            "type":"LIABILITY",
+            "accountProduct":"Credit Card",
+            "status":"OPEN",
+            "hidden":false,
+            "lastSyncTime":"2018-02-14T16:13:20.000Z"
+        }
+    ]
+}

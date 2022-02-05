@@ -1,0 +1,1208 @@
+PODS:
+  - AccountsFactory/Common (0.1.0):
+    - AccountsPresentation
+    - Permissions
+    - Utilities
+    - Web
+  - AccountsFactory/Web (0.1.0):
+    - AccountsFactory/Common
+    - AccountsPresentation
+    - Permissions
+    - Utilities
+    - Web
+  - AccountsPresentation (0.1.0):
+    - Alamofire
+    - Analytics
+    - Branding
+    - ComponentKit
+    - D3Accounts
+    - Dip
+    - InAppRatingApi
+    - Messages
+    - Network
+    - Perform
+    - PodHelper
+    - PresenterKit
+    - ScrollableSegmentedControl
+    - Session
+    - Shimmer
+    - ShimmeringData
+    - TPKeyboardAvoiding
+    - Transactions
+    - UITableViewPresentation
+    - Utilities
+    - ViewPresentable
+    - Views
+    - Web
+  - AkamaiChallengeNetworkInterceptor/None (0.1.0):
+    - AuthChallengeNetworkInterceptorApi
+    - DependencyContainerExtension
+    - RxSwift
+  - Alamofire (4.8.1)
+  - AlamofireNetworkActivityIndicator (2.2.0):
+    - Alamofire (~> 4.5)
+  - Analytics (0.1.0):
+    - Aspects (= 1.4.1)
+  - APITransformer (0.1.0):
+    - CompanyAttributes
+    - Localization
+    - PodHelper
+    - Utilities
+  - AppConfiguration (0.1.0)
+  - AppInitialization (0.1.0):
+    - Analytics
+    - Authentication
+    - Biometrics
+    - CompanyAttributes
+    - Dip
+    - GBVersionTracking
+    - Localization
+    - Logging
+    - Navigation
+    - Network
+    - Offline
+    - PodHelper
+    - RootViewController
+    - Wrap
+  - Aspects (1.4.1)
+  - AuthChallengeNetworkInterceptorApi (0.1.0):
+    - RxSwift
+  - Authentication (0.1.0):
+    - APITransformer
+    - AuthChallengeNetworkInterceptorApi
+    - AuthGenericViewController
+    - BiometricKeychainAccess (= 4.0.2)
+    - Biometrics
+    - ComponentKit
+    - Dashboard
+    - DeviceInfoService
+    - JVFloatLabeledTextField
+    - Localization
+    - LocalizationData
+    - Logging
+    - Network
+    - PodHelper
+    - ReCaptcha
+    - RxRelay
+    - RxSwift
+    - ShimmeringData
+    - SnapKit
+    - UITableViewPresentation
+    - UserInteraction
+    - ViewPresentable
+    - Views
+    - Wrap
+  - AuthFlow (0.1.0):
+    - AppInitialization
+    - Authentication
+    - ComponentKit
+    - Localization
+    - Logging
+    - Navigation
+    - PodHelper
+    - PostAuthFlow
+    - Session
+    - Snapshot
+    - SnapshotPresentation
+  - AuthGenericViewController (0.1.0):
+    - ComponentKit
+    - Localization
+    - PodHelper
+  - BadgeSwift (7.0.0)
+  - BiometricKeychainAccess (4.0.2):
+    - KeychainAccess (= 4.2.2)
+  - Biometrics (0.1.0):
+    - BiometricKeychainAccess (= 4.0.2)
+    - CompanyAttributes
+    - DependencyContainerExtension
+    - DeviceInfoService
+    - Dip
+    - EnablementNetworkInterceptorApi
+    - Network
+    - RxSwift
+    - Utilities
+  - Branding (0.1.0)
+  - BuildInfoScreen/Common (0.1.0):
+    - ComponentKit
+    - Network
+    - PresenterKit
+    - RxSwift
+    - UITableViewPresentation
+    - Utilities
+    - Web
+  - BuildInfoScreen/Standard (0.1.0):
+    - BuildInfoScreen/Common
+    - ComponentKit
+    - Network
+    - PresenterKit
+    - RxSwift
+    - UITableViewPresentation
+    - Utilities
+    - Web
+  - CardControl/Common (1.0.0):
+    - CardControlApi
+    - CompanyAttributes
+    - DependencyContainerExtension
+    - PodHelper
+  - CardControl/None (1.0.0):
+    - CardControl/Common
+    - CardControlApi
+    - CompanyAttributes
+    - DependencyContainerExtension
+    - PodHelper
+  - CardControlApi (0.1.0):
+    - RxCocoa
+    - RxSwift
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - CompanyAttributes (0.1.0):
+    - RxRelay
+  - ComponentKit (0.1.0):
+    - BadgeSwift
+    - D3Contacts
+    - DependencyContainerExtension
+    - Dip
+    - FIS
+    - JVFloatLabeledTextField
+    - Localization
+    - Logging
+    - M13Checkbox (= 3.2.2)
+    - OpenLinkManager
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - TPKeyboardAvoiding
+    - UIColor_Hex_Swift (= 4.0.1)
+    - UITableViewPresentation
+    - Utilities
+  - D3Accounts (0.1.0):
+    - Alamofire
+    - Network
+    - Utilities
+    - Wrap
+  - D3Contacts (0.1.0):
+    - DependencyContainerExtension
+    - Dip
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+  - D3FlipperThemeLoader/None (0.0.1)
+  - Dashboard (0.1.0):
+    - ComponentKit
+    - InAppRatingApi
+    - Localization
+    - Messages
+    - Navigation
+    - Offline
+    - PodHelper
+    - RootViewController
+    - Session
+    - SessionExpiration
+    - Utilities
+    - Views
+  - DependencyContainerExtension (0.1.0):
+    - Aspects
+    - Dip
+  - DeviceDescriptionChallengeNetworkInterceptor/None (0.1.0):
+    - AuthChallengeNetworkInterceptorApi
+    - DependencyContainerExtension
+    - RxSwift
+  - DeviceDescriptionEnablementNetworkInterceptor/None (0.1.0):
+    - DependencyContainerExtension
+    - EnablementNetworkInterceptorApi
+    - RxSwift
+  - DeviceInfoService (0.1.0):
+    - Network
+    - RxRelay
+    - RxSwift
+    - Utilities
+  - Dip (7.0.1)
+  - Dwifft (0.7)
+  - EDocs (0.1.0):
+    - Analytics
+    - CompanyAttributes
+    - ComponentKit
+    - LegalContent
+    - Logging
+    - Network
+    - PodHelper
+    - PostAuthFlowController
+    - ShimmeringData
+    - UITableViewPresentation
+    - Utilities
+    - ViewPresentable
+  - EmailVerification (0.1.0):
+    - Analytics
+    - AuthGenericViewController
+    - CompanyAttributes
+    - ComponentKit
+    - Localization
+    - Logging
+    - Network
+    - PodHelper
+    - PostAuthFlowController
+    - RxSwift
+    - Session
+    - Shimmer
+    - UITableViewPresentation
+    - Utilities
+  - Embassy (4.0.4)
+  - Enablement (0.1.0):
+    - Analytics
+    - AuthGenericViewController
+    - Biometrics
+    - ComponentKit
+    - DeviceInfoService
+    - EnablementNetworkInterceptorApi
+    - LegalContent
+    - Localization
+    - Logging
+    - Network
+    - PodHelper
+    - PostAuthFlowController
+    - SnapKit
+    - Utilities
+    - Wrap
+  - EnablementNetworkInterceptorApi (0.1.0):
+    - RxSwift
+  - EnvoyAmbassador (4.0.1):
+    - Embassy (~> 4.0)
+  - FeatureTour/Synovus (0.1.0):
+    - Analytics
+    - CompanyAttributes
+    - ComponentKit
+    - DependencyContainerExtension
+    - Dip
+    - Localization
+    - Logging
+    - Navigation
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Utilities
+  - Firebase (7.8.1):
+    - Firebase/Core (= 7.8.1)
+  - Firebase/Core (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 7.8.1)
+  - Firebase/CoreOnly (7.8.1):
+    - FirebaseCore (= 7.8.0)
+  - Firebase/Crashlytics (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 7.8.0)
+  - FirebaseAnalytics (7.8.1):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - FirebaseAnalyticsD3 (0.1.0):
+    - Analytics
+    - Firebase/Core
+  - FirebaseCore (7.8.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.8.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30907.0)
+  - FirebaseCrashlytics (7.8.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleDataTransport (~> 8.0)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (7.8.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FIS (0.1.0)
+  - GBVersionTracking (1.3.2)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GoogleAppMeasurement (7.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - GoogleDataTransport (8.3.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.3.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.3.1)"
+  - GoogleUtilities/Reachability (7.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.3.1):
+    - GoogleUtilities/Logger
+  - i18next (1.0.2)
+  - InAppRating/Standard (0.3.0):
+    - AppConfiguration
+    - CompanyAttributes
+    - DependencyContainerExtension
+    - InAppRatingApi
+    - Localization
+    - Logging
+    - Network
+    - RxRelay
+    - RxSwift
+    - Utilities
+  - InAppRatingApi (0.1.0):
+    - RxSwift
+  - JVFloatLabeledTextField (1.2.2)
+  - KeychainAccess (4.2.2)
+  - LegalContent (0.1.0):
+    - Network
+  - Localization (0.1.0):
+    - Dip
+    - i18next (= 1.0.2)
+    - Logging
+    - Utilities
+  - LocalizationData (0.1.0):
+    - PodHelper
+  - Locations (0.1.0):
+    - Logging
+    - Network
+    - RxRelay
+    - RxSwift
+    - Utilities
+  - LocationsPresentation (0.1.0):
+    - Alamofire
+    - Analytics
+    - CompanyAttributes
+    - ComponentKit
+    - Dip
+    - Locations
+    - Logging
+    - Navigation
+    - Network
+    - Perform
+    - Permissions
+    - PodHelper
+    - RxKeyboard
+    - RxRelay
+    - SnapKit
+    - TPKeyboardAvoiding
+    - UITableViewPresentation
+    - Utilities
+  - LogAnalytics (0.1.0):
+    - Analytics
+    - Logging
+  - Logging (0.1.0):
+    - Firebase/Crashlytics
+    - SwiftyBeaver
+  - Logout (0.1.0):
+    - ComponentKit
+    - Localization
+    - Navigation
+    - Network
+    - Permissions
+    - PodHelper
+    - RxSwift
+    - Session
+    - Utilities
+  - M13Checkbox (3.2.2)
+  - Maintenance (0.1.0):
+    - Analytics
+    - ComponentKit
+    - Navigation
+    - Network
+    - PodHelper
+    - RxSwift
+    - Utilities
+  - MatomoAnalytics (0.1.0):
+    - Analytics
+    - MatomoTracker
+  - MatomoTracker (7.2.0):
+    - MatomoTracker/Core (= 7.2.0)
+  - MatomoTracker/Core (7.2.0)
+  - Messages (0.1.0):
+    - Network
+    - Session
+  - MockData (0.1.0):
+    - PodHelper
+  - MockServer (1.1.3):
+    - Embassy (= 4.0.4)
+    - EnvoyAmbassador (= 4.0.1)
+  - mRDC/Common (0.1.0):
+    - AccountsPresentation
+    - Alamofire
+    - Analytics
+    - CompanyAttributes
+    - ComponentKit
+    - Dip
+    - InAppRatingApi
+    - Logging
+    - Network
+    - OpenLinkManager
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - ScrollableSegmentedControl
+    - Session
+    - UITableViewPresentation
+    - Utilities
+    - Wrap
+  - mRDC/Standard (0.1.0):
+    - AccountsPresentation
+    - Alamofire
+    - Analytics
+    - CompanyAttributes
+    - ComponentKit
+    - Dip
+    - InAppRatingApi
+    - Logging
+    - mRDC/Common
+    - Network
+    - OpenLinkManager
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - ScrollableSegmentedControl
+    - Session
+    - UITableViewPresentation
+    - Utilities
+    - Wrap
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - Navigation (0.1.0):
+    - RxSwift
+    - Utilities
+  - Network (0.1.0):
+    - Alamofire (= 4.8.1)
+    - AppConfiguration
+    - Logging
+    - RxSwift
+    - Utilities
+  - Offline (0.1.0):
+    - AppConfiguration
+    - ComponentKit
+    - Logging
+    - Network
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - Utilities
+  - OpenLinkManager (0.1.0):
+    - Logging
+    - RxRelay
+    - RxSwift
+    - Utilities
+  - OutOfBand (0.1.0):
+    - ComponentKit
+    - Localization
+    - Logging
+    - Network
+    - PodHelper
+    - PostAuthFlowController
+    - RxRelay
+    - RxSwift
+    - Session
+    - UITableViewPresentation
+    - UserInteraction
+    - Utilities
+    - Views
+  - Perform (2.0.1):
+    - Aspects (~> 1.4)
+  - Permissions (0.1.0):
+    - CompanyAttributes
+    - Utilities
+  - PodHelper (0.1.0)
+  - PostAuthFlow (0.1.0):
+    - Biometrics
+    - CompanyAttributes
+    - ComponentKit
+    - EDocs
+    - Enablement
+    - Localization
+    - OutOfBand
+    - PodHelper
+    - PostAuthFlowController
+    - SecurityQuestions
+    - Session
+    - TermsOfService
+  - PostAuthFlowController (0.1.0)
+  - PresenterKit (0.1.0):
+    - ComponentKit
+    - PodHelper
+    - UITableViewPresentation
+  - ProfileIconManager (0.1.0):
+    - Analytics
+    - ComponentKit
+    - DependencyContainerExtension
+    - InAppRatingApi
+    - Localization
+    - Messages
+    - RxSwift
+    - SVGKit
+    - Utilities
+    - Web
+  - PromisesObjC (1.2.12)
+  - QRScanner (0.1.0):
+    - ComponentKit
+    - PodHelper
+  - ReCaptcha (1.5.0):
+    - ReCaptcha/Core (= 1.5.0)
+  - ReCaptcha/Core (1.5.0)
+  - RequestTransformer/Common (0.1.0):
+    - Alamofire
+    - DependencyContainerExtension
+    - Dip
+    - Logging
+    - PodHelper
+    - Utilities
+  - RequestTransformer/None (0.1.0):
+    - Alamofire
+    - Logging
+    - PodHelper
+    - RequestTransformer/Common
+    - Utilities
+  - RootViewController (0.1.0):
+    - Utilities
+  - RxBlocking (5.1.0):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.0)
+  - RxTest (5.1.0):
+    - RxSwift (~> 5)
+  - ScrollableSegmentedControl (1.3.0)
+  - SecurityQuestions (0.1.0):
+    - Analytics
+    - AuthGenericViewController
+    - CompanyAttributes
+    - ComponentKit
+    - Localization
+    - Logging
+    - Network
+    - PodHelper
+    - PostAuthFlowController
+    - RxSwift
+    - Shimmer
+    - UITableViewPresentation
+    - Utilities
+  - Session (0.1.0):
+    - EDocs
+    - Network
+    - Permissions
+    - RxRelay
+    - RxSwift
+    - TermsOfService
+    - Utilities
+  - SessionExpiration (0.1.0):
+    - CompanyAttributes
+    - ComponentKit
+    - DependencyContainerExtension
+    - Dip
+    - Localization
+    - Logging
+    - Navigation
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - Session
+    - UserInteraction
+    - Utilities
+  - Shimmer (1.0.2)
+  - ShimmeringData (0.1.0):
+    - ComponentKit
+    - PodHelper
+    - Shimmer (= 1.0.2)
+    - UITableViewPresentation
+    - ViewPresentable
+  - SimpleMarkdownParser (0.7.1)
+  - SnapKit (4.2.0)
+  - Snapshot (0.1.0):
+    - D3Accounts
+    - Utilities
+  - SnapshotPresentation (0.1.0):
+    - AccountsPresentation
+    - Analytics
+    - ComponentKit
+    - Localization
+    - Logging
+    - Network
+    - PodHelper
+    - RxRelay
+    - RxSwift
+    - ShimmeringData
+    - Snapshot
+    - SnapshotService
+    - UITableViewPresentation
+    - Utilities
+  - SnapshotService (0.1.0):
+    - Logging
+    - Network
+    - RxSwift
+    - Snapshot
+    - Transactions
+    - Utilities
+  - Sourcery (0.15.0)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - SwiftLint (0.39.2)
+  - SwiftyBeaver (1.9.3)
+  - TermsOfService (0.1.0):
+    - Alamofire
+    - Analytics
+    - AuthGenericViewController
+    - ComponentKit
+    - Localization
+    - Logging
+    - Network
+    - OpenLinkManager
+    - PodHelper
+    - PostAuthFlowController
+    - SimpleMarkdownParser
+    - SnapKit
+    - Utilities
+    - Views
+  - ThreatMetrixChallengeNetworkInterceptor/None (0.2.0):
+    - AuthChallengeNetworkInterceptorApi
+    - DependencyContainerExtension
+    - RxSwift
+  - TodayExtension (0.1.0):
+    - AppConfiguration
+    - ComponentKit
+    - Dip
+    - Localization
+    - LocalizationData
+    - Network
+    - PodHelper
+    - RxSwift
+    - Snapshot
+    - SnapshotService
+    - UITableViewPresentation
+    - Utilities
+  - TPKeyboardAvoiding (1.3.1)
+  - Transactions (0.1.0):
+    - Alamofire
+    - Network
+    - RxSwift
+    - Utilities
+  - UIColor_Hex_Swift (4.0.1)
+  - UITableViewPresentation (1.5.4):
+    - Dwifft (= 0.7.0)
+  - UserInteraction (0.1.0):
+    - RxRelay
+    - RxSwift
+  - Utilities (0.1.0):
+    - Alamofire
+    - Logging
+    - RxCocoa
+    - RxSwift
+  - ViewPresentable (0.1.0)
+  - Views (0.1.0):
+    - ComponentKit
+    - PodHelper
+    - SnapKit
+  - Web (0.1.0):
+    - Alamofire
+    - Analytics
+    - AppInitialization
+    - BadgeSwift
+    - Biometrics
+    - CardControlApi
+    - ComponentKit
+    - D3Contacts
+    - FIS
+    - GCDWebServer
+    - InAppRatingApi
+    - Logging
+    - Network
+    - OpenLinkManager
+    - Permissions
+    - PodHelper
+    - QRScanner
+    - RxSwift
+    - Session
+    - SnapKit
+    - UITableViewPresentation
+    - Utilities
+  - Wrap (2.1.1)
+
+DEPENDENCIES:
+  - AccountsFactory/Web (from `D3Pods/AccountsFactory`)
+  - AccountsPresentation (from `D3Pods/AccountsPresentation`)
+  - AkamaiChallengeNetworkInterceptor/None (from `D3Pods/AkamaiChallengeNetworkInterceptor`)
+  - AlamofireNetworkActivityIndicator (= 2.2.0)
+  - Analytics (from `D3Pods/Analytics`)
+  - APITransformer (from `D3Pods/APITransformer`)
+  - AppConfiguration (from `D3Pods/AppConfiguration`)
+  - AppInitialization (from `D3Pods/AppInitialization`)
+  - AuthChallengeNetworkInterceptorApi (from `D3Pods/AuthChallengeNetworkInterceptorApi`)
+  - Authentication (from `D3Pods/Authentication`)
+  - AuthFlow (from `D3Pods/AuthFlow`)
+  - AuthGenericViewController (from `D3Pods/AuthGenericViewController`)
+  - BadgeSwift (= 7.0.0)
+  - Biometrics (from `D3Pods/Biometrics`)
+  - Branding (from `D3Pods/Branding`)
+  - BuildInfoScreen/Standard (from `D3Pods/BuildInfoScreen`)
+  - CardControl/None (from `D3Pods/CardControl`)
+  - CardControlApi (from `D3Pods/CardControlApi`)
+  - CompanyAttributes (from `D3Pods/CompanyAttributes`)
+  - ComponentKit (from `D3Pods/ComponentKit`)
+  - D3Accounts (from `D3Pods/D3Accounts`)
+  - D3Contacts (from `D3Pods/D3Contacts`)
+  - D3FlipperThemeLoader/None (from `D3Pods/D3FlipperThemeLoader`)
+  - Dashboard (from `D3Pods/Dashboard`)
+  - DependencyContainerExtension (from `D3Pods/DependencyContainerExtension`)
+  - DeviceDescriptionChallengeNetworkInterceptor/None (from `D3Pods/DeviceDescriptionChallengeNetworkInterceptor`)
+  - DeviceDescriptionEnablementNetworkInterceptor/None (from `D3Pods/DeviceDescriptionEnablementNetworkInterceptor`)
+  - DeviceInfoService (from `D3Pods/DeviceInfoService`)
+  - Dip (= 7.0.1)
+  - EDocs (from `D3Pods/EDocs`)
+  - EmailVerification (from `D3Pods/EmailVerification`)
+  - Enablement (from `D3Pods/Enablement`)
+  - EnablementNetworkInterceptorApi (from `D3Pods/EnablementNetworkInterceptorApi`)
+  - FeatureTour/Synovus (from `D3Pods/FeatureTour`)
+  - Firebase
+  - Firebase/Crashlytics
+  - FirebaseAnalyticsD3 (from `D3Pods/FirebaseAnalyticsD3`)
+  - FIS (from `D3Pods/FIS`)
+  - GBVersionTracking (= 1.3.2)
+  - InAppRating/Standard (from `D3Pods/InAppRating`)
+  - InAppRatingApi (from `D3Pods/InAppRatingApi`)
+  - LegalContent (from `D3Pods/LegalContent`)
+  - Localization (from `D3Pods/Localization`)
+  - LocalizationData (from `D3Pods/LocalizationData`)
+  - Locations (from `D3Pods/Locations`)
+  - LocationsPresentation (from `D3Pods/LocationsPresentation`)
+  - LogAnalytics (from `D3Pods/LogAnalytics`)
+  - Logging (from `D3Pods/Logging`)
+  - Logout (from `D3Pods/Logout`)
+  - Maintenance (from `D3Pods/Maintenance`)
+  - MatomoAnalytics (from `D3Pods/MatomoAnalytics`)
+  - "MatomoTracker (from `git@github.com:LodoSoftware/d3-matomo-sdk-ios.git`, commit `9b52eaea3ecabc35862ca53fab2b06fecedfc729`)"
+  - Messages (from `D3Pods/Messages`)
+  - MockData (from `D3Pods/MockData`)
+  - MockServer (= 1.1.3)
+  - mRDC/Standard (from `D3Pods/mRDC`)
+  - Navigation (from `D3Pods/Navigation`)
+  - Network (from `D3Pods/Network`)
+  - Offline (from `D3Pods/Offline`)
+  - OpenLinkManager (from `D3Pods/OpenLinkManager`)
+  - OutOfBand (from `D3Pods/OutOfBand`)
+  - Perform (= 2.0.1)
+  - Permissions (from `D3Pods/Permissions`)
+  - PodHelper (from `D3Pods/PodHelper`)
+  - PostAuthFlow (from `D3Pods/PostAuthFlow`)
+  - PostAuthFlowController (from `D3Pods/PostAuthFlowController`)
+  - PresenterKit (from `D3Pods/PresenterKit`)
+  - ProfileIconManager (from `D3Pods/ProfileIconManager`)
+  - QRScanner (from `D3Pods/QRScanner`)
+  - ReCaptcha (= 1.5.0)
+  - RequestTransformer/None (from `D3Pods/RequestTransformer`)
+  - RootViewController (from `D3Pods/RootViewController`)
+  - RxBlocking (= 5.1.0)
+  - RxCocoa (= 5.1.0)
+  - RxSwift (= 5.1.0)
+  - RxTest (= 5.1.0)
+  - ScrollableSegmentedControl (~> 1.3.0)
+  - SecurityQuestions (from `D3Pods/SecurityQuestions`)
+  - Session (from `D3Pods/Session`)
+  - SessionExpiration (from `D3Pods/SessionExpiration`)
+  - ShimmeringData (from `D3Pods/ShimmeringData`)
+  - SimpleMarkdownParser (= 0.7.1)
+  - SnapKit (= 4.2.0)
+  - Snapshot (from `D3Pods/Snapshot`)
+  - SnapshotPresentation (from `D3Pods/SnapshotPresentation`)
+  - SnapshotService (from `D3Pods/SnapshotService`)
+  - Sourcery (= 0.15.0)
+  - SwiftLint (= 0.39.2)
+  - TermsOfService (from `D3Pods/TermsOfService`)
+  - ThreatMetrixChallengeNetworkInterceptor/None (from `D3Pods/ThreatMetrixChallengeNetworkInterceptor`)
+  - TodayExtension (from `D3Pods/TodayExtension`)
+  - TPKeyboardAvoiding (= 1.3.1)
+  - Transactions (from `D3Pods/Transactions`)
+  - UITableViewPresentation (= 1.5.4)
+  - UserInteraction (from `D3Pods/UserInteraction`)
+  - Utilities (from `D3Pods/Utilities`)
+  - ViewPresentable (from `D3Pods/ViewPresentable`)
+  - Views (from `D3Pods/Views`)
+  - Web (from `D3Pods/Web`)
+  - Wrap (= 2.1.1)
+
+SPEC REPOS:
+  "git@github.com:LodoSoftware/D3CocoaPodSpec.git":
+    - BiometricKeychainAccess
+    - i18next
+    - MockServer
+    - UITableViewPresentation
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - Aspects
+    - BadgeSwift
+    - CocoaLumberjack
+    - Dip
+    - Dwifft
+    - Embassy
+    - EnvoyAmbassador
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - GBVersionTracking
+    - GCDWebServer
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - JVFloatLabeledTextField
+    - KeychainAccess
+    - M13Checkbox
+    - nanopb
+    - Perform
+    - PromisesObjC
+    - ReCaptcha
+    - RxBlocking
+    - RxCocoa
+    - RxKeyboard
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - ScrollableSegmentedControl
+    - Shimmer
+    - SimpleMarkdownParser
+    - SnapKit
+    - Sourcery
+    - SVGKit
+    - SwiftLint
+    - SwiftyBeaver
+    - TPKeyboardAvoiding
+    - UIColor_Hex_Swift
+    - Wrap
+
+EXTERNAL SOURCES:
+  AccountsFactory:
+    :path: D3Pods/AccountsFactory
+  AccountsPresentation:
+    :path: D3Pods/AccountsPresentation
+  AkamaiChallengeNetworkInterceptor:
+    :path: D3Pods/AkamaiChallengeNetworkInterceptor
+  Analytics:
+    :path: D3Pods/Analytics
+  APITransformer:
+    :path: D3Pods/APITransformer
+  AppConfiguration:
+    :path: D3Pods/AppConfiguration
+  AppInitialization:
+    :path: D3Pods/AppInitialization
+  AuthChallengeNetworkInterceptorApi:
+    :path: D3Pods/AuthChallengeNetworkInterceptorApi
+  Authentication:
+    :path: D3Pods/Authentication
+  AuthFlow:
+    :path: D3Pods/AuthFlow
+  AuthGenericViewController:
+    :path: D3Pods/AuthGenericViewController
+  Biometrics:
+    :path: D3Pods/Biometrics
+  Branding:
+    :path: D3Pods/Branding
+  BuildInfoScreen:
+    :path: D3Pods/BuildInfoScreen
+  CardControl:
+    :path: D3Pods/CardControl
+  CardControlApi:
+    :path: D3Pods/CardControlApi
+  CompanyAttributes:
+    :path: D3Pods/CompanyAttributes
+  ComponentKit:
+    :path: D3Pods/ComponentKit
+  D3Accounts:
+    :path: D3Pods/D3Accounts
+  D3Contacts:
+    :path: D3Pods/D3Contacts
+  D3FlipperThemeLoader:
+    :path: D3Pods/D3FlipperThemeLoader
+  Dashboard:
+    :path: D3Pods/Dashboard
+  DependencyContainerExtension:
+    :path: D3Pods/DependencyContainerExtension
+  DeviceDescriptionChallengeNetworkInterceptor:
+    :path: D3Pods/DeviceDescriptionChallengeNetworkInterceptor
+  DeviceDescriptionEnablementNetworkInterceptor:
+    :path: D3Pods/DeviceDescriptionEnablementNetworkInterceptor
+  DeviceInfoService:
+    :path: D3Pods/DeviceInfoService
+  EDocs:
+    :path: D3Pods/EDocs
+  EmailVerification:
+    :path: D3Pods/EmailVerification
+  Enablement:
+    :path: D3Pods/Enablement
+  EnablementNetworkInterceptorApi:
+    :path: D3Pods/EnablementNetworkInterceptorApi
+  FeatureTour:
+    :path: D3Pods/FeatureTour
+  FirebaseAnalyticsD3:
+    :path: D3Pods/FirebaseAnalyticsD3
+  FIS:
+    :path: D3Pods/FIS
+  InAppRating:
+    :path: D3Pods/InAppRating
+  InAppRatingApi:
+    :path: D3Pods/InAppRatingApi
+  LegalContent:
+    :path: D3Pods/LegalContent
+  Localization:
+    :path: D3Pods/Localization
+  LocalizationData:
+    :path: D3Pods/LocalizationData
+  Locations:
+    :path: D3Pods/Locations
+  LocationsPresentation:
+    :path: D3Pods/LocationsPresentation
+  LogAnalytics:
+    :path: D3Pods/LogAnalytics
+  Logging:
+    :path: D3Pods/Logging
+  Logout:
+    :path: D3Pods/Logout
+  Maintenance:
+    :path: D3Pods/Maintenance
+  MatomoAnalytics:
+    :path: D3Pods/MatomoAnalytics
+  MatomoTracker:
+    :commit: 9b52eaea3ecabc35862ca53fab2b06fecedfc729
+    :git: "git@github.com:LodoSoftware/d3-matomo-sdk-ios.git"
+  Messages:
+    :path: D3Pods/Messages
+  MockData:
+    :path: D3Pods/MockData
+  mRDC:
+    :path: D3Pods/mRDC
+  Navigation:
+    :path: D3Pods/Navigation
+  Network:
+    :path: D3Pods/Network
+  Offline:
+    :path: D3Pods/Offline
+  OpenLinkManager:
+    :path: D3Pods/OpenLinkManager
+  OutOfBand:
+    :path: D3Pods/OutOfBand
+  Permissions:
+    :path: D3Pods/Permissions
+  PodHelper:
+    :path: D3Pods/PodHelper
+  PostAuthFlow:
+    :path: D3Pods/PostAuthFlow
+  PostAuthFlowController:
+    :path: D3Pods/PostAuthFlowController
+  PresenterKit:
+    :path: D3Pods/PresenterKit
+  ProfileIconManager:
+    :path: D3Pods/ProfileIconManager
+  QRScanner:
+    :path: D3Pods/QRScanner
+  RequestTransformer:
+    :path: D3Pods/RequestTransformer
+  RootViewController:
+    :path: D3Pods/RootViewController
+  SecurityQuestions:
+    :path: D3Pods/SecurityQuestions
+  Session:
+    :path: D3Pods/Session
+  SessionExpiration:
+    :path: D3Pods/SessionExpiration
+  ShimmeringData:
+    :path: D3Pods/ShimmeringData
+  Snapshot:
+    :path: D3Pods/Snapshot
+  SnapshotPresentation:
+    :path: D3Pods/SnapshotPresentation
+  SnapshotService:
+    :path: D3Pods/SnapshotService
+  TermsOfService:
+    :path: D3Pods/TermsOfService
+  ThreatMetrixChallengeNetworkInterceptor:
+    :path: D3Pods/ThreatMetrixChallengeNetworkInterceptor
+  TodayExtension:
+    :path: D3Pods/TodayExtension
+  Transactions:
+    :path: D3Pods/Transactions
+  UserInteraction:
+    :path: D3Pods/UserInteraction
+  Utilities:
+    :path: D3Pods/Utilities
+  ViewPresentable:
+    :path: D3Pods/ViewPresentable
+  Views:
+    :path: D3Pods/Views
+  Web:
+    :path: D3Pods/Web
+
+CHECKOUT OPTIONS:
+  MatomoTracker:
+    :commit: 9b52eaea3ecabc35862ca53fab2b06fecedfc729
+    :git: "git@github.com:LodoSoftware/d3-matomo-sdk-ios.git"
+
+SPEC CHECKSUMS:
+  AccountsFactory: e05f2ce86f77e20e9f4e5383e6566cbdbbeec3ee
+  AccountsPresentation: fb662ae4fff07c00442072f787b651ca76096517
+  AkamaiChallengeNetworkInterceptor: 9fdd193de71078f61d0e9538c1f927453760ced1
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireNetworkActivityIndicator: 81e1630e7cfed22a4e4e82a174c59e651dc4f8ca
+  Analytics: c1ef794136253721e67d23b14c8853a5604bffa8
+  APITransformer: bed95f9a5874d0866f3a10ae8b4e439401a4ddbb
+  AppConfiguration: d6da7d65bcaedb9697a5dca3ee4ffb6331da3731
+  AppInitialization: 8fdaa76fcba30d4c1cdea209784b4605efe74462
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AuthChallengeNetworkInterceptorApi: e0990e1141519265ea653cc3a8684d4bb937f4b4
+  Authentication: 0d3790b30a84b8befd122d9ed67427d9302c39f1
+  AuthFlow: d1d5c630cf4efbbc72edfb4a292375e1dcf988f2
+  AuthGenericViewController: d32f0223cf908b1dc8cf45425a2bc757fd7b1c90
+  BadgeSwift: 5cfacfad916d85e2f68d93dbb9ade4e9555903da
+  BiometricKeychainAccess: 3b2dbfc89b9db4e03eef801f6518fa96dcf82620
+  Biometrics: 0dcf6fe5bc58c7c7a6c39288ac8167fd45524001
+  Branding: bbd92c8a43b32015ba1b76555d3b5d83da07b7e4
+  BuildInfoScreen: 247c27320f2ee765e940ea7ddb1dbc2a02fc993a
+  CardControl: 607b750fcc83c6ec32b394cfb11d990f260818d8
+  CardControlApi: 6e3f2f980152ee46a849cf5a8379da9461affd85
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  CompanyAttributes: 30191101bcb75f4b1da3677e90c6b7edee7b3caa
+  ComponentKit: 94ce76d6a8f2283f614871c78f1d7da620afec3e
+  D3Accounts: e8eaf59670264c280fc885d907a4cdf5fdf89bce
+  D3Contacts: cd1efbfc29ad99c054e0830ca34fa324aa8b2d17
+  D3FlipperThemeLoader: 404a7688a1d93eef16c95d506c643d377cfef2f2
+  Dashboard: 9050f437695b984688f965ffd0efa96e2bfc24c2
+  DependencyContainerExtension: 7883b5473a99a0bbaeefd90cd496a6b67adb4c73
+  DeviceDescriptionChallengeNetworkInterceptor: 00f6dd81c4a9713bfa438ac8ae3e0716e099b0a1
+  DeviceDescriptionEnablementNetworkInterceptor: c2635fa34d0046c7aa96761321548ffeb7c5a3b7
+  DeviceInfoService: 2e7eeb500b29c114736d9fc0621f9561aa91a868
+  Dip: 79509d5dc4f648e10e922ed79c608a7761c52b13
+  Dwifft: bb97bff975a5f5e62a7492dc29463e9be47dc121
+  EDocs: 37c0289242a713f437a829af63f5ebe35f8aa1c3
+  EmailVerification: e2bc80e0a6c0e07a81b2a082c4fbbb619532cf53
+  Embassy: 57560fcf46fb55ddce091f9d46f7fabc8e46f1c8
+  Enablement: 550278a493613d09ed04b90aafb7b75cb5fd817c
+  EnablementNetworkInterceptorApi: fd15288a9366eaa131b46243d2676c105892764a
+  EnvoyAmbassador: fec4f4a9cf5f1ab13e082474a0375f77ff467030
+  FeatureTour: 4c668bd292a437c76d1f6611d97e58861266ee6a
+  Firebase: d59ad4129167f9f0d2a4f6c1f0c462254b6002c8
+  FirebaseAnalytics: 3b98b563d7d64c07900511198b4805cfd9f9f61c
+  FirebaseAnalyticsD3: 41d9e5a7eeec967ba1a38cb713f608d06c322aea
+  FirebaseCore: 049029df3096e5c118917029be7da75ee16f3b1b
+  FirebaseCoreDiagnostics: 066f996579cf097bdad3d7dc9a918d6b9e129c50
+  FirebaseCrashlytics: d07e61d85aabc7d38a68f94ff99995f8557ea8d0
+  FirebaseInstallations: 7f7ed0e7e27fb51f57291e1876e2ddb1524126c1
+  FIS: ac7fe99318aa44588389bb7cc10daf8aeab8b1c1
+  GBVersionTracking: c9b5eb256a234e01b5b44731fda86a3488760c49
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  GoogleAppMeasurement: 50a254ee92c1b94fbe2abea7e3da35e4c6dedce0
+  GoogleDataTransport: b006084b73915a42c28a3466961a4edda3065da6
+  GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
+  i18next: 25ef6002f13a97b90a5d019f8b0b97984d540d83
+  InAppRating: 07b7983fec36b260f89497e45d9940e393bafffa
+  InAppRatingApi: 71523634511dd99476da4daad19acdb4d3d52384
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  LegalContent: bef581e113bd1ce2bc733851c7b0feed870e488c
+  Localization: 981891ec356f526b439a83e7183119687d464853
+  LocalizationData: 0f7ff8592251cc83c59267842361174d68eb08e5
+  Locations: b60a51b16f2a6ebc5a45dce2590cb2d03416f5e8
+  LocationsPresentation: dadbb50e3bc308b19289593f60635163cc9cf61a
+  LogAnalytics: 168506a909d64ec56c64fc66d70e1a8933070dad
+  Logging: 65938a4e8b51551e6e3fe75c55112104544b2c59
+  Logout: 3adbe8de93c91ccfd01fd93657bc4b557ef4d0fc
+  M13Checkbox: a8c2491cfbbca10797925fd0b9154a782bf40d89
+  Maintenance: 28ab022307e2bc02280c92169c2b8d0a35a13c4a
+  MatomoAnalytics: 8f79fde37348fe25488cc24df90af6a33019d441
+  MatomoTracker: 6f89e2561083685a360e223fb663e9ccd57c1d1a
+  Messages: b55a70f1e4196677351df2dfe42fc6fe39736ade
+  MockData: 63e613c725eb2111c8639e6931847ca74332d896
+  MockServer: b2bc3daa3f89b29a93609d81784af535f5a5301a
+  mRDC: 6c1fab781aecf96db0d833749d779437b89af763
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  Navigation: e0c17a899eb70b5a0d6da63bccc91ae2abb7a345
+  Network: c812edeb38ed7c84019faaf5664974ff8ffde521
+  Offline: 865bffc7b8f5c2070201dd5c56e40776442453ff
+  OpenLinkManager: bc0203d6caea4abcc0c875aed43d152b4daa4b9a
+  OutOfBand: 215243b80f28494f95172558b3eb316fb7548efc
+  Perform: 46a49b1b3d1ac9173ab9deb91d2f092c6c5d39b4
+  Permissions: 71c7a103331096a915f6a5ef4f66deae3014ff63
+  PodHelper: debfa448f979425ec84a23af5b4036da5c56e835
+  PostAuthFlow: fdcdacd2ee5cfacb040fa40bcb2a6ab94d864f3e
+  PostAuthFlowController: 2337872604c44490bc00293b7f7310ef0d3db535
+  PresenterKit: 54c8496e0b717e584e392c7283f71eb9489a2910
+  ProfileIconManager: 1e59b583361986b5844c4c9d45321ad8dd5c78f8
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  QRScanner: 8080ada004ce9460f6fe7904f64d9712b1db0e59
+  ReCaptcha: 40ae1dc390fd5837267674b9a6ae0978abb5eeeb
+  RequestTransformer: d0738a299c9871437ce0293857b870f6f5eb47df
+  RootViewController: ce8677555ab072906f87e07b2fc793dfea78f5b1
+  RxBlocking: 5ef131267220f92ef68531dd6afeaf407cd6b41a
+  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
+  RxTest: d5e1c9c1880de2751041fa485d476ce006967b31
+  ScrollableSegmentedControl: a90ae91537fd670a46b177301d035223e3bd149e
+  SecurityQuestions: 878460b8615837f6f9273176001db62bd4635b24
+  Session: 02e8bc0f07fcd98e8ce3fe45337ef6eb701cd8c4
+  SessionExpiration: f9c149cec6b49609a56bd9ba83d3475a8fea3092
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  ShimmeringData: 4e010034d6e30327dd53aa463f1cb75881216443
+  SimpleMarkdownParser: 948302fcbd7bf3769d79beb6f2aa0151dc3b784b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Snapshot: 6e229b41be32cc44e26b0208f77dc7536cd30974
+  SnapshotPresentation: 28a46ca0150525d209341ffdd1d9eb270b041f64
+  SnapshotService: b7ca6ffd8aaf413cefeec008532b4c3e0dadcf69
+  Sourcery: 5895672cae353cdbfa95f3f4aaeb75a664d76f6a
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+  SwiftyBeaver: 2e8acd6fc90c6d0a27055867a290794926d57c02
+  TermsOfService: 4b5786ce40fe9524bf8e37f1f3efe3be8da58f65
+  ThreatMetrixChallengeNetworkInterceptor: 323e9bccff619d637a427c8360d5063cb835594e
+  TodayExtension: f5642394aa2745e1bd001296c2de140ae5e3dae2
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  Transactions: 7deda6c9a775e5a0911d99bdf35fd855f37b9db9
+  UIColor_Hex_Swift: c5ff88470499383b8fd85302d59344bb24ba9436
+  UITableViewPresentation: aa5431586a325da2f1326394afb62a9e344912b0
+  UserInteraction: 7f5964fa65517a8df2c3ecd35b43eff0572948b2
+  Utilities: f8c5ebc0bf5bc72731585e6d97bb3b0031508af0
+  ViewPresentable: 6a4aa59955da2aefaec26f88682fed156b0fdcb1
+  Views: 3826d7300d03e71405c7426f6b09811f9eaf6430
+  Web: 6e4b74b5adf99dd9877ac616d9aa1e8dd7efe9aa
+  Wrap: 9cc7da7551bb81d0846cb3df9fb624c6c32d267d
+
+PODFILE CHECKSUM: 3fac1c6dcdc65a21ed98e882126292588f90c04e
+
+COCOAPODS: 1.10.1

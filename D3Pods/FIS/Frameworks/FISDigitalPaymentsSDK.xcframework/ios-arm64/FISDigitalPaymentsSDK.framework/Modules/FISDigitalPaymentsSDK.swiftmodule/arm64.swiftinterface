@@ -1,0 +1,163 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios14.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FISDigitalPaymentsSDK
+import Contacts
+import ContactsUI
+@_exported import FISDigitalPaymentsSDK
+import Foundation
+import Swift
+import WebKit
+@_hasMissingDesignatedInitializers public class FDSPresentationUtility {
+  public static func resolveCurrentViewController() -> UIKit.UIViewController?
+  @objc deinit
+}
+public enum FDSMessageCode : Swift.String {
+  case permissionPermanentlyDenied
+  case bridgeExecutionFailed
+  case bridgeRequestProcessingFailed
+  case bridgeResponseProcessingFailed
+  case eventRaised
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class FDSBridge : ObjectiveC.NSObject {
+  @objc open func addErrorListener(_ errorListener: FISDigitalPaymentsSDK.FDSErrorListening)
+  @objc open func notifyError(_ bridgeResponse: FISDigitalPaymentsSDK.FDSBridgeResponse)
+  public static func createWarningResponse(bridge: FISDigitalPaymentsSDK.FDSBridge, bridgeRequest: FISDigitalPaymentsSDK.FDSBridgeRequest, messageCode: FISDigitalPaymentsSDK.FDSMessageCode) -> FISDigitalPaymentsSDK.FDSBridgeResponse
+  public static func isAuthorized(authorizationStatus: FISDigitalPaymentsSDK.FDSAuthorizationStatus) -> Swift.Bool
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class FDSWebEvent : ObjectiveC.NSObject {
+  @objc public var eventId: Swift.String {
+    get
+  }
+  @objc public var webEventType: FISDigitalPaymentsSDK.FDSWebEventType {
+    get
+  }
+  @objc public var eventParams: [Swift.String : Swift.String]? {
+    get
+  }
+  @objc public static func getWebEventTypeRawValue(webEventType: FISDigitalPaymentsSDK.FDSWebEventType) -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers public class FDSBridgeWKScriptMessageHandler : FISDigitalPaymentsSDK.FDSBridgeRequestRouter, WebKit.WKScriptMessageHandler {
+  @objc public static let name: Swift.String
+  @objc open func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FDSSDKManager : ObjectiveC.NSObject {
+  @objc public static func create(webView: WebKit.WKWebView, domainWhitelist: [Swift.String], webEventListener: FISDigitalPaymentsSDK.FDSWebEventListening?) -> FISDigitalPaymentsSDK.FDSSDKManager
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers open class FDSBridgeRequestRouter : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class DomainUtility {
+  public static func getHostFromSSO(in sso: Swift.String) -> [Swift.String]
+  @objc deinit
+}
+@objc public protocol FDSErrorListening {
+  @objc func onError(_ errorEvent: FISDigitalPaymentsSDK.FDSErrorEvent)
+}
+public enum FDSAuthorizationStatus {
+  case authorized
+  case denied
+  case restricted
+  case notDetermined
+  public static func == (a: FISDigitalPaymentsSDK.FDSAuthorizationStatus, b: FISDigitalPaymentsSDK.FDSAuthorizationStatus) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@objc @_inheritsConvenienceInitializers open class FDSBridgeRequest : ObjectiveC.NSObject {
+  open var bridgeId: Swift.String? {
+    get
+  }
+  open var method: Swift.String? {
+    get
+  }
+  open var callbackMethod: Swift.String? {
+    get
+  }
+  open var callbackKey: Swift.String? {
+    get
+  }
+  open var params: [Swift.String : Any]? {
+    get
+  }
+  @objc open func parseMessage(dictionary: Swift.Dictionary<Swift.String, Any>)
+  @objc open func parseMessage(data: Foundation.Data)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol FDSBridgeRequestHandling {
+  @objc var bridgeId: Swift.String { get }
+  @objc func handleRequest(_ bridgeRequest: FISDigitalPaymentsSDK.FDSBridgeRequest, onRequestComplete: @escaping (FISDigitalPaymentsSDK.FDSBridgeResponse) -> Swift.Void)
+}
+public class FDSMessage {
+  public init(messageType: FISDigitalPaymentsSDK.FDSMessageType, messageCode: FISDigitalPaymentsSDK.FDSMessageCode, text: Swift.String)
+  @objc deinit
+}
+@objc public enum FDSWebEventType : Swift.Int {
+  case error, started, completed, information, unspecified, notRecognized
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum FDSMessageType : Swift.String {
+  case information
+  case warning
+  case error
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc open class FDSBridgeResponse : ObjectiveC.NSObject {
+  @objc public var javascriptCallback: Swift.String {
+    @objc get
+  }
+  convenience public init(bridgeId: Swift.String, callbackMethod: Swift.String, jsonData: Swift.Dictionary<Swift.String, Swift.AnyObject>, callbackKey: Swift.String)
+  convenience public init(bridgeId: Swift.String, callbackMethod: Swift.String, jsonData: Swift.Dictionary<Swift.String, Swift.AnyObject>, clientAttributes: Swift.Dictionary<Swift.String, Swift.String>, callbackKey: Swift.String)
+  public init(bridgeId: Swift.String, callbackMethod: Swift.String, jsonData: Swift.Dictionary<Swift.String, Swift.AnyObject>, clientAttributes: Swift.Dictionary<Swift.String, Swift.String>, callbackKey: Swift.String, isSuccessful: Swift.Bool, message: FISDigitalPaymentsSDK.FDSMessage?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class FDSErrorEvent : ObjectiveC.NSObject {
+  open func getMessage() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public protocol FDSWebEventListening {
+  @objc func onEventReceived(webEvent: FISDigitalPaymentsSDK.FDSWebEvent)
+}
+@_inheritsConvenienceInitializers @objc open class FDSContactBridge : FISDigitalPaymentsSDK.FDSBridge, FISDigitalPaymentsSDK.FDSBridgeRequestHandling {
+  @objc open var bridgeId: Swift.String {
+    @objc get
+  }
+  @objc open func handleRequest(_ bridgeRequest: FISDigitalPaymentsSDK.FDSBridgeRequest, onRequestComplete: @escaping (FISDigitalPaymentsSDK.FDSBridgeResponse) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FISDigitalPaymentsSDK.FDSMessageCode : Swift.Equatable {}
+extension FISDigitalPaymentsSDK.FDSMessageCode : Swift.Hashable {}
+extension FISDigitalPaymentsSDK.FDSMessageCode : Swift.RawRepresentable {}
+extension FISDigitalPaymentsSDK.FDSAuthorizationStatus : Swift.Equatable {}
+extension FISDigitalPaymentsSDK.FDSAuthorizationStatus : Swift.Hashable {}
+extension FISDigitalPaymentsSDK.FDSWebEventType : Swift.Equatable {}
+extension FISDigitalPaymentsSDK.FDSWebEventType : Swift.Hashable {}
+extension FISDigitalPaymentsSDK.FDSWebEventType : Swift.RawRepresentable {}
+extension FISDigitalPaymentsSDK.FDSMessageType : Swift.Equatable {}
+extension FISDigitalPaymentsSDK.FDSMessageType : Swift.Hashable {}
+extension FISDigitalPaymentsSDK.FDSMessageType : Swift.RawRepresentable {}

@@ -1,0 +1,3062 @@
+{
+    "accounts.account-group.group-1": {
+        "value": "Assets",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.account-group.group-2": {
+        "value": "Liabilities",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.add.offline": {
+        "value": "Add an Offline Account",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.add.save.success": {
+        "value": "Account has been successfully added",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.available": {
+        "value": "",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "accounts.balance": {
+        "value": "",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "accounts.btn.add-account": {
+        "value": "ADD AN ACCOUNT",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.btn.brokerage-access": {
+        "value": "Go to Brokerage site",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.btn.offline.cancel": {
+        "value": "Cancel",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.btn.offline.save": {
+        "value": "Save",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.btn.order-checks": {
+        "value": "Order Checks",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.btn.stop-payment": {
+        "value": "Stop Payment",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.form.balance": {
+        "value": "BALANCE",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.form.name": {
+        "value": "ACCOUNT NAME",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.form.type": {
+        "value": "ACCOUNT TYPE",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.open-account.error.redirect.text": {
+        "value": "should NOT display",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.open-account.error.redirect.title": {
+        "value": "Open Account Unavailable",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.open-account.mobile.description.text": {
+        "value": "Open a new account now.",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.other-account-group.assets": {
+        "value": "Other Assets",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.other-account-group.liabilities": {
+        "value": "Other Liabilities",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "accounts.widget.open-account": {
+        "value": "Open Account",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "alert.standard.title": {
+        "value": "Alert",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.alert.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.alert.btn.ok": {
+        "value": "Ok",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.alert.btn.print": {
+        "value": "Print",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "app.error.generic": {
+        "value": "Something went wrong",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.error.generic.title": {
+        "value": "Error",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.footer.legal.copyright": {
+        "value": "COPYRIGHT __year__",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.footer.legal.copyright.secondary": {
+        "value": "",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "app.generic.retry": {
+        "value": "Retry",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "app.nav.backButton.accessibilityLabel": {
+        "value": "Back",
+        "version": "4.5",
+        "bundle": "mobile"
+    },
+    "banking.security.questionAnswerPattern": {
+        "value": "Your answer contains invalid characters",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "businessBillPay.nav.ach": {
+        "value": "ACH Direct Deposit",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "businessBillPay.nav.payments": {
+        "value": "Bill Pay",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "businessBillPay.nav.payments.create": {
+        "value": "Make A Payment With Bill Pay",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "businessBillPay.nav.payments.history": {
+        "value": "Bill Pay History",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "businessBillPay.nav.payments.scheduled": {
+        "value": "Upcoming & Scheduled Bill Payments",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "card-controls.dashboard.title": {
+        "value": "Card Controls",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "cardmanagement.ondot.error-message": {
+        "value": "Oops! We are having some problems, please try again later.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "cardmanagement.ondot.error-ok": {
+        "value": "Ok",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "cardmanagement.ondot.error-title": {
+        "value": "Advanced Card Controls",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "credentials.create-security-questions.description": {
+        "value": "Choose Security Question",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.firstTimeLogin.cancel.title": {
+        "value": "Please update your Login Information",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "credentials.firstTimeLogin.cancel.text": {
+        "value": "If you cancel the process you will not be able to proceed to banking.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "credentials.firstTimeLogin.cancel.btn.yes": {
+        "value": "CONTINUE",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "credentials.firstTimeLogin.cancel.btn.no": {
+        "value": "CANCEL",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.btn.different-option": {
+        "value": "Use a different verification option",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.btn.submit": {
+        "value": "Verify Passcode",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.description": {
+        "value": "Please enter the verification passcode that was sent to",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.email.heading": {
+        "value": "Email Verification",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.heading": {
+        "value": "One Time Passcode",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.input.length-error": {
+        "value": "The code provided should be between 1 and 256 characters long.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.input.regex-error": {
+        "value": "The code provided should have 6 digits.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.placeholder": {
+        "value": "Enter Passcode",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.sms.heading": {
+        "value": "SMS Verification",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-code.voice.heading": {
+        "value": "Voice/Call Verification",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-complete.completed": {
+        "value": "You have successfully completed MFA Enrollment.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-complete.heading": {
+        "value": "Congratulations",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-complete.next": {
+        "value": "Next",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-complete.verified": {
+        "value": "We have successfully verified your MFA destination.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.description": {
+        "value": "We have successfully verified your mobile number or email.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.heading": {
+        "value": "Congratulations",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.modal.btn.no": {
+        "value": "NO",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.modal.btn.yes": {
+        "value": "YES",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.modal.text": {
+        "value": "Are you sure you want to proceed?",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.modal.title": {
+        "value": "You will not be able to setup another mobile number or email if you continue.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-confirmation.text": {
+        "value": "Would you like to setup another mobile number or email for authentication?",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.btn.cancel": {
+        "value": "CANCEL",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.btn.next": {
+        "value": "GET PASSCODE",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.description": {
+        "value": "Please select one of the emails below to receive a passcode for verifying the one time passcode.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.heading": {
+        "value": "Email Verification",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.input-label": {
+        "value": "Enter a new email address:",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.input-placeholder": {
+        "value": "Email",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.input.length-error": {
+        "value": "The provided email should be between 1 and 256 characters long.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.input.regex-error": {
+        "value": "The provided email should contain at least one character followed by the @ symbol followed by at least one character.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.new": {
+        "value": "I want to use an email not listed here",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-email.upate-notice": {
+        "value": "Once signed in, update your profile with this new email address",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-enroll.btn.no": {
+        "value": "No",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-enroll.btn.yes": {
+        "value": "Yes",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-enroll.header": {
+        "value": "Cancel Confirmation",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-enroll.text": {
+        "value": "You have not completed the process of Multifactor Authentication. Are you sure you want to cancel?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.btn.next": {
+        "value": "Next",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.description": {
+        "value": "Multifactor Authentication adds another layer of security for your protection.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.email": {
+        "value": "Email",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.email-description": {
+        "value": "Receive a Verification Code by email",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.heading": {
+        "value": "Multifactor Authentication Setup",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.sms": {
+        "value": "SMS",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.sms-description": {
+        "value": "Receive a Verification Code by text message",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.sms-disclosure": {
+        "value": "Message and data rates may apply",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.subheader": {
+        "value": "Please select a destination type below -- then click next to choose an email or mobile phone on file to receive a verification code.",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.voice": {
+        "value": "Call",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-factor.voice-description": {
+        "value": "Receive a voice message containing a verification code.",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-phone.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-phone.btn.different-option": {
+        "value": "Use a different verification option",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-phone.btn.send-code": {
+        "value": "Send Code",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-phone.description": {
+        "value": "Please select one of the numbers below to receive a message for verifying the one time password",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-phone.empty": {
+        "value": "Please enter code",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.btn.cancel": {
+        "value": "CANCEL",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.btn.next": {
+        "value": "GET PASSCODE",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.description": {
+        "value": "Please select one of the mobile numbers below to receive a passcode for verifying the one time passcode.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.heading": {
+        "value": "SMS Verification",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.input-label": {
+        "value": "Enter a new mobile number:",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.input-placeholder": {
+        "value": "000-000-0000",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.input.length-error": {
+        "value": "The provided phone number should be between 1 and 256 characters long.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.input.regex-error": {
+        "value": "The provided phone number should have 10 digits.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.new": {
+        "value": "I want to use a number not listed here",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.rates-disclosure": {
+        "value": "* Standard SMS rates will apply",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-sms.update-notice": {
+        "value": "Once signed in, update your profile with this mobile phone",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.btn.next": {
+        "value": "GET PASSCODE",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.description": {
+        "value": "Please select one of the mobile numbers below to receive a passcode for verifying the one time passcode.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.heading": {
+        "value": "Voice/Call Verification",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.input-label": {
+        "value": "Enter a new mobile number:",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.input-placeholder": {
+        "value": "000-000-0000",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.input.length-error": {
+        "value": "The provided phone number should be between 1 and 256 characters long.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.input.regex-error": {
+        "value": "The provided phone number should have 10 digits.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.new": {
+        "value": "I want to use a number not listed here",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.mfa-voice.rates-disclosure": {
+        "value": "* Standard Voice/Call charges will apply",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.add.email": {
+        "value": "Additional email",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.add.email.hint": {
+        "value": "Enter an additional email",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.add.phone": {
+        "value": "Additional phone",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.add.phone.hint": {
+        "value": "Enter an additional mobile phone",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.add.textmessagescharge": {
+        "value": "Text messaging charges may apply.",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.button.cancel": {
+        "value": "CANCEL",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.button.continue": {
+        "value": "CONTINUE",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.contact.ratio": {
+        "value": "Select email or text message destinations for verifications.",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.contact.title": {
+        "value": "Contact Method",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.error.already.listed": {
+        "value": "Contact already listed",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.error.formInvalid": {
+        "value": "Invalid email or phone number is selected",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.error.invalid.email": {
+        "value": "Invalid email",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.error.invalid.phone": {
+        "value": "Invalid phone",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.error.nothing.selected": {
+        "value": "Please select at least one destination",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.setup.ratio": {
+        "value": "For the additional security of our digital banking users, this application will require users to enter validation codes that are sent to they preferred email or text messaging destination.",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.oob-reset.setup.title": {
+        "value": "Setup of Security Verifications",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.answer.placeholder": {
+        "value": "Answer",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.answer.required": {
+        "value": "You must provide an answer to the question.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.cancel": {
+        "value": "Cancel",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.description": {
+        "value": "Setup Security Questions",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.mobile.btn.hide-answer": {
+        "value": "Hide",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.mobile.btn.show-answer": {
+        "value": "Show",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.pattern-description": {
+        "value": "Security Answer must be between __minLength__ and __maxLength__ characters long.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.validate.max": {
+        "value": "Your answer cannot be more than __maxLength__ characters.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "credentials.security-question.validate.min": {
+        "value": "Your answer must be at least __minLength__ characters long",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.plan": {
+        "value": "Plan",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.quick-view.marketing-message": {
+        "value": "Login to enable Snapshot in your mobile settings.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit-now": {
+        "value": "Deposit Now",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn": {
+        "value": "Mobile Deposit",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn.all-done": {
+        "value": "All Done",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn.capture": {
+        "value": "Take Check Image",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn.confirm": {
+        "value": "Confirm",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn.launch": {
+        "value": "Deposit A Check",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn.launch.altText": {
+        "value": "Deposit A Check",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.btn.submit": {
+        "value": "Submit",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.confirm.string": {
+        "value": "Deposit __amount__ to __account__.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.confirm.title": {
+        "value": "Please Confirm -- Deposit",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.adjustedamount": {
+        "value": "Adjusted Amount",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.back": {
+        "value": "Back",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.confirmation": {
+        "value": "Confirmation Number",
+        "version": "4.8",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.currentamount": {
+        "value": "Current Amount",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.front": {
+        "value": "Front",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.status": {
+        "value": "Status",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.statusMessage": {
+        "value": "your check is under review.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.submittedamount": {
+        "value": "Submitted Amount",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.detail.transactiondate": {
+        "value": "Transaction Date",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.error.title": {
+        "value": "Deposit Failed",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.failed": {
+        "value": "Your deposit failed",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.flow-cancel.text": {
+        "value": "Are you sure you want to exit? All information will be lost",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.flow-cancel.title": {
+        "value": "Cancel Deposit",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.history.deposit-delay": {
+        "value": "Not all recently deposited checks are necessarily reflected in your history. Please allow up to 24 hours to display.",
+        "version": "4.4",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.history.error.title": {
+        "value": "Unable to retrieve deposit history",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.history.nohistory": {
+        "value": "You have not performed any Mobile Deposits in the last 30 days.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.history.title": {
+        "value": "Mobile Deposit",
+        "version": "4.4",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.image.fail.permissions.btn.close": {
+        "value": "Close",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.image.fail.permissions.message": {
+        "value": "You must authorize the camera to use this feature",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.image.fail.title": {
+        "value": "Image Capture Error",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.success.confirmationNumber": {
+        "value": "Confirmation: __confirmationNumber__",
+        "version": "4.8",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.success.text": {
+        "value": "Your deposit of __amount__ to __account__ was successful.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.success.title": {
+        "value": "Deposit Successful!",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.tab.history": {
+        "value": "History",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.deposit.unsuccessful.title": {
+        "value": "Your deposit was unsuccessful.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.history": {
+        "value": "Deposit History",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.tab.switching.dialog.default.cancelButton": {
+        "value": "Cancel",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.tab.switching.dialog.default.confirmButton": {
+        "value": "Continue",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.tab.switching.dialog.default.message": {
+        "value": "Some actions are still in progress, and will be dismissed if you proceed",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "dashboard.widget.tab.switching.dialog.default.title": {
+        "value": "Action in progress",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "deposit.account.placeholder": {
+        "value": "Select Account",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.accounts.not.eligible": {
+        "value": "There are no eligible accounts to deposit to.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.disclosure.limit.amount": {
+        "value": "This account can have __amount__ deposited to it __period__.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.disclosure.limit.count": {
+        "value": "This account can have __limit__ deposit(s) to it __period__.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.disclosure.limit.amounts": {
+        "value": "You have deposited __depositAmount__ of your __amount__ __period__ limit.",
+        "version": "4.15",
+        "bundle": "mobile"
+    },
+    "deposit.disclosure.limit.tier2_amounts": {
+        "value": "You have deposited __depositAmount__ of your __amount__ __period__ limit and __tier2DepositAmount__ of your __tier2Amount__ __tier2period__ limit.",
+        "version": "4.15",
+        "bundle": "mobile"
+    },
+    "deposit.disclosure.limit.checks_tier2": {
+        "value": "You have deposited __depositCount__ of your __limit__ __period__ checks and __tier2Count__ of your __tier2limit__ __tier2period__ checks.",
+        "version": "4.15",
+        "bundle": "mobile"
+    },
+    "deposit.disclosure.limit.checks": {
+        "value": "You have deposited __depositCount__ of your __limit__ __period__ checks.",
+        "version": "4.15",
+        "bundle": "mobile"
+    },
+    "deposit.duration.daily": {
+        "value": "per day",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.duration.monthly": {
+        "value": "per month",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.duration.weekly": {
+        "value": "per week",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "deposit.validate.amount.range": {
+        "value": "Must be a number between 0.01 and 999,999,999.99",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-faceid.confirm": {
+        "value": "Yes, I would like to use Face ID for Authentication",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-faceid.decline": {
+        "value": "No Thanks",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-faceid.disclosure": {
+        "value": "Disclosure",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-faceid.errorText": {
+        "value": "We were unable to enable the Face ID. Try again later in the Settings Menu.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-faceid.errorTitle": {
+        "value": "Unable to Enable Face ID",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-faceid.title": {
+        "value": "Would you like to use Face ID for Authentication?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-fingerprint.confirm": {
+        "value": "Yes, I would like to use Fingerprint Authentication",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-fingerprint.decline": {
+        "value": "No Thanks",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-fingerprint.disclosure": {
+        "value": "Disclosure",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-fingerprint.errorText": {
+        "value": "We were unable to enable the Fingerprint. Try again later in the Settings Menu.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-fingerprint.errorTitle": {
+        "value": "Unable to Enable Fingerprint",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-fingerprint.title": {
+        "value": "Would you like to use Fingerprint Authentication?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-biometrics.errorText": {
+        "value": "We were unable to enable the Biometrics. Try again later in My Preferences.",
+        "version": "4.15",
+        "bundle": "mobile"
+    },
+    "device.config-snapshot.confirm": {
+        "value": "Yes, I would like to use Snapshot",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-snapshot.decline": {
+        "value": "No thanks",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-snapshot.disclosure": {
+        "value": "Disclosure",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-snapshot.errorText": {
+        "value": "There was an error configuring snapshot",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-snapshot.errorTitle": {
+        "value": "Error",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.config-snapshot.title": {
+        "value": "Would you like to use Snapshot to see your Account Balances without logging in?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.enable-snapshot.title": {
+        "value": "Enable Snapshot",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.accounts.error": {
+        "value": "Failed to load accounts",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.back-captured.message": {
+        "value": "Back image captured.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.back-captured.title": {
+        "value": "Capture Success",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.back-of-check": {
+        "value": "Back of Check",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.back.info": {
+        "value": "Please sign and add your account number on the back of the check. Place the signature box on the right side of the frame.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.capture.capturePhoto.btn.altText": {
+        "value": "Capture photo",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "device.rdc.capture.flash.btn.flashOff.altText": {
+        "value": "Flash Off",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "device.rdc.capture.flash.btn.flashOff.hint.altText": {
+        "value": "Activate to enable the flash.",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "device.rdc.capture.flash.btn.flashOn.altText": {
+        "value": "Flash On",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "device.rdc.capture.flash.btn.flashOn.hint.altText": {
+        "value": "Activate to disable the flash.",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "device.rdc.close.btn.altText": {
+        "value": "Close",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "device.rdc.flip-check.message": {
+        "value": "Front image captured. Please turn check over and place endorsement area on the right.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.flip-check.title": {
+        "value": "Flip Check Over",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.front-of-check": {
+        "value": "Front of Check",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.front.info": {
+        "value": "Place your check on a flat, well-lit surface.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.retake.btn": {
+        "value": "Retake",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "device.rdc.rotate.label": {
+        "value": "Please Rotate To Take Proper Photo",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "device.rdc.use.btn": {
+        "value": "Submit Photo",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "disclosure.btn.close.altText": {
+        "value": "Close",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "disclosure.btn.continue.title": {
+        "value": "Continue",
+        "version": "4.7",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.ability.title": {
+        "value": "Would you like to enroll in E-Documents?",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.btn.no": {
+        "value": "ASK ME LATER",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.btn.yes": {
+        "value": "YES",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.answer-1": {
+        "value": "Online Statements are electronic versions of the statements you receive in the mail.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.answer-2": {
+        "value": "Online notices are electronic versions of the account notices you receive in the mail.  Notices provide timely information about important account activities, such as overdrafts and past-due notifications.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.answer-3": {
+        "value": "Online tax forms are electronic versions of the tax forms you receive in the mail.  These can include Forms 1098, 1099, and more.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.answer-4": {
+        "value": "",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.answer-5": {
+        "value": "",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.btn": {
+        "value": "Learn More",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.close": {
+        "value": "Close",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.page-title": {
+        "value": "More about E-Documents",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.question-1": {
+        "value": "What is an Online Statement?",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.question-2": {
+        "value": "What is an Online Notice?",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.question-3": {
+        "value": "What are Online Tax Documents?",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.question-4": {
+        "value": "",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.learn-more.question-5": {
+        "value": "",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-prompt.why.text": {
+        "value": "Enrolling in e-Documents reduces the amount of paper mail you receive and is environment-friendly. You'll have access to your documents online anytime. You can update your delivery preferences at any time.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.btn.done": {
+        "value": "All Done",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.estatements.failure": {
+        "value": "An error occurred when enrolling the following accounts.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.estatements.header": {
+        "value": "E-Statements",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.estatements.success": {
+        "value": "These accounts were successfully enrolled.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.info": {
+        "value": "You can manage and view your documents under My Documents.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.notice.failure": {
+        "value": "An error occurred when enrolling the following accounts.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.notice.header": {
+        "value": "Online Notices",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.notice.success": {
+        "value": "These accounts were successfully enrolled.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.subtitle": {
+        "value": "Here is your E-Document enrollment status",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.tax.failure": {
+        "value": "An error occurred during Tax Document enrollment.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.tax.header": {
+        "value": "Tax Documents",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.tax.success": {
+        "value": "Enrolled",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-result.title": {
+        "value": "E-Documents Enrollment",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.btn.no": {
+        "value": "Skip This Step",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.btn.select-all": {
+        "value": "Enroll all eligible accounts",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.btn.view-disclosure": {
+        "value": "View Disclosure",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.btn.yes": {
+        "value": "Enroll In E-Statements",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.disclosure.error": {
+        "value": "Failed to load disclosure",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.info.text": {
+        "value": "Statements show your account transactions and balance for the period.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.estatements.title": {
+        "value": "E-Statements",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.btn.no": {
+        "value": "Skip This Step",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.btn.select-all": {
+        "value": "Enroll all eligible accounts",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.btn.view-disclosure": {
+        "value": "View Disclosure",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.btn.yes": {
+        "value": "Enroll In Online Notices",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.disclosure.error": {
+        "value": "Failed to load disclosure",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.info.text": {
+        "value": "Online Notices are electronic versions of the notices you receive in the mail. They provide timely information about important account activities.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.notice.title": {
+        "value": "Online Notices",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.btn.no": {
+        "value": "Skip This Step",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.btn.view-disclosure": {
+        "value": "View Disclosure",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.btn.yes": {
+        "value": "Enroll In Tax Documents",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.checkbox": {
+        "value": "Enroll to receive tax documents online",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.disclosure.error": {
+        "value": "Failed to load disclosure",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.info.text": {
+        "value": "Online Tax Documents are electronic versions of the tax documents used at tax time and are available only for accounts on which you are the primary owner.",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "edocs-selection.tax.title": {
+        "value": "Tax Documents",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.body": {
+        "value": "**Note** Prior to Accepting the Terms of Service, you must Consent to  the Use of Electronic Communications.",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.1.text": {
+        "value":"**NOTE** You must view the [Disclosure and Consent to the Use of Electronic Communications](#) in order to submit acceptance of the terms and conditions. Please read this information carefully, and retain a copy for your records. ",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.1.label": {
+        "value": "**I Consent**",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.1.error": {
+        "value": "Please check I Consent",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.2.text": {
+        "value": "By checking the \"I Agree\" box below, you are agreeing to the terms and conditions set forth above in the Digital Banking Agreement. Please read this agreement carefully. You should print or save a copy of this agreement for your record",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.2.label": {
+        "value": "**I Agree**",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.2.error": {
+        "value": "Please check I Agree",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.3.text": {
+        "value": "",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.3.label": {
+        "value": "",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "enrollment.tos.accept.check.3.error": {
+        "value": "",
+        "version": "3.4",
+        "bundle": "mobile"
+    },
+    "feature-tour.ios.pageControl.altText": {
+        "value": "Feature Tour Page __pageIndex__ of __pageCount__",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "feature-tour.tutorial.go-to-login": {
+        "value": "Go to Login",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "feature-tour.welcome.go-to-login": {
+        "value": "Go to Login",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "feature-tour.welcome.see-whats-new": {
+        "value": "See What's New",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "general.maintenance.message": {
+        "value": "This application is currently under scheduled maintenance. Please return later.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "header.logout": {
+        "value": "Logout",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "in-app-rating.prompt.message": {
+        "value": "Would you like to rate the app?",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "in-app-rating.prompt.no": {
+        "value": "No",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "in-app-rating.prompt.title": {
+        "value": "Rate the app",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "in-app-rating.prompt.yes": {
+        "value": "Yes",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "launchPage.equalHousingLender.altText": {
+        "value": "Equal housing lender",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "launchPage.fdic.altText": {
+        "value": "Member F D I C",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "launchPage.forgotPassword.help.label": {
+        "value": "Help?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.forgotUsername.help.label": {
+        "value": "Help?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.cell.customAction.call": {
+        "value": "Call this location",
+        "version": "4.5.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.cell.customAction.call.altText": {
+        "value": "Call __location__ location",
+        "version": "4.9.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.cell.customAction.directions": {
+        "value": "Get directions to this location",
+        "version": "4.5.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.cell.customAction.directions.altText": {
+        "value": "Get directions to __location__",
+        "version": "4.9.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.distance.spinner.contentDescription": {
+        "value": "__title__ drop-down list. __searchRadius__ miles",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.distance.spinner.label": {
+        "value": "Distance",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.error.call-failed": {
+        "value": "Sorry, we are unable to call the location you have selected.",
+        "version": "4.7",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.filter.allLocations": {
+        "value": "All",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.filter.atms": {
+        "value": "ATMs",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.filter.branches": {
+        "value": "Branches",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.genericError.description": {
+        "value": "Something went wrong! Please, check if address information provided is correct.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.networkError.description": {
+        "value": "We're sorry, we have experienced a network error trying to search for locations in the area you have indicated. Please use the search field and search radius selector above to try again.",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.networkError.title": {
+        "value": "Network Error",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.no-locations.description": {
+        "value": "We could not find any locations matching your search criteria. Please use the search field and search radius selector above to update your search criteria.",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.no-locations.title": {
+        "value": "No Locations",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.search-placeholder": {
+        "value": "Address, City, or Zip",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.geolocation.title": {
+        "value": "Locations",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.loginHelp.help.label": {
+        "value": "Help?",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.menu.more.label": {
+        "value": "More",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.selfEnrollment.label": {
+        "value": "Enroll Now",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.accountNumber.accessibilityLabel": {
+        "value": "Ending with __number__",
+        "version": "4.4",
+        "bundle": "both"
+    },
+    "launchPage.snapshot.balance": {
+        "value": "My Balances",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.button.label": {
+        "value": "Snapshot",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.account-information": {
+        "value": "Account Information",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.additional": {
+        "value": "Additional",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.available": {
+        "value": "Available",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.available-as-of": {
+        "value": "Available as of __date__",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.balance-date": {
+        "value": " as of __date__",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.balance-description": {
+        "value": "__accountType__ Balance__balanceDate__",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.enable-balance": {
+        "value": "Your account balance is not enabled at this time. Please log in and update account settings for those Account/Available Balance you would like displayed.",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.enable-transactions": {
+        "value": "Your transactions are not enabled at this time. Please log in and update account settings for those transactions you would like displayed.",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.ledger": {
+        "value": "Ledger",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.detail.recent-transactions": {
+        "value": "10 Most recent transactions of the last 30 days",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.no-accounts": {
+        "value": "All accounts are hidden at this time. Please log in and update account settings for those accounts you want displayed.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.no-recent-transactions": {
+        "value": "There are no new transactions to show.",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.no-transactions": {
+        "value": "All transactions are hidden at this time. Please log in and update account settings for those transactions you want displayed.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.status-active": {
+        "value": "Data syncing....",
+        "version": "4.0",
+        "bundle": "both"
+    },
+    "launchPage.snapshot.status-complete-success": {
+        "value": "Data sync successful. Fetching data....",
+        "version": "4.0",
+        "bundle": "both"
+    },
+    "launchPage.snapshot.transaction": {
+        "value": "My Recent Transactions",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "launchPage.snapshot.unexpected-error": {
+        "value": "Encountered an unexpected error while syncing data.",
+        "version": "4.0",
+        "bundle": "both"
+    },
+    "location.doneButton.altText": {
+        "value": "Select to return back to the previous screen",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "location.radiusButton.altText": {
+        "value": "Radius Button. Select to set the radius for the map's range",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "location.searchradius.miles": {
+        "value": "Search Radius __miles__ Miles",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "login.redirect.continue": {
+        "value": "Continue",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.biometric.login-warning.message": {
+        "value": "Log in to enable biometrics for multiple users in mobile settings.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.biometric.login-warning.title": {
+        "value": "Enable Biometrics",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.biometric.user.choice.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "login.biometric.user.choice.btn.submit": {
+        "value": "Submit",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "login.biometric.user.choice.description": {
+        "value": "Choose a User Name below to log in with",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "login.business.btn.snapshot": {
+        "value": "Business Quick Glance",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.btn.submit": {
+        "value": "Sign in to Business Banking",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.forgot.user.password": {
+        "value": "Forgot Business Username or Business Password",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.button.dismiss": {
+        "value": "Done",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.button.main": {
+        "value": "I want more info",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item1": {
+        "value": "An Amegy Business checking Account on which you are an authorized signor",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item10": {
+        "value": "",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item2": {
+        "value": "An active email account",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item3": {
+        "value": "A web browser that supports 128-bit encryption",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item4": {
+        "value": "A completed Online Business Banking Enrollment Application and Multi-Party Addendum submitted at the nearest Amegy banking center",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item5": {
+        "value": "",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item6": {
+        "value": "",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item7": {
+        "value": "",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item8": {
+        "value": "",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.item9": {
+        "value": "",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.subtitle": {
+        "value": "What You Need to Enroll",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.enrollment.title": {
+        "value": "Info",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.button.dismiss": {
+        "value": "Done",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.button.main": {
+        "value": "I want more info",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.password.ratio": {
+        "value": "Please contact Customer Service for assistance with resetting your password",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.password.subtitle": {
+        "value": "Forgot Business Password",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.title": {
+        "value": "Info",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.username.ratio": {
+        "value": "Your Business Username is your Company ID",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.loginHelp.username.subtitle": {
+        "value": "Forgot Business Username",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.tooltip.button.dismiss": {
+        "value": "Close",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.tooltip.item1": {
+        "value": "If you have a Company ID, please enter the following Business Signin ID: [Your Company ID] - [Your Signin ID]",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.tooltip.item2": {
+        "value": "Enter Your Company ID - Your Signin ID",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.tooltip.subtitle": {
+        "value": "About Your Business Name",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.modal.tooltip.title": {
+        "value": "Helpful Tips",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.self.enrollment": {
+        "value": "Need to enroll in Business Banking?",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.toggle.title": {
+        "value": "Business",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.username.label": {
+        "value": "Business Username",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.business.username.save": {
+        "value": "Save Business Username",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.d3logo.altText": {
+        "value": "D3 Banking Technology",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.error.faceid.ios": {
+        "value": "Unable to authenticate",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.error.faceid.ios.dataUpdated": {
+        "value": "Sorry, the facial data on this device has been updated. This may be due to changes to the stored facial data. You must authenticate with your username and password to re-enable Face ID.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.error.faceid.out-of-sync": {
+        "value": "Login to re-enable Face ID authentication.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.error.fingerprint.ios": {
+        "value": "Fingerprint authentication failed",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.error.fingerprint.ios.dataUpdated": {
+        "value": "Sorry, the fingerprint data on this device has been updated. This may be due to adding or removing fingerprints. You must authenticate with your username and password to re-enable Touch ID.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.error.touchid.out-of-sync": {
+        "value": "Login to re-enable Touch ID authentication.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.faceid.ios.accessibility.label": {
+        "value": "Face ID",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.faceid.ios.enable.text": {
+        "value": "Enable Face ID",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.faceid.ios.label": {
+        "value": "Touch to Login",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.fingerprint.ios.accessibility.label": {
+        "value": "Touch ID",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.fingerprint.ios.enable.text": {
+        "value": "Enable Touch ID",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.fingerprint.ios.label": {
+        "value": "Login with Biometrics",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.btn.done": {
+        "value": "Done",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.btn.edit": {
+        "value": "Edit",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.delete.modal.cancel": {
+        "value": "Cancel",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.delete.modal.delete": {
+        "value": "Delete",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.delete.modal.message": {
+        "value": "Deleting __username__ will also delete its credentials.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.delete.modal.title": {
+        "value": "Delete saved username?",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.header.newusername": {
+        "value": "OR ENTER A NEW USERNAME",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.header.savedusername": {
+        "value": "SELECT A SAVED USERNAME",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.header.personalusernames": {
+        "value": "PERSONAL USERNAMES",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.header.businessusernames": {
+        "value": "BUSINESS USERNAMES",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.placeholder.newusername": {
+        "value": "Enter new username",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.savedprofilestext.description": {
+        "value": "",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.multiprofile.title": {
+        "value": "Profiles",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "login.otp.heading": {
+        "value": "One Time Passcode",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.otp.select.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.otp.select.btn.send-code": {
+        "value": "SEND PASSCODE",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.otp.select.description": {
+        "value": "Please select how you want us to deliver a one time passcode to you.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.otp.select.heading": {
+        "value": "One Time Passcode",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "login.out-of-band": {
+        "value": "Please enter the verification code that has been sent to your designated phone number or email address.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.out-of-band.btn.resend": {
+        "value": "Resend Code",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.out-of-band.placeholder": {
+        "value": "Enter verification code",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.out-of-band.radio-button.email": {
+        "value": "Email __value__",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "login.out-of-band.radio-button.sms": {
+        "value": "SMS __value__",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "login.out-of-band.radio-button.voice": {
+        "value": "Voice/Call __value__",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "login.password.text": {
+        "value": "Enter password",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.personal.toggle.title": {
+        "value": "Personal",
+        "version": "4.12",
+        "bundle": "mobile"
+    },
+    "login.recaptcha.failed": {
+        "value": "Recaptcha Failed.",
+        "version": "4.5",
+        "bundle": "mobile"
+    },
+    "login.remember-device": {
+        "value": "Remember this device",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.remember-username": {
+        "value": "Save Username",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.tos.accept.button": {
+        "value": "Accept",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.tos.decline.button": {
+        "value": "Decline",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.tos.title": {
+        "value": "Terms of Service",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.username.text": {
+        "value": "Enter user name",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "login.signinnewusername.text": {
+        "value": "Sign In With A New Personal Username",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.signinnewbusinessuser.text": {
+        "value": "Sign In With A New Business Username",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.editusername.text": {
+        "value": "Edit Saved Usenames",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.maxalerttitle.text": {
+        "value": "You have reached your maximum amount of saved user names.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.maxalertmessage.text": {
+        "value": "Please delete a saved user name to add another.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.cancelalert.text": {
+        "value": "Cancel",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.edituser.text": {
+        "value": "Edit Usernames",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "login.enterusername.text": {
+        "value": "Enter username",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "mfa-actions.generic.abort": {
+        "value": "CANCEL",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "mfa-actions.generic.false": {
+        "value": "I'm done",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "mfa-actions.generic.resend": {
+        "value": "RESEND PASSCODE",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "mfa-actions.generic.restart": {
+        "value": "Choose another verification option",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "mfa-actions.generic.true": {
+        "value": "Add another",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "mfa-enroll.mfa-question.cancel.body": {
+        "value": "You have not completed the process of Multifactor Authentication. Are you sure you want to cancel?",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "mfa-enroll.mfa-question.cancel.header": {
+        "value": "Cancel Multifactor Authentication Setup?",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "mobile.logoutButton.text": {
+        "value": "Logout",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "mobile.session-validation.warning.body": {
+        "value": "It appears that you are innactive, your session will end in:",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.accounts": {
+        "value": "Accounts",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.alerts": {
+        "value": "Alerts",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "nav.alerts.badge": {
+        "value": "__alertsCount__ NEW",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "nav.approvals": {
+        "value": "Approvals",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.approvals.paymentsTransfers": {
+        "value": "Payments & Transfers",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.approvals.achTemplates": {
+        "value": "ACH Templates",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.approvals.stopPayments": {
+        "value": "Stop Payments",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.approvals.badge": {
+        "value": "__approvalsCount__ DUE",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.documents": {
+        "value": "My Documents",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.documents.estatements": {
+        "value": "E-Statements",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.documents.notices": {
+        "value": "Online Notices",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.documents.tax": {
+        "value": "Tax Documents",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.financial-wellness": {
+        "value": "Financial Wellness",
+        "version": "4.13",
+        "bundle": "mobile"
+    },
+    "nav.financial-wellness.mx.money-map": {
+        "value": "Money Map",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "nav.financial-wellness.mx.pulse": {
+        "value": "Pulse",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "nav.financial-wellness.dashboard": {
+        "value": "Dashboard",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "nav.transfers.wire-templates": {
+        "value": "Wire Transfer Templates",
+        "version": "4.13",
+        "bundle": "mobile"
+    },
+    "nav.messages": {
+        "value": "Notices",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.messages.badge": {
+        "value": "__messagesCount__ NEW",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "nav.messages.notices": {
+        "value": "Notices",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.messages.secure": {
+        "value": "Secure",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.money.movement": {
+        "value": "Pay & Transfer",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.money.movement.approvals": {
+        "value": "Approvals",
+        "version": "4.0"
+    },
+    "nav.money.movement.ebill.history": {
+        "value": "E-Bill History",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.money.movement.history": {
+        "value": "History",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.money.movement.pay-multiple": {
+        "value": "Pay Multiple",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.money.movement.recipients": {
+        "value": "Recipients",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.money.movement.schedule": {
+        "value": "Pay/Transfer",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.more": {
+        "value": "More",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.my.profile": {
+        "value": "My Profile",
+        "version": "4.4",
+        "bundle": "mobile"
+    },
+    "nav.payments": {
+        "value": "Payments",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.payments.ebill-history": {
+        "value": "E-bill History",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.payments.ebills": {
+        "value": "E-Bills",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.payments.history": {
+        "value": "History",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.payments.payees": {
+        "value": "Payees",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.payments.recipients": {
+        "value": "Recipients",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.payments.reports": {
+        "value": "Reports",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "nav.payments.schedule": {
+        "value": "Pay Multiple",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.payments.upcoming": {
+        "value": "Upcoming Payments",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.planning": {
+        "value": "Planning",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.planning.budget": {
+        "value": "Budget",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.planning.goals": {
+        "value": "Goals",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.profile.alert-settings": {
+        "value": "Alert Settings",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "nav.profile.alerts": {
+        "value": "View Alerts (__alertsCount__)",
+        "version": "4.4",
+        "bundle": "mobile"
+    },
+    "nav.profile.my-preferences": {
+        "value": "My Preferences",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "nav.profile.user-management": {
+        "value": "User Management",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "nav.self-service": {
+        "value": "Self Service",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.self-service.card-controls": {
+        "value": "Card Controls",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "nav.self-service.faq": {
+        "value": "FAQ's",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.self-service.request-forms": {
+        "value": "Request Forms",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.self-service.tax-forms": {
+        "value": "Tax Forms",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.settings": {
+        "value": "Settings",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.accounts": {
+        "value": "Accounts",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.address": {
+        "value": "Change Address",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "nav.settings.alerts": {
+        "value": "Alerts",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.business-profile": {
+        "value": "Business Profile",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.categories": {
+        "value": "Categories",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.dashboard": {
+        "value": "Dashboard",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.mobile": {
+        "value": "Mobile",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.profile": {
+        "value": "Profile",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.rules": {
+        "value": "Rules",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.security": {
+        "value": "Security",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.settings.usermanagement": {
+        "value": "Users",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "nav.transfers": {
+        "value": "Transfers",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.transfers.history": {
+        "value": "Transfer History",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.transfers.schedule": {
+        "value": "Transfer Schedule",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "nav.transfers.transfer-accounts": {
+        "value": "Transfer Accounts",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "offline-account.loading.error": {
+        "value": "We are currently experiencing a problem adding an offline account, please try again later.",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "paperless.accountNamecheckbox.checked": {
+        "value": "__accountName__ Checkbox Checked",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "paperless.accountNamecheckbox.unchecked": {
+        "value": "__accountName__ Checkbox Unchecked",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "paperless.checkbox.checked": {
+        "value": "Checkbox Checked",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "paperless.checkbox.unchecked": {
+        "value": "Checkbox Unchecked",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "paperless.checkboxTitle.checked": {
+        "value": "__checkboxTitle__ Checkbox Checked",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "paperless.checkboxTitle.unchecked": {
+        "value": "__checkboxTitle__ Checkbox Unchecked",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "password.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.btn.submit": {
+        "value": "Submit",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.confirm.text": {
+        "value": "Confirm new password",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.new.text": {
+        "value": "Enter new password",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.pattern-description": {
+        "value": "Password must contain 1 lower case letter, 1 capital letter, 1 number, and 1 special character",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.required.cancel.text": {
+        "value": "You have not completed the password reset process.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.required.desc": {
+        "value": "A password change is required",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.required.title": {
+        "value": "Required Password Change",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.validate.confirm.match": {
+        "value": "Does not match the new password",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.validate.nonEmpty.message": {
+        "value": "You must enter a password",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "password.validate.range": {
+        "value": "Password must be between __minLength__ and __maxLength__ characters",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.btn.submit": {
+        "value": "NEXT",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.btn.cancel": {
+        "value": "CANCEL",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.title": {
+        "value": "Verify your email address",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.sub-title": {
+        "value": "Please verify the email address we have on file.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.formHelpText": {
+        "value": "All required fields are marked by an asterisk(*).",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.newPrimaryEmail.sub-title": {
+        "value": "We do not have an email on file. Please enter an email for verification purposes.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.maskedEmailLabel": {
+        "value": "Your current email address on file is",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.email.input": {
+        "value": "Enter Email *",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.email.input.placeholder": {
+        "value": "Enter Email *",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.email.input.required": {
+        "value": "Please enter email",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.email.input.invalid": {
+        "value": "Email address is invalid.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.confirmEmail.input": {
+        "value": "Confirm Email *",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.confirmEmail.input.placeholder": {
+        "value": "Confirm Email *",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.confirmEmail.input.required": {
+        "value": "Please confirm email",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.confirmEmail.input.match": {
+        "value": "Email do not match",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.cancelModal.title": {
+        "value": "Cancel Email Verification?",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.cancelModal.text": {
+        "value":
+          "You have not completed the email verification process. Are you sure you want to cancel?",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.cancelModal.confirm": {
+        "value": "PROCEED",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "primaryEmailVerification.cancelModal.cancel": {
+        "value": "CANCEL",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "qr.scan.error.zelle.invalidQR.title": {
+        "value": "Not a Zelle® QR code",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.scan.error.zelle.invalidQR.description": {
+        "value": "Sorry, this is not a Zelle® QR code. Please try again using a valid Zelle® QR code.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.scan.error.zelle.invalidAccount.title": {
+        "value": "You cannot send money to the same account.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.scan.error.zelle.invalidAccount.description": {
+        "value": "The scanned QR Code belongs to one of your existing Zelle® profiles.",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.scan.btn.tryAgain": {
+        "value": "Scan again!",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.scan.btn.cancel": {
+        "value": "Cancel",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.tab.scan": {
+        "value": "Scan",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.tab.myCode": {
+        "value": "My Code",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "qr.scan.title": {
+        "value": "Position QR Code within the frame to scan",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "rdc.backCheckImage.accessibilityLabel": {
+        "value": "Back of check",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "rdc.confirmation.subtitle": {
+        "value": "Deposit",
+        "version": "4.6",
+        "bundle": "mobile"
+    },
+    "rdc.depositAccountCell.accessibilityLabel": {
+        "value": "Account name: __accountName__. Balance: __balance__.",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "rdc.depositAmount.editTextHint": {
+        "value": "Amount",
+        "version": "4.9",
+        "bundle": "mobile"
+    },
+    "rdc.depositAmount.signingDepositCheckInstructionLabel": {
+        "value": "Before taking your photo, please sign and add your account number on the back of the check.",
+        "version": "4.11",
+        "bundle": "mobile"
+    },
+    "rdc.frontCheckImage.accessibilityLabel": {
+        "value": "Front of check",
+        "version": "4.3",
+        "bundle": "mobile"
+    },
+    "reg-e.btn.overdraft-enrollment": {
+        "value": "Overdraft Enrollment",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "reg-e.btn.overdraft-unenrollment": {
+        "value": "Overdraft Un-Enrollment",
+        "version": "4.2",
+        "bundle": "mobile"
+    },
+    "secretQuestion.validate.nonEmpty.messgae": {
+        "value": "You must enter an answer",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "secretQuestion.validate.range": {
+        "value": "Answer must be between __minLength__, and __maxLength__ characters",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "session-validation.warning.cancel-button": {
+        "value": "I'm still here",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "session-validation.warning.title": {
+        "value": "Session Expiration Warning",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "tour.banking-experience.what-is-new": {
+        "value": "What's new?",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "tour.banking-experience.btn.close": {
+        "value": "Close",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "tour.banking-experience.title": {
+        "value": "Your Mobile Banking Experience Has Been Updated!",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "tour.banking-experience.subtitle": {
+        "value": "We've added some feature enhancements that we think you'd enjoy.",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "tour.banking-experience.btn.learn": {
+        "value": "Learn More",
+        "version": "4.14",
+        "bundle": "mobile"
+    },
+    "transaction.status.pending": {
+        "value": "Pending",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "userProfile.button.altText": {
+        "value": "User Profile Menu",
+        "version": "4.10",
+        "bundle": "mobile"
+    },
+    "userProfile.lastLogin": {
+        "value": "Last Login: __lastLogin__",
+        "version": "4.5",
+        "bundle": "mobile"
+    },
+    "username.validate.nonEmpty.message": {
+        "value": "You must enter a username",
+        "version": "4.0",
+        "bundle": "mobile"
+    },
+    "watch.accounts.loading": {
+        "value": "Loading Accounts",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.accounts.title": {
+        "value": "Accounts",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.error.network-unavailable": {
+        "value": "Network Unavailable. Try again later.",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.error.server-unavailable": {
+        "value": "System unavailable. Try again later.",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.error.snapshot": {
+        "value": "Enable Snapshot in your app settings to view account info",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.locations.call.label": {
+        "value": "Call Location",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.locations.loading": {
+        "value": "Loading Locations",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.locations.networkError.description": {
+        "value": "We're sorry, we've experienced a network error. Please return to the main menu and try your request again.",
+        "version": "4.9",
+        "bundle": "watch"
+    },
+    "watch.locations.networkError.title": {
+        "value": "Network Error",
+        "version": "4.9",
+        "bundle": "watch"
+    },
+    "watch.locations.none": {
+        "value": "No Locations",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.locations.title": {
+        "value": "Locations",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.locations.zip.label": {
+        "value": "Zip Code",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.nav.account-balances.label": {
+        "value": "Account Balances",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.nav.customer-service.label": {
+        "value": "Customer Service",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.nav.locations.label": {
+        "value": "Nearest Locations",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.nav.transactions.label": {
+        "value": "Transactions",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.transactions.loading": {
+        "value": "Loading Transactions",
+        "version": "4.0",
+        "bundle": "watch"
+    },
+    "watch.transactions.title": {
+        "value": "Transactions",
+        "version": "4.0",
+        "bundle": "watch"
+    }
+}

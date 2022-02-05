@@ -1,0 +1,709 @@
+{
+    "backgroundCta": {
+        "background": "#60b79c"
+    },
+    "backgroundDefault": {
+        "background": "#FFFFFF"
+    },
+    "backgroundOnLogin": {
+        "background": "#FFFFFF"
+    },
+    "backgroundOverlay": {
+        "background": "#00000080"
+    },
+    "backgroundPrimary": {
+        "background": "#127fa3"
+    },
+    "backgroundSecondary": {
+        "background": "#008285"
+    },
+    "backgroundSecondaryGradient": {
+        "background": {
+            "startColor": "#008285",
+            "stopColor": "#007376"
+        }
+    },
+    "backgroundSeparatorOnDefault": {
+        "background": "#bcbcbc"
+    },
+    "badgeOnTabBar": {
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#000000"
+    },
+    "badgeOnStackedMenu": {
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#000000",
+        "textSize": 16
+    },
+    "badgeOnMoreNavigation": {
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#000000",
+        "textSize": 16
+    },
+    "buttonBlack": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#000000",
+            "borderColor": "#FFFFFF",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#FFFFFF",
+            "textColor": "#000000"
+        }
+    },
+    "buttonCta": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#60b79c",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#4fae91",
+            "textColor": "#FFFFFF"
+        }
+    },
+    "buttonCtaInverted": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#FFFFFF",
+            "textColor": "#60b79c"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#d5d5d5",
+            "textColor": "#60b79c"
+        }
+    },
+    "buttonNoOutlineCtaOnDefault": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "textColor": "#60b79c"
+        },
+        "disabled": {
+            "background": null,
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonNoOutlineOnDefault": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "textColor": "#000000"
+        },
+        "disabled": {
+            "background": null,
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonNoOutlineOnLogin": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": null,
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonOutlineOnDefault": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "borderColor": "#000000",
+            "textColor": "#000000"
+        },
+        "disabled": {
+            "background": null,
+            "borderColor": "#d5d5d5",
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonOutlineOnLogin": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "borderColor": "#FFFFFF",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": null,
+            "backgroundColor": "#d5d5d5",
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonOutlineOnSecondary": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "borderColor": "#FFFFFF",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": null,
+            "borderColor": "#d5d5d5",
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonOutlineOnPrimary": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "borderColor": "#FFFFFF",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": null,
+            "borderColor": "#d5d5d5",
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonOutlineOnRdc": {
+        "cornerRadius": 2,
+        "base": {
+            "background": null,
+            "borderColor": "#000000",
+            "textColor": "#000000"
+        },
+        "disabled": {
+            "background": null,
+            "borderColor": "#d5d5d5",
+            "textColor": "#d5d5d5"
+        }
+    },
+    "buttonOutlineOnRdcUse": {
+       "cornerRadius": 2,
+       "base": {
+         "background": "#000000",
+         "borderColor": "#000000",
+         "textColor": "#60B79C"
+       },
+       "disabled": {
+         "background": null,
+         "borderColor": "#d5d5d5",
+         "textColor": "#d5d5d5"
+       }
+     },
+    "buttonOnPrimary": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#FFFFFF",
+            "textColor": "#127fa3"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#d5d5d5",
+            "textColor": "#127fa3"
+        }
+    },
+    "buttonPrimary": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#127fa3",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#0f6d8c",
+            "textColor": "#FFFFFF"
+        }
+    },
+    "buttonCtaOnFeatureTour": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#60b79c",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#4fae91",
+            "textColor": "#FFFFFF"
+        }
+    },
+    "buttonSecondary": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#008285",
+            "textColor": "#FFFFFF"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#007376",
+            "textColor": "#FFFFFF"
+        }
+    },
+    "buttonWhite": {
+        "cornerRadius": 2,
+        "base": {
+            "background": "#FFFFFF",
+            "borderColor": "#000000",
+            "textColor": "#60b79c"
+        },
+        "disabled": {
+            "background": "#bcbcbc",
+            "textColor": "#d5d5d5"
+        },
+        "pressed": {
+            "background": "#60b79c",
+            "textColor": "#FFFFFF"
+        }
+    },
+    "centerIconDefault": {
+        "background": {
+            "startColor": "#008285",
+            "stopColor": "#007376"
+        },
+        "color": "#FFFFFF"
+    },
+    "centerIconSecondary": {
+        "background": {
+            "startColor": "#008285",
+            "stopColor": "#007376"
+        },
+        "color": "#FFFFFF"
+    },
+    "centerIconOnPrimary": {
+        "background": null,
+        "color": "#FFFFFF"
+    },
+    "checkboxOnDefault": {
+        "checkmarkColor": "#FFFFFF",
+        "innerColor": "#d5d5d5"
+    },
+    "checkboxOnPrimary": {
+        "checkmarkColor": "#000000",
+        "innerColor": "#FFFFFF"
+    },
+    "checkboxNoFillSolidCheckmarkOnDefault": {
+        "checkmarkColor": "#0d8751",
+        "borderColor": "#000000",
+        "innerColor": "#F6F6F6"
+    },
+    "h1Cta": {
+        "textColor": "#60b79c",
+        "textSize": 18
+    },
+    "h1Error": {
+        "textColor": "#d32f2f",
+        "textSize": 18
+    },
+    "h1OnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 18
+    },
+    "h1OnDefault": {
+        "textColor": "#000000",
+        "textSize": 18
+    },
+    "h1OnDefaultLight": {
+        "textSize": 18,
+        "textColor": "#595959"
+    },
+    "h1OnLogin": {
+        "textColor": "#FFFFFF",
+        "textSize": 18
+    },
+    "h1OnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 18
+    },
+    "h1OnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 18
+    },
+    "h2Cta": {
+        "textColor": "#60b79c",
+        "textSize": 14
+    },
+    "h2Error": {
+        "textColor": "#d32f2f",
+        "textSize": 14
+    },
+    "h2OnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h2OnDefault": {
+        "textColor": "#000000",
+        "textSize": 14
+    },
+    "h2OnDefaultLight": {
+        "textSize": 14,
+        "textColor": "#595959"
+    },
+    "h2OnLogin": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h2OnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h2OnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h3Cta": {
+        "textColor": "#60b79c",
+        "textSize": 14
+    },
+    "h3Error": {
+        "textColor": "#d32f2f",
+        "textSize": 14
+    },
+    "h3OnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h3OnDefault": {
+        "textColor": "#000000",
+        "textSize": 14
+    },
+    "h3OnDefaultLight": {
+        "textSize": 14,
+        "textColor": "#595959"
+    },
+    "h3OnLogin": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h3OnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h3OnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 14
+    },
+    "h4Cta": {
+        "textColor": "#60b79c",
+        "textSize": 12
+    },
+    "h4Error": {
+        "textColor": "#d32f2f",
+        "textSize": 12
+    },
+    "h4OnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 12
+    },
+    "h4OnDefault": {
+        "textColor": "#000000",
+        "textSize": 12
+    },
+    "h4OnDefaultLight": {
+        "textSize": 12,
+        "textColor": "#595959"
+    },
+    "h4OnLogin": {
+        "textColor": "#FFFFFF",
+        "textSize": 12
+    },
+    "h4OnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 12
+    },
+    "h4OnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 12
+    },
+    "h5Cta": {
+        "textColor": "#60b79c",
+        "textSize": 11
+    },
+    "h5Error": {
+        "textColor": "#d32f2f",
+        "textSize": 11
+    },
+    "h5OnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 11
+    },
+    "h5OnDefault": {
+        "textColor": "#000000",
+        "textSize": 11
+    },
+    "h5OnDefaultLight": {
+        "textSize": 11,
+        "textColor": "#595959"
+    },
+    "h5OnLogin": {
+        "textColor": "#FFFFFF",
+        "textSize": 11
+    },
+    "h5OnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 11
+    },
+    "h5OnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 11
+    },
+    "largeTextCta": {
+        "textColor": "#60b79c",
+        "textSize": 50
+    },
+    "largeTextError": {
+        "textColor": "#d32f2f",
+        "textSize": 50
+    },
+    "largeTextOnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 50
+    },
+    "largeTextOnDefault": {
+        "textColor": "#000000",
+        "textSize": 50
+    },
+    "largeTextOnDefaultLight": {
+        "textSize": 50.0,
+        "textColor": "#595959"
+    },
+    "largeTextOnLogin": {
+        "textColor": "#FFFFFF",
+        "textSize": 50
+    },
+    "largeTextOnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 50
+    },
+    "largeTextOnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 50
+    },
+    "largeTextInputOnPrimary": {
+        "textColor": "#FFFFFF"
+    },
+    "largeTextInputOnDefault": {
+        "textColor": "#000000"
+    },
+    "imageCta": {
+        "tintColor": "#60b79c"
+    },
+    "imageOnCta": {
+        "tintColor": "#FFFFFF"
+    },
+    "imageOnDefault": {
+        "tintColor": "#000000"
+    },
+    "imageOnLogin": {
+        "tintColor": "#FFFFFF"
+    },
+    "imageOnPrimary": {
+        "tintColor": "#FFFFFF"
+    },
+    "imageOnTextInput": {
+        "tintColor": "#000000"
+    },
+    "navigationBarOnCta": {
+        "backgroundColor": "#60b79c",
+        "tintColor": "#FFFFFF"
+    },
+    "navigationBarOnDefault": {
+        "backgroundColor": "#FFFFFF",
+        "tintColor": "#000000"
+    },
+    "navigationBarOnPrimary": {
+        "backgroundColor": "#127fa3",
+        "tintColor": "#FFFFFF"
+    },
+    "navigationBarOnSecondary": {
+        "backgroundColor": "#008285",
+        "tintColor": "#FFFFFF"
+    },
+    "navigationTitleOnCta": {
+        "textColor": "#FFFFFF",
+        "textSize": 17
+    },
+    "navigationTitleOnDefault": {
+        "textColor": "#000000",
+        "textSize": 17
+    },
+    "navigationTitleOnPrimary": {
+        "textColor": "#FFFFFF",
+        "textSize": 17
+    },
+    "navigationTitleOnSecondary": {
+        "textColor": "#FFFFFF",
+        "textSize": 17
+    },
+    "profileIconOnNavigation": {
+        "indicatorColor": "#FFFFFF"
+    },
+    "progressBarPrimary": {
+        "color": "#127fa3"
+    },
+    "radioButtonCta": {
+        "innerColor": "#60b79c",
+        "outlineColor": "#d5d5d5"
+    },
+    "sectionHeaderOnDefault": {
+        "background": "#FFFFFF",
+        "label": {
+            "textColor": "#000000",
+            "textSize": 14
+        }
+    },
+    "sectionHeaderOnPrimary": {
+        "background": null,
+        "label": {
+            "textColor": "#FFFFFF",
+            "textSize": 14
+        }
+    },
+    "segmentedControlPrimaryOnDefault": {
+        "color": "#127fa3"
+    },
+    "selectionBoxOnSecondary": {
+        "titleLabel": {
+            "textColor": "#FFFFFF",
+            "textSize": 14
+        },
+        "valueLabel": {
+            "textColor": "#FFFFFF",
+            "textSize": 14
+        },
+        "valueView": {
+            "background": "#007376"
+        }
+    },
+    "shimmeringViewOnDefault": {
+        "background": "#d5d5d5"
+    },
+    "shimmeringViewOnSecondary": {
+        "background": "#007376"
+    },
+    "stackedMenuOnDefault": {
+        "background": {
+            "startColor": "#127fa3",
+            "stopColor": "#0f6d8c"
+        },
+        "borderColor": null,
+        "subtitleTextColor": "#FFFFFF",
+        "subtitleTextSize": 14,
+        "titleTextColor": "#FFFFFF",
+        "iconColor": "#FFFFFF",
+        "titleTextSize": 18
+    },
+    "stackedMenuOnDefaultAlternate": {
+        "titleTextColor": "#000000",
+        "borderColor": "#000000",
+        "subtitleTextSize": 14,
+        "background": "#F6F6F6",
+        "subtitleTextColor": "#000000",
+        "iconColor": "#0d8751",
+        "titleTextSize": 18
+    },
+    "stackedMenuOnPrimary": {
+        "background": null,
+        "borderColor": "#FFFFFF",
+        "subtitleTextColor": "#FFFFFF",
+        "subtitleTextSize": 14,
+        "titleTextColor": "#FFFFFF",
+        "iconColor": "#FFFFFF",
+        "titleTextSize": 18
+    },
+    "statusBarOnCta": {
+        "hasLightText": true
+    },
+    "statusBarOnDefault": {
+        "hasLightText": false
+    },
+    "statusBarOnLogin": {
+        "hasLightText": true
+    },
+    "statusBarOnPrimary": {
+        "hasLightText": true
+    },
+    "subNavCtaOnDefault": {
+    },
+    "switchOnDefault": {
+        "onTintColor": "#127fa3",
+        "outlineColor": "#FFFFFF",
+        "thumbTintColor": "#FFFFFF"
+    },
+    "switchOnPrimary": {
+        "onTintColor": "#127fa3",
+        "outlineColor": "#d5d5d5",
+        "thumbTintColor": "#FFFFFF"
+    },
+    "tabBarPrimary": {
+        "backgroundColor": "#127fa3",
+        "itemColor": "#FFFFFF",
+        "unselectedItemColor": "#ffffff99"
+    },
+    "textInputOnDefault": {
+        "textColor": "#000000"
+    },
+    "textInputOnLogin": {
+      "textColor": "#000000",
+      "tintColor": "#127fa3"
+    },
+    "toolbarOnPrimary": {
+        "backgroundColor": "#127fa3",
+        "color": "#FFFFFF"
+    },
+    "tableViewOnDefault": {
+        "backgroundColor": "#FFFFFF",
+        "separatorColor": "#000000"
+    },
+    "tableViewOnPrimary": {
+        "backgroundColor": null,
+        "separatorColor": "#FFFFFF"
+    },
+    "titledTextFieldOnSecondary": {
+        "titleLabel": {
+            "textColor": "#FFFFFF",
+            "textSize": 14
+        },
+        "textField": {
+            "textColor": "#FFFFFF",
+            "borderStyle": 0,
+            "tintColor": "#FFFFFF"
+        },
+        "textFieldContainerView": {
+            "background": "#007376"
+        }
+    },
+    "accountCircleOnDefault": {
+        "background": "#127fa3",
+        "label": {
+            "textColor": "#FFFFFF",
+            "textSize": 18
+        }
+    },
+    "pageControlOnFeatureTour": {
+        "defaultColor": "#d5d5d5",
+        "selectedColor": "#127fa3"
+    },
+    "linkButtonsOnLogin": {
+        "textSize": 14,
+        "textColor": "#0079c8",
+        "separatorColor": "#000000"
+    }
+}

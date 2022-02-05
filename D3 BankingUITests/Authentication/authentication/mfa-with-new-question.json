@@ -1,0 +1,30 @@
+{
+    "isAuthenticated": false,
+    "challenge": {
+        "type": "MFA_ENROLL_QUESTION",
+        "items": [
+            {
+                "type": "NEW_QUESTION",
+                "options": [
+                    {
+                        "key": "disliked_food",
+                        "value": "What is the food you least liked as a child?"
+                    },
+                    {
+                        "key": "name_of_first_plush_toy",
+                        "value": "What is the name of your first stuffed animal?"
+                    },
+                    {
+                        "key": "first_award",
+                        "value": "What did you earn your first medal or award for?"
+                    }
+                ]
+            }
+        ]
+    },
+    "token": "00c1TAh8UY8Bv2D-fE69zjWVNgogHLsgTrtotkS3xR",
+    "previousItems": []
+}
+
+
+

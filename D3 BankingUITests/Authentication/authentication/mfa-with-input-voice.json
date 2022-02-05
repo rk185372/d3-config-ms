@@ -1,0 +1,43 @@
+{
+    "challenge": {
+        "type": "MFA_ENROLL_VOICE",
+        "items": [
+            {
+                "type": "NEW_VOICE",
+                "id": 1234,
+                "value": "2345678910",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            },
+            {
+                "type": "NEW_VOICE",
+                "id": 0,
+                "value": "",
+                "field": {
+                    "type": "INPUT",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ".*@.*"
+                }
+            },
+            {
+                "type": "ACTION",
+                "id": 2,
+                "value": "restart",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            }
+        ]
+    },
+    "isAuthenticated": false,
+    "token": "token",
+    "previousItems": []
+}

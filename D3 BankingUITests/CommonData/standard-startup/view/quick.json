@@ -1,0 +1,24 @@
+{
+	"navItems": {
+		"NavItem:0": {
+			"item": "Bank/ATM Finder",
+			"url": "nativeGeo"
+		},
+		"NavItem:1": {
+			"item": "Lost or Stolen Debit Card",
+			"url": "https://www.google.com"
+		},
+		"NavItem:2": {
+			"item": "Contact Us",
+			"phone": "555-555-5555"
+		},
+		"NavItem:3": {
+			"item": "Support",
+			"url": "https://www.google.com"
+		},
+		"NavItem:4": {
+			"item": "Website",
+			"url": "https://www.google.com"
+		}
+	}
+}

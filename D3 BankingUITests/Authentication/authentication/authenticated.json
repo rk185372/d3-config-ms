@@ -1,0 +1,14 @@
+{
+	"previousItems": [],
+	"isAuthenticated": true,
+	"challenge": {
+		"type": "USER_NAME_PASSWORD",
+		"items": [{
+			"type": "USER_NAME",
+			"response": "samualadamsiii"
+		}, {
+			"type": "PASSWORD",
+			"response": "password"
+		}]
+	}
+}

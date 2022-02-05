@@ -1,0 +1,341 @@
+{
+  "activeProfileType": "CONSUMER",
+  "csrfToken": "43238e5f9f27cdbcd3e6eb975572a7694b629adef1c0419a172086658f3169f2",
+  "estatementPromptAccounts": [],
+  "paperlessPromptAccounts": [],
+  "accountNoticePromptAccounts": [],
+  "promptForElectronicTaxDocuments": false,
+  "profiles": [
+    {
+      "loginId": "johnsmith",
+      "enrolled": true,
+      "previousLoginIsoTimestamp": "2020-09-03T16:30:43.000Z",
+      "firstName": "John1",
+      "middleName": "R",
+      "lastName": "Smith",
+      "taxIdExists": true,
+      "dateOfBirth": "1960-06-29",
+      "emailAddresses": [
+        {
+          "id": 92,
+          "type": "EMAIL",
+          "label": "PRIMARY",
+          "value": "Coreqa11-john.smith@d3banking.com",
+          "primary": true,
+          "outOfBand": true,
+          "readOnly": false,
+          "verified": true,
+          "alternate": false,
+          "subType": "PRIMARY"
+        },
+        {
+          "id": 93,
+          "type": "EMAIL",
+          "label": "ALTERNATE",
+          "value": "john.smith1@lodosoftware.com",
+          "primary": false,
+          "outOfBand": false,
+          "readOnly": false,
+          "verified": false,
+          "alternate": true,
+          "subType": "ALTERNATE"
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "id": 94,
+          "type": "PHONE",
+          "label": "MOBILE",
+          "value": "4023800642",
+          "primary": false,
+          "outOfBand": false,
+          "readOnly": false,
+          "verified": false,
+          "sms": true,
+          "subType": "MOBILE"
+        },
+        {
+          "id": 95,
+          "type": "PHONE",
+          "label": "PRIMARY",
+          "value": "4020039406",
+          "primary": false,
+          "outOfBand": false,
+          "readOnly": true,
+          "verified": false,
+          "sms": true,
+          "subType": "PRIMARY"
+        },
+        {
+          "id": 96,
+          "type": "PHONE",
+          "label": "WORK",
+          "value": "4025151139",
+          "primary": false,
+          "outOfBand": false,
+          "readOnly": false,
+          "verified": true,
+          "sms": true,
+          "subType": "WORK"
+        }
+      ],
+      "inbox": {
+        "id": 90,
+        "type": "INBOX",
+        "label": "INBOX",
+        "value": "Inbox",
+        "primary": false,
+        "outOfBand": false,
+        "readOnly": false,
+        "verified": false
+      },
+      "push": {
+        "id": 91,
+        "type": "PUSH",
+        "label": "PUSH",
+        "value": "Push",
+        "primary": false,
+        "outOfBand": false,
+        "readOnly": false,
+        "verified": false
+      },
+      "mailingAddress": {
+        "line1": "11724 Fretz Rd",
+        "city": "Laurinburg",
+        "state": "NC",
+        "countryCode": "US",
+        "postalCode": "28352",
+        "latitude": 1.0,
+        "longitude": 1.0
+      },
+      "physicalAddress": {
+        "line1": "6938 N 143rd Avenue",
+        "city": "Detroit",
+        "state": "MN",
+        "countryCode": "US",
+        "postalCode": "48226",
+        "latitude": 1.0,
+        "longitude": 1.0
+      },
+      "attributes": {},
+      "validEmailTypes": [
+        {
+          "interfaceName": "PRIMARY",
+          "internalName": "PRIMARY",
+          "order": 1,
+          "repeatable": false,
+          "destinationType": "EMAIL"
+        },
+        {
+          "interfaceName": "ALTERNATE",
+          "internalName": "ALTERNATE",
+          "order": 2,
+          "repeatable": false,
+          "destinationType": "EMAIL"
+        },
+        {
+          "interfaceName": "ADDITIONAL",
+          "internalName": "ADDITIONAL",
+          "order": 3,
+          "repeatable": true,
+          "destinationType": "EMAIL"
+        }
+      ],
+      "validPhoneTypes": [
+        {
+          "interfaceName": "HOME",
+          "internalName": "HOME",
+          "repeatable": false,
+          "destinationType": "PHONE",
+          "mobileType": false
+        },
+        {
+          "interfaceName": "MOBILE",
+          "internalName": "MOBILE",
+          "repeatable": false,
+          "destinationType": "PHONE",
+          "mobileType": true
+        },
+        {
+          "interfaceName": "WORK",
+          "internalName": "WORK",
+          "repeatable": false,
+          "destinationType": "PHONE",
+          "mobileType": false
+        }
+      ],
+
+      "validProfileModes": ["CONSUMER"],
+      "type": "PRIMARY",
+      "servicePermissions": {
+        "money-movement.schedule": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "money-movement.external-p2p": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "money-movement.payments": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "settings.usermanagement": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "settings.rules": {
+          "access": ["READ", "DELETE"]
+        },
+        "messages.secure": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "money-movement.zelle": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "settings.security": {
+          "access": ["READ", "UPDATE"]
+        },
+        "self-service": {
+          "access": ["READ"]
+        },
+        "settings.accounts": {
+          "access": ["READ", "UPDATE"]
+        },
+        "accounts.mrdc": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "dashboard": {
+          "access": []
+        },
+        "money-movement.sso-p2p": {
+          "access": []
+        },
+        "settings.categories": {
+          "access": ["READ", "DELETE", "UPDATE"]
+        },
+        "accounts.documents.tax": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "settings": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "accounts.account-opening": {
+          "access": []
+        },
+        "money-movement.payment-approvals": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "planning.goals": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "transactions": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "transactions.categorization": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "dashboard.manage": {
+          "access": []
+        },
+        "money-movement.ebills": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "planning": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "accounts.documents.notices": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "settings.profile": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "messages": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "settings.dashboard": {
+          "access": ["READ", "UPDATE"]
+        },
+        "settings.approvals": {
+          "access": []
+        },
+        "money-movement.wire": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "dashboard.plan": {
+          "access": []
+        },
+        "money-movement": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "settings.alerts": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "accounts.stop-payment": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "money-movement.transfer-now.enroll": {
+          "access": []
+        },
+        "self-service.faq": {
+          "access": ["READ"]
+        },
+        "money-movement.external-a2a": {
+          "access": ["READ"]
+        },
+        "money-movement.recipients": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "planning.budget": {
+          "access": ["READ", "DELETE", "CREATE", "UPDATE"]
+        },
+        "user.security.reset-mfa": {
+          "access": []
+        },
+        "money-movement.multiple": {
+          "access": ["READ", "CREATE"]
+        },
+        "self-service.request-forms": {
+          "access": []
+        },
+        "transactions.positive-pay": {
+          "access": []
+        },
+        "accounts.documents": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "settings.mobile": {
+          "access": ["READ", "DELETE", "UPDATE"]
+        },
+        "money-movement.enroll": {
+          "access": []
+        },
+        "messages.notices": {
+          "access": ["READ", "DELETE"]
+        },
+        "accounts.documents.estatements": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "accounts.check-order": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "settings.business.profile": {
+          "access": []
+        },
+        "accounts": {
+          "access": ["READ", "UPDATE", "CREATE", "DELETE"]
+        },
+        "money-movement.ach-upload": {
+          "access": []
+        }
+      },
+      "profileType": "CONSUMER",
+      "authorizedApprovalTypes": [],
+      "previousLogin": "Thursday, Sep 03, 2020 4:30 PM GMT"
+    }
+  ],
+  "rdcAllowed": false,
+  "serverTime": "2020-09-03T16:43:12.417Z",
+  "startupKey": 97,
+  "syncOps": [],
+  "tos": [],
+  "setupSteps": ["setup.security-questions.required"],
+  "validProfileTypes": ["CONSUMER"],
+  "selectedProfileIndex": 0
+}

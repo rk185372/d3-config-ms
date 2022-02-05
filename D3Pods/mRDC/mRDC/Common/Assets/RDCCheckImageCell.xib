@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="327" id="xpy-Dd-Sb7" customClass="RDCCheckImageCell" customModule="mRDC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="327"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xpy-Dd-Sb7" id="InL-2c-ufq">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="327"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="L7u-c5-R9J">
+                        <rect key="frame" x="0.0" y="10" width="375" height="307"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGt-Pv-LWZ" customClass="StackedMenuView" customModule="ComponentKit">
+                                <rect key="frame" x="8" y="0.0" width="359" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="jnA-dr-JXf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="stackedMenuOnDefaultAlternate"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FU-3I-h76" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="8" y="93" width="359" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h3OnDefault"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="rdc.depositAmount.signingDepositCheckInstructionLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gJs-T3-807">
+                                <rect key="frame" x="8" y="126.5" width="359" height="92"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="oiD-Re-P4i">
+                                        <rect key="frame" x="0.0" y="1" width="175.5" height="90"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PhK-RX-RO0">
+                                                <rect key="frame" x="1" y="0.0" width="174" height="65.5"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Front" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyp-HB-vj1" customClass="UILabelComponent" customModule="ComponentKit">
+                                                <rect key="frame" x="68" y="69.5" width="40" height="20.5"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="dashboard.widget.deposit.detail.front"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="TpG-vd-KI2">
+                                        <rect key="frame" x="183.5" y="2.5" width="175.5" height="87.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eza-MU-QfW">
+                                                <rect key="frame" x="1" y="0.0" width="174" height="65.5"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1b-sT-QXM" customClass="UILabelComponent" customModule="ComponentKit">
+                                                <rect key="frame" x="69" y="69.5" width="38" height="18"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="18" id="E0R-4h-EPp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="dashboard.widget.deposit.detail.back"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="130" id="PDa-Fy-2B6"/>
+                                    <constraint firstItem="PhK-RX-RO0" firstAttribute="height" secondItem="Eza-MU-QfW" secondAttribute="height" id="b3w-ha-6C6"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcf-O1-H0U" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="231.5" width="375" height="20.5"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="rdc.depositAmount.editTextHint"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VRV-z1-kHc" customClass="RDCCurrencyEntryTextField" customModule="mRDC" customModuleProvider="target">
+                                <rect key="frame" x="8" y="265" width="359" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="7cV-hU-qIM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="largeTextInputOnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gJs-T3-807" secondAttribute="trailing" constant="8" id="1HB-rm-Uds"/>
+                            <constraint firstAttribute="trailing" secondItem="VRV-z1-kHc" secondAttribute="trailing" constant="8" id="1yV-hw-Z47"/>
+                            <constraint firstItem="VRV-z1-kHc" firstAttribute="leading" secondItem="L7u-c5-R9J" secondAttribute="leading" constant="8" id="Rt0-1t-z7f"/>
+                            <constraint firstAttribute="trailing" secondItem="eGt-Pv-LWZ" secondAttribute="trailing" constant="8" id="aYs-PG-N4e"/>
+                            <constraint firstItem="lcf-O1-H0U" firstAttribute="leading" secondItem="L7u-c5-R9J" secondAttribute="leading" id="aoP-S3-5ff"/>
+                            <constraint firstAttribute="trailing" secondItem="9FU-3I-h76" secondAttribute="trailing" constant="8" id="cOa-h2-MJW"/>
+                            <constraint firstItem="9FU-3I-h76" firstAttribute="leading" secondItem="L7u-c5-R9J" secondAttribute="leading" constant="8" id="eao-dY-yyT"/>
+                            <constraint firstAttribute="trailing" secondItem="lcf-O1-H0U" secondAttribute="trailing" id="mZW-Iz-LoN"/>
+                            <constraint firstItem="eGt-Pv-LWZ" firstAttribute="leading" secondItem="L7u-c5-R9J" secondAttribute="leading" constant="8" id="rdy-1j-B7W"/>
+                            <constraint firstItem="gJs-T3-807" firstAttribute="leading" secondItem="L7u-c5-R9J" secondAttribute="leading" constant="8" id="uT7-HR-Yjj"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="L7u-c5-R9J" firstAttribute="top" secondItem="InL-2c-ufq" secondAttribute="top" constant="10" id="E84-8Y-q2j"/>
+                    <constraint firstItem="L7u-c5-R9J" firstAttribute="leading" secondItem="InL-2c-ufq" secondAttribute="leading" id="TO2-ih-SXZ"/>
+                    <constraint firstAttribute="bottom" secondItem="L7u-c5-R9J" secondAttribute="bottom" constant="10" id="aFF-3N-QxG"/>
+                    <constraint firstAttribute="trailing" secondItem="L7u-c5-R9J" secondAttribute="trailing" id="f0v-0A-aa1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="amountTextField" destination="VRV-z1-kHc" id="ktE-mo-at8"/>
+                <outlet property="backImageView" destination="Eza-MU-QfW" id="9no-2T-6bL"/>
+                <outlet property="frontImageView" destination="PhK-RX-RO0" id="4Do-aa-R0z"/>
+                <outlet property="imageStackView" destination="gJs-T3-807" id="fp4-ra-H3a"/>
+                <outlet property="instructionLabel" destination="9FU-3I-h76" id="lzC-iv-P2v"/>
+                <outlet property="stackedMenuView" destination="eGt-Pv-LWZ" id="25V-uL-jdZ"/>
+            </connections>
+            <point key="canvasLocation" x="-269.60000000000002" y="-95.802098950524751"/>
+        </tableViewCell>
+    </objects>
+</document>

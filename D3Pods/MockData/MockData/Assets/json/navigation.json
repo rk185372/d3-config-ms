@@ -1,0 +1,20 @@
+{
+	"navItems": [{
+		"title": "Accounts",
+		"extendedTitle": "Accounts",
+		"type": "ACCOUNT"
+	}, {
+		"title": "Pay/Transfer",
+		"extendedTitle": "Payments and Transfers",
+		"type": "MM"
+	}, {
+		"title": "Deposit",
+		"extendedTitle": "Deposit",
+		"type": "MRDC"
+	}, {
+		"title": "Messages",
+		"extendedTitle": "Messages",
+		"type": "MESSAGES"
+	}],
+	"headerItems": []
+}

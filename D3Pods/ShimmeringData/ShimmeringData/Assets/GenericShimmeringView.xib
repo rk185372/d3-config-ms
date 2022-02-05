@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GenericShimmeringView" customModule="ShimmeringData" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="33"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="7el-Ca-8V7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="33"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSn-On-PJv" customClass="FBShimmeringView">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDz-u8-aii" customClass="UIViewComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="5"/>
+                                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="hDz-u8-aii" firstAttribute="leading" secondItem="mSn-On-PJv" secondAttribute="leading" id="4oB-1J-Vt1"/>
+                                <constraint firstAttribute="width" constant="200" id="KND-6u-llP"/>
+                                <constraint firstAttribute="height" constant="5" id="USQ-na-yar"/>
+                                <constraint firstItem="hDz-u8-aii" firstAttribute="top" secondItem="mSn-On-PJv" secondAttribute="top" id="h4F-Q5-Wue"/>
+                                <constraint firstAttribute="trailing" secondItem="hDz-u8-aii" secondAttribute="trailing" id="mCH-Ub-GAa"/>
+                                <constraint firstAttribute="bottom" secondItem="hDz-u8-aii" secondAttribute="bottom" id="xsb-ZH-afa"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YX9-0x-1Sg" customClass="FBShimmeringView">
+                            <rect key="frame" x="0.0" y="14" width="355" height="5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNM-am-haI" customClass="UIViewComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="0.0" width="355" height="5"/>
+                                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="TNM-am-haI" secondAttribute="bottom" id="3fx-fe-Sqh"/>
+                                <constraint firstItem="TNM-am-haI" firstAttribute="leading" secondItem="YX9-0x-1Sg" secondAttribute="leading" id="BQ2-XD-aRA"/>
+                                <constraint firstItem="TNM-am-haI" firstAttribute="top" secondItem="YX9-0x-1Sg" secondAttribute="top" id="VVt-CO-3UW"/>
+                                <constraint firstAttribute="height" constant="5" id="rTz-ur-smT"/>
+                                <constraint firstAttribute="trailing" secondItem="TNM-am-haI" secondAttribute="trailing" id="w2U-wh-9Ny"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97K-VR-Kzh" customClass="FBShimmeringView">
+                            <rect key="frame" x="0.0" y="28" width="330" height="5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Djw-RA-xUg" customClass="UIViewComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="0.0" width="330" height="5"/>
+                                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Djw-RA-xUg" secondAttribute="bottom" id="BXY-ET-Xcn"/>
+                                <constraint firstItem="Djw-RA-xUg" firstAttribute="top" secondItem="97K-VR-Kzh" secondAttribute="top" id="Dnr-Ql-mLl"/>
+                                <constraint firstAttribute="trailing" secondItem="Djw-RA-xUg" secondAttribute="trailing" id="c0c-wj-Mua"/>
+                                <constraint firstItem="Djw-RA-xUg" firstAttribute="leading" secondItem="97K-VR-Kzh" secondAttribute="leading" id="sYx-jC-OCe"/>
+                                <constraint firstAttribute="height" constant="5" id="tmU-n4-4TM"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="97K-VR-Kzh" secondAttribute="trailing" constant="45" id="NdR-uB-oTr"/>
+                        <constraint firstItem="97K-VR-Kzh" firstAttribute="leading" secondItem="7el-Ca-8V7" secondAttribute="leading" id="e3e-7Y-36g"/>
+                        <constraint firstItem="YX9-0x-1Sg" firstAttribute="leading" secondItem="7el-Ca-8V7" secondAttribute="leading" id="vBA-qX-GTv"/>
+                        <constraint firstAttribute="trailing" secondItem="YX9-0x-1Sg" secondAttribute="trailing" constant="20" id="y0V-Cl-Cz8"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7el-Ca-8V7" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="rDe-qG-fVL"/>
+                <constraint firstItem="7el-Ca-8V7" firstAttribute="left" secondItem="iN0-l3-epB" secondAttribute="left" id="uUo-YQ-KdN"/>
+                <constraint firstItem="7el-Ca-8V7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="wHf-ZO-ICJ"/>
+                <constraint firstItem="7el-Ca-8V7" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ycf-BU-DQk"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="stackView" destination="7el-Ca-8V7" id="DS1-If-GL3"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="-119.1904047976012"/>
+        </view>
+    </objects>
+</document>

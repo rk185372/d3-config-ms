@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="DmJ-5x-Inu" customClass="SelectionBox" customModule="ComponentKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="298"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mQs-EQ-2JP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="298"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eX-Ob-ura" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnSecondary"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bu7-Ob-nEr" customClass="UIViewComponent" customModule="ComponentKit" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="25.5" width="375" height="85.5"/>
+                            <subviews>
+                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AN-n0-fey" customClass="UILabelComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="20" y="10" width="335" height="65.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnSecondary"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="5AN-n0-fey" firstAttribute="top" secondItem="Bu7-Ob-nEr" secondAttribute="top" constant="10" id="2i7-9b-vEL"/>
+                                <constraint firstAttribute="bottom" secondItem="5AN-n0-fey" secondAttribute="bottom" constant="10" id="PIu-ma-XnR"/>
+                                <constraint firstItem="5AN-n0-fey" firstAttribute="leading" secondItem="Bu7-Ob-nEr" secondAttribute="leading" constant="20" id="fEj-eM-pCy"/>
+                                <constraint firstAttribute="trailing" secondItem="5AN-n0-fey" secondAttribute="trailing" constant="20" id="w4F-d2-Zbb"/>
+                            </constraints>
+                        </view>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEt-6c-MSn">
+                            <rect key="frame" x="0.0" y="116" width="375" height="182"/>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IHe-36-k7h" firstAttribute="bottom" secondItem="mQs-EQ-2JP" secondAttribute="bottom" id="Ctp-BI-9Al"/>
+                <constraint firstItem="IHe-36-k7h" firstAttribute="trailing" secondItem="mQs-EQ-2JP" secondAttribute="trailing" id="UIc-Pa-uyz"/>
+                <constraint firstItem="mQs-EQ-2JP" firstAttribute="top" secondItem="IHe-36-k7h" secondAttribute="top" id="XnS-kf-ESZ"/>
+                <constraint firstItem="mQs-EQ-2JP" firstAttribute="leading" secondItem="IHe-36-k7h" secondAttribute="leading" id="scM-2G-KY5"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="IHe-36-k7h"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundSecondary"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="pickerView" destination="DEt-6c-MSn" id="QM4-2V-PcO"/>
+                <outlet property="titleLabel" destination="0eX-Ob-ura" id="gHN-Sl-Eqx"/>
+                <outlet property="valueLabel" destination="5AN-n0-fey" id="31L-Qh-ldW"/>
+                <outlet property="valueView" destination="Bu7-Ob-nEr" id="nkg-gE-WUN"/>
+            </connections>
+            <point key="canvasLocation" x="34.399999999999999" y="-77.361319340329842"/>
+        </view>
+    </objects>
+</document>

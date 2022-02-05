@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="76" id="j42-vO-Ma1" customClass="QuestionsHeaderView" customModule="SecurityQuestions" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j42-vO-Ma1" id="Hsk-5N-Hkb">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="75.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJu-Hw-ZMS" customClass="UILabelComponent" customModule="ComponentKit">
+                        <rect key="frame" x="20" y="30" width="335" height="15.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="credentials.create-security-questions.description"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CJu-Hw-ZMS" firstAttribute="centerX" secondItem="Hsk-5N-Hkb" secondAttribute="centerX" id="9Qd-yC-4Mo"/>
+                    <constraint firstItem="CJu-Hw-ZMS" firstAttribute="top" secondItem="Hsk-5N-Hkb" secondAttribute="top" constant="30" id="DGb-tT-VFD"/>
+                    <constraint firstItem="CJu-Hw-ZMS" firstAttribute="leading" secondItem="Hsk-5N-Hkb" secondAttribute="leading" constant="20" id="EKr-7I-z3E"/>
+                    <constraint firstAttribute="trailing" secondItem="CJu-Hw-ZMS" secondAttribute="trailing" constant="20" id="Vx8-NX-bjO"/>
+                    <constraint firstAttribute="bottom" secondItem="CJu-Hw-ZMS" secondAttribute="bottom" constant="30" id="vhM-Fb-e92"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="CJu-Hw-ZMS" id="dgB-kz-d9D"/>
+            </connections>
+            <point key="canvasLocation" x="48.799999999999997" y="38.680659670164921"/>
+        </tableViewCell>
+    </objects>
+</document>

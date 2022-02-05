@@ -1,0 +1,12 @@
+{
+    "launchPage.snapshot.button.label": "Snapshot",
+    "launchPage.snapshot.detail.account-information": "Account Information",
+    "launchPage.snapshot.detail.available": "Available",
+    "launchPage.snapshot.detail.ledger": "Ledger",
+    "launchPage.snapshot.detail.additional": "Additional",
+    "launchPage.snapshot.detail.balance-description": "__type__ Balance as of __date__",
+    "launchPage.snapshot.detail.available-as-of": "Available as of __date__",
+    "launchPage.snapshot.detail.recent-transactions": "10 Most recent transactions of the last 30 days",
+    "launchPage.snapshot.detail.enable-balance": "Your account balance is not enabled at this time. Please log in and update account settings for those accounts you would like displayed.",
+    "launchPage.snapshot.no-transactions": "Your transactions are not enabled at this time. Please log in and update account settings for those transactions you would like displayed."
+}

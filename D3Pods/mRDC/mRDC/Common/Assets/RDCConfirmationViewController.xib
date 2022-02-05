@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Karla-Regular.fd3f938a.ttf">
+            <string>Karla-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDCConfirmationViewController" customModule="mRDC" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationTextStyle" value="navigationTitleOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationStyle" value="navigationBarOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="titleL10nKey" value="dashboard.widget.deposit-now"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="bottomDividerView" destination="pJS-60-pq9" id="pBs-Pf-3V4"/>
+                <outlet property="bottomDividerViewHeightConstraint" destination="Byz-vc-EWi" id="5kr-Hq-7cf"/>
+                <outlet property="depositAmountLabel" destination="Cet-zo-U95" id="M8H-a2-djr"/>
+                <outlet property="depositDetailLabel" destination="QMS-yd-1RC" id="CJz-xf-KSb"/>
+                <outlet property="depositTitleLabel" destination="b89-F1-PIe" id="yEm-RD-zRD"/>
+                <outlet property="disclosureWebView" destination="hxX-pB-qMW" id="caD-Jc-sea"/>
+                <outlet property="middleDividerView" destination="Mzu-yU-WIU" id="cvm-QQ-iZz"/>
+                <outlet property="middleDividerViewHeightConstraint" destination="P9C-E4-crv" id="WbS-EY-zAi"/>
+                <outlet property="submitButton" destination="MQu-T1-xTV" id="QWF-yH-nlD"/>
+                <outlet property="topDividerView" destination="2b2-By-1jA" id="tTl-tw-7Ap"/>
+                <outlet property="topDividerViewHeightConstraint" destination="Ax9-l3-qCY" id="6IP-Aq-VNl"/>
+                <outlet property="view" destination="iN0-l3-epB" id="YFy-bg-zh1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIViewComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="SnC-ci-52w">
+                    <rect key="frame" x="0.0" y="10" width="375" height="247.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deposit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b89-F1-PIe" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="cND-BU-dC3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="rdc.confirmation.subtitle"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cet-zo-U95" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="35" width="375" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="70" id="mqw-gT-9Tc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="60"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="largeTextOnDefault"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2b2-By-1jA" customClass="RDCDividerView" customModule="mRDC" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="118" width="375" height="1"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Ax9-l3-qCY"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMS-yd-1RC" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="12.5" y="132" width="350" height="101.5"/>
+                            <string key="text">a slkdjflkasjdflk;jasdl;kfjasl;kdfjlaksjdfl;kajsdf;l kjasdl;kfja;slkd jf;laksjdf;lkajsd;lfkjas;ldkfja;lskdjf;lkajsd;flkjw oiefnwoienfoiwen k.mwanefjanwekfjnawklejfawkjefhakwjef</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mzu-yU-WIU" customClass="RDCDividerView" customModule="mRDC" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="246.5" width="375" height="1"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="P9C-E4-crv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="b89-F1-PIe" firstAttribute="leading" secondItem="SnC-ci-52w" secondAttribute="leading" id="4Ka-EG-ZjX"/>
+                        <constraint firstAttribute="trailing" secondItem="b89-F1-PIe" secondAttribute="trailing" id="DDk-h1-qbX"/>
+                        <constraint firstItem="Cet-zo-U95" firstAttribute="top" secondItem="b89-F1-PIe" secondAttribute="bottom" constant="13" id="Euc-Fv-tyT"/>
+                        <constraint firstItem="Cet-zo-U95" firstAttribute="width" secondItem="SnC-ci-52w" secondAttribute="width" id="NJP-In-j1x"/>
+                        <constraint firstItem="2b2-By-1jA" firstAttribute="leading" secondItem="Mzu-yU-WIU" secondAttribute="leading" id="ZHz-BA-2b2"/>
+                        <constraint firstItem="2b2-By-1jA" firstAttribute="leading" secondItem="b89-F1-PIe" secondAttribute="leading" id="eVy-1q-LTS"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQu-T1-xTV" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="10" y="610" width="355" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="a4I-0m-DCd"/>
+                    </constraints>
+                    <state key="normal" title="Confirm"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonCta"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="dashboard.widget.deposit.btn.confirm"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sendRequest:" destination="-1" eventType="touchUpInside" id="MhK-hH-p1q"/>
+                    </connections>
+                </button>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxX-pB-qMW">
+                    <rect key="frame" x="0.0" y="257.5" width="375" height="330.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJS-60-pq9" customClass="RDCDividerView" customModule="mRDC" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="588" width="375" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Byz-vc-EWi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SnC-ci-52w" secondAttribute="trailing" id="6G1-Kw-4hX"/>
+                <constraint firstItem="pJS-60-pq9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8YN-iE-iCL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MQu-T1-xTV" secondAttribute="bottom" constant="22" id="Cru-v9-7Ah"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MQu-T1-xTV" secondAttribute="trailing" constant="10" id="F59-mh-ktL"/>
+                <constraint firstItem="SnC-ci-52w" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="Ufk-we-ghe"/>
+                <constraint firstItem="MQu-T1-xTV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="WQB-SH-qgf"/>
+                <constraint firstItem="MQu-T1-xTV" firstAttribute="top" secondItem="hxX-pB-qMW" secondAttribute="bottom" constant="22" id="aF6-tl-aO8"/>
+                <constraint firstAttribute="trailing" secondItem="hxX-pB-qMW" secondAttribute="trailing" id="abM-He-g7I"/>
+                <constraint firstItem="SnC-ci-52w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gOY-iO-Xr4"/>
+                <constraint firstAttribute="trailing" secondItem="pJS-60-pq9" secondAttribute="trailing" id="lZz-8t-iNb"/>
+                <constraint firstItem="pJS-60-pq9" firstAttribute="top" secondItem="hxX-pB-qMW" secondAttribute="bottom" id="oO9-gl-f6b"/>
+                <constraint firstItem="hxX-pB-qMW" firstAttribute="top" secondItem="SnC-ci-52w" secondAttribute="bottom" id="rZC-Ns-fIO"/>
+                <constraint firstItem="hxX-pB-qMW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xnn-8d-vj2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundDefault"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="32.799999999999997" y="52.623688155922046"/>
+        </view>
+    </objects>
+</document>

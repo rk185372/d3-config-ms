@@ -1,0 +1,702 @@
+{
+  "backgroundCta": {
+    "background": "palette.callToAction.main"
+  },
+  "backgroundDefault": {
+    "background": "palette.default.main"
+  },
+  "backgroundOnLogin": {
+    "background": "palette.common.white"
+  },
+  "backgroundOverlay": {
+    "background": "#00000080"
+  },
+  "backgroundPrimary": {
+    "background": "palette.primary.main"
+  },
+  "backgroundSecondary": {
+    "background": "palette.secondary.main"
+  },
+  "backgroundSecondaryGradient": {
+    "background": {
+      "startColor": "palette.secondary.main",
+      "stopColor": "palette.secondary.dark"
+    }
+  },
+  "backgroundSeparatorOnDefault": {
+    "background": "palette.grey.main"
+  },
+  "badgeOnTabBar": {
+    "backgroundColor": "palette.common.white",
+    "textColor": "palette.common.black"
+  },
+  "badgeOnStackedMenu": {
+    "backgroundColor": "palette.common.white",
+    "textColor": "palette.common.black",
+    "textSize": 16
+  },
+  "badgeOnMoreNavigation": {
+    "backgroundColor": "palette.common.white",
+    "textColor": "palette.common.black",
+    "textSize": 10
+  },
+  "buttonBlack": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.common.black",
+      "borderColor": "palette.common.white",
+      "textColor": "palette.common.white"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.common.white",
+      "textColor": "palette.common.black"
+    }
+  },
+  "buttonCta": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.callToAction.main",
+      "textColor": "palette.callToAction.contrastText"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.callToAction.dark",
+      "textColor": "palette.callToAction.contrastText"
+    }
+  },
+  "buttonCtaInverted": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.common.white",
+      "textColor": "palette.callToAction.main"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.grey.light",
+      "textColor": "palette.callToAction.main"
+    }
+  },
+  "buttonNoOutlineCtaOnDefault": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "textColor": "palette.callToAction.main"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonNoOutlineOnDefault": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "textColor": "palette.default.contrastText"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonNoOutlineOnLogin": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "textColor": "palette.callToAction.contrastText"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOutlineOnDefault": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "borderColor": "palette.default.contrastText",
+      "textColor": "palette.default.contrastText"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "borderColor": "palette.grey.light",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOutlineOnLogin": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "borderColor": "palette.common.white",
+      "textColor": "palette.common.white"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "backgroundColor": "palette.grey.light",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOutlineOnSecondary": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "borderColor": "palette.secondary.contrastText",
+      "textColor": "palette.secondary.contrastText"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "borderColor": "palette.grey.light",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOutlineOnPrimary": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "borderColor": "palette.secondary.contrastText",
+      "textColor": "palette.secondary.contrastText"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "borderColor": "palette.grey.light",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOutlineOnRdc": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "#00000000",
+      "borderColor": "palette.default.contrastText",
+      "textColor": "palette.default.contrastText"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "borderColor": "palette.grey.light",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOutlineOnRdcUse": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.default.contrastText",
+      "borderColor": "palette.default.contrastText",
+      "textColor": "#60B79C"
+    },
+    "disabled": {
+      "background": "#00000000",
+      "borderColor": "palette.grey.light",
+      "textColor": "palette.grey.light"
+    }
+  },
+  "buttonOnPrimary": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.common.white",
+      "textColor": "palette.primary.main"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.grey.light",
+      "textColor": "palette.primary.main"
+    }
+  },
+  "buttonPrimary": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.primary.main",
+      "textColor": "palette.primary.contrastText"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.primary.dark",
+      "textColor": "palette.primary.contrastText"
+    }
+  },
+  "buttonCtaOnFeatureTour": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.callToAction.main",
+      "textColor": "palette.callToAction.contrastText"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.callToAction.dark",
+      "textColor": "palette.callToAction.contrastText"
+    }
+  },
+  "buttonSecondary": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.secondary.main",
+      "textColor": "palette.secondary.contrastText"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.secondary.dark",
+      "textColor": "palette.secondary.contrastText"
+    }
+  },
+  "buttonWhite": {
+    "cornerRadius": 2,
+    "base": {
+      "background": "palette.common.white",
+      "borderColor": "palette.common.black",
+      "textColor": "palette.callToAction.main"
+    },
+    "disabled": {
+      "background": "palette.grey.main",
+      "textColor": "palette.grey.light"
+    },
+    "pressed": {
+      "background": "palette.callToAction.main",
+      "textColor": "palette.common.white"
+    }
+  },
+  "centerIconDefault": {
+    "background": {
+      "startColor": "palette.primary.light",
+      "stopColor": "palette.primary.main"
+    },
+    "color": "palette.primary.contrastText"
+  },
+  "centerIconSecondary": {
+    "background": {
+      "startColor": "palette.secondary.main",
+      "stopColor": "palette.secondary.dark"
+    },
+    "color": "palette.secondary.contrastText"
+  },
+  "centerIconOnPrimary": {
+    "background": "#00000000",
+    "color": "palette.common.white"
+  },
+  "checkboxOnDefault": {
+    "checkmarkColor": "palette.common.white",
+    "innerColor": "palette.grey.light"
+  },
+  "checkboxOnPrimary": {
+    "checkmarkColor": "palette.common.black",
+    "innerColor": "palette.common.white"
+  },
+  "h1Cta": {
+    "textColor": "palette.callToAction.main",
+    "textSize": 18
+  },
+  "h1Error": {
+    "textColor": "palette.error.main",
+    "textSize": 18
+  },
+  "h1OnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 18
+  },
+  "h1OnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 18
+  },
+  "h1OnDefaultLight": {
+    "textColor": "palette.grey.dark",
+    "textSize": 18
+  },
+  "h1OnLogin": {
+    "textColor": "palette.common.white",
+    "textSize": 18
+  },
+  "h1OnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 18
+  },
+  "h1OnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 18
+  },
+  "h2Cta": {
+    "textColor": "palette.callToAction.main",
+    "textSize": 14
+  },
+  "h2Error": {
+    "textColor": "palette.error.main",
+    "textSize": 14
+  },
+  "h2OnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 14
+  },
+  "h2OnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 14
+  }, 
+  "h2OnDefaultLight": {
+    "textColor": "palette.grey.dark",
+    "textSize": 14
+  },
+  "h2OnLogin": {
+    "textColor": "palette.common.white",
+    "textSize": 14
+  },
+  "h2OnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 14
+  },
+  "h2OnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 14
+  },
+  "h3Cta": {
+    "textColor": "palette.callToAction.main",
+    "textSize": 14
+  },
+  "h3Error": {
+    "textColor": "palette.error.main",
+    "textSize": 14
+  },
+  "h3OnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 14
+  },
+  "h3OnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 14
+  },
+  "h3OnDefaultLight": {
+    "textColor": "palette.grey.dark",
+    "textSize": 14
+  },
+  "h3OnLogin": {
+    "textColor": "palette.common.white",
+    "textSize": 14
+  },
+  "h3OnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 14
+  },
+  "h3OnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 14
+  },
+  "h4Cta": {
+    "textColor": "palette.callToAction.main",
+    "textSize": 12
+  },
+  "h4Error": {
+    "textColor": "palette.error.main",
+    "textSize": 12
+  },
+  "h4OnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 12
+  },
+  "h4OnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 12
+  },
+  "h4OnDefaultLight": {
+    "textColor": "palette.grey.dark",
+    "textSize": 12
+  },
+  "h4OnLogin": {
+    "textColor": "palette.common.white",
+    "textSize": 12
+  },
+  "h4OnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 12
+  },
+  "h4OnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 12
+  },
+  "h5Cta": {
+    "textColor": "palette.callToAction.main",
+    "textSize": 11
+  },
+  "h5Error": {
+    "textColor": "palette.error.main",
+    "textSize": 11
+  },
+  "h5OnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 11
+  },
+  "h5OnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 11
+  },
+  "h5OnDefaultLight": {
+    "textColor": "palette.grey.dark",
+    "textSize": 11
+  },
+  "h5OnLogin": {
+    "textColor": "palette.common.white",
+    "textSize": 11
+  },
+  "h5OnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 11
+  },
+  "h5OnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 11
+  },
+  "largeTextCta": {
+    "textColor": "palette.callToAction.main",
+    "textSize": 50
+  },
+  "largeTextError": {
+    "textColor": "palette.error.main",
+    "textSize": 50
+  },
+  "largeTextOnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 50
+  },
+  "largeTextOnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 50
+  },
+  "largeTextOnDefaultLight": {
+    "textColor": "palette.grey.dark",
+    "textSize": 50
+  },
+  "largeTextOnLogin": {
+    "textColor": "palette.common.white",
+    "textSize": 50
+  },
+  "largeTextOnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 50
+  },
+  "largeTextOnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 50
+  },
+  "largeTextInputOnDefault": {
+    "textColor": "palette.common.black"
+  },
+  "largeTextInputOnPrimary": {
+    "textColor": "palette.primary.contrastText"
+  },
+  "imageCta": {
+    "tintColor": "palette.callToAction.main"
+  },
+  "imageOnCta": {
+    "tintColor": "palette.callToAction.contrastText"
+  },
+  "imageOnDefault": {
+    "tintColor": "palette.default.contrastText"
+  },
+  "imageOnLogin": {
+    "tintColor": "palette.common.white"
+  },
+  "imageOnPrimary": {
+    "tintColor": "palette.primary.contrastText"
+  },
+  "imageOnTextInput": {
+    "tintColor": "palette.default.contrastText"
+  },
+  "linkButtonsOnLogin": {
+    "textColor": "palette.common.black",
+    "separatorColor": "palette.common.black",
+    "textSize": 14
+  },
+  "navigationBarOnCta": {
+    "backgroundColor": "palette.callToAction.main",
+    "tintColor": "palette.callToAction.contrastText"
+  },
+  "navigationBarOnDefault": {
+    "backgroundColor": "palette.default.main",
+    "tintColor": "palette.primary.main"
+  },
+  "navigationBarOnPrimary": {
+    "backgroundColor": "palette.primary.main",
+    "tintColor": "palette.primary.contrastText"
+  },
+  "navigationBarOnSecondary": {
+    "backgroundColor": "palette.secondary.main",
+    "tintColor": "palette.secondary.contrastText"
+  },
+  "navigationTitleOnCta": {
+    "textColor": "palette.callToAction.contrastText",
+    "textSize": 17
+  },
+  "navigationTitleOnDefault": {
+    "textColor": "palette.default.contrastText",
+    "textSize": 17
+  },
+  "navigationTitleOnPrimary": {
+    "textColor": "palette.primary.contrastText",
+    "textSize": 17
+  },
+  "navigationTitleOnSecondary": {
+    "textColor": "palette.secondary.contrastText",
+    "textSize": 17
+  },
+  "progressBarPrimary": {
+    "color": "palette.primary.main"
+  },
+  "radioButtonCta": {
+    "innerColor": "palette.callToAction.main",
+    "outlineColor": "palette.grey.light"
+  },
+  "sectionHeaderOnDefault": {
+    "background": "palette.default.main",
+    "label": {
+      "textColor": "palette.default.contrastText",
+      "textSize": 14
+    }
+  },
+  "sectionHeaderOnPrimary": {
+    "background": "#00000000",
+    "label": {
+      "textColor": "palette.primary.contrastText",
+      "textSize": 14
+    }
+  },
+  "segmentedControlPrimaryOnDefault": {
+    "color": "palette.primary.main"
+  },
+  "selectionBoxOnSecondary": {
+    "titleLabel": {
+      "textColor": "palette.secondary.contrastText",
+      "textSize": 14
+    },
+    "valueLabel": {
+      "textColor": "palette.secondary.contrastText",
+      "textSize": 14
+    },
+    "valueView": {
+      "background": "palette.secondary.dark"
+    }
+  },
+  "shimmeringViewOnDefault": {
+    "background": "palette.grey.light"
+  },
+  "shimmeringViewOnSecondary": {
+    "background": "palette.secondary.dark"
+  },
+  "stackedMenuOnDefault": {
+    "background": {
+      "startColor": "palette.primary.main",
+      "stopColor": "palette.primary.dark"
+    },
+    "borderColor": "#00000000",
+    "subtitleTextColor": "palette.primary.contrastText",
+    "subtitleTextSize": 14,
+    "titleTextColor": "palette.primary.contrastText",
+    "titleTextSize": 18,
+    "iconColor": "palette.common.white"
+  },
+  "stackedMenuOnDefaultAlternate": {
+    "background": "palette.default.main",
+    "borderColor": "palette.common.black",
+    "subtitleTextColor": "palette.common.black",
+    "subtitleTextSize": 14,
+    "titleTextColor": "palette.common.black",
+    "titleTextSize": 18,
+    "iconColor": "palette.callToAction.main"
+  },
+  "stackedMenuOnPrimary": {
+    "background": "#00000000",
+    "borderColor": "palette.common.white",
+    "subtitleTextColor": "palette.primary.contrastText",
+    "subtitleTextSize": 14,
+    "titleTextColor": "palette.primary.contrastText",
+    "titleTextSize": 18,
+    "iconColor": "palette.common.white"
+  },
+  "statusBarOnCta": {
+    "hasLightText": true
+  },
+  "statusBarOnDefault": {
+    "hasLightText": false
+  },
+  "statusBarOnLogin": {
+    "hasLightText": true
+  },
+  "statusBarOnPrimary": {
+    "hasLightText": true
+  },
+  "subNavCtaOnDefault": {},
+  "switchOnDefault": {
+    "onTintColor": "palette.primary.main",
+    "outlineColor": "palette.common.white",
+    "thumbTintColor": "palette.primary.contrastText"
+  },
+  "switchOnPrimary": {
+    "onTintColor": "palette.primary.main",
+    "outlineColor": "palette.grey.light",
+    "thumbTintColor": "palette.primary.contrastText"
+  },
+  "tabBarPrimary": {
+    "backgroundColor": "palette.primary.main",
+    "itemColor": "palette.primary.contrastText",
+    "unselectedItemColor": "#ffffff99",
+    "moreTintColor": "#000000"
+  },
+  "textInputOnDefault": {
+    "textColor": "palette.default.contrastText",
+    "borderColor": "palette.secondary.main"
+  },
+  "textInputOnLogin": {
+    "textColor": "palette.default.contrastText",
+    "tintColor": "palette.secondary.main"
+  },
+  "toolbarOnPrimary": {
+    "backgroundColor": "palette.primary.main",
+    "color": "palette.primary.contrastText"
+  },
+  "tableViewOnDefault": {
+    "backgroundColor": "palette.default.main",
+    "separatorColor": "palette.common.black"
+  },
+  "tableViewOnPrimary": {
+    "backgroundColor": "#00000000",
+    "separatorColor": "palette.primary.contrastText"
+  },
+  "titledTextFieldOnSecondary": {
+    "titleLabel": {
+      "textColor": "palette.secondary.contrastText",
+      "textSize": 14
+    },
+    "textField": {
+      "textColor": "palette.secondary.contrastText",
+      "borderStyle": 0,
+      "tintColor": "palette.secondary.contrastText"
+    },
+    "textFieldContainerView": {
+      "background": "palette.secondary.dark"
+    }
+  },
+  "accountCircleOnDefault": {
+    "background": "palette.primary.main",
+    "label": {
+      "textColor": "palette.primary.contrastText",
+      "textSize": 18
+    }
+  },
+  "pageControlOnFeatureTour": {
+    "defaultColor": "palette.grey.light",
+    "selectedColor": "palette.primary.main"
+  }
+}

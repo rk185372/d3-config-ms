@@ -1,0 +1,27 @@
+{
+	"accounts": [{
+		"id": 5,
+		"balance": "$4588.76",
+		"name": "Ivan's Checkings",
+		"number": "•••••4321",
+		"type": "ASSET"
+	}, {
+		"id": 6,
+		"balance": "$7832711.76",
+		"name": "Ivan's Savings",
+		"number": "•••••6789",
+		"type": "ASSET"
+	}, {
+		"id": 7,
+		"balance": "$27392.42",
+		"name": "All D Points Credit Card",
+		"number": "•••••9876",
+		"type": "LIABILITY"
+	}, {
+		"id": 8,
+		"balance": "$5899711.76",
+		"name": "Mansion On A Hill Mortgage",
+		"number": "•••••2345",
+		"type": "LIABILITY"
+	}]
+}

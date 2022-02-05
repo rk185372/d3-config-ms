@@ -1,0 +1,24 @@
+D3 Today Extension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - D3 Today Extension
+    dependencies:
+      - sdk: NotificationCenter.framework
+    configFiles:
+      Debug: environment/config/todayextension.debug.xcconfig
+      Release: environment/config/todayextension.xcconfig
+    settings:
+      CODE_SIGN_ENTITLEMENTS: D3 Today Extension/D3 Today Extension.entitlements
+  D3 Transactions Today Extension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - D3 Transactions Today Extension
+    dependencies:
+      - sdk: NotificationCenter.framework
+    configFiles:
+      Debug: environment/config/todaytransactionsextension.debug.xcconfig
+      Release: environment/config/todaytransactionsextension.xcconfig
+    settings:
+      CODE_SIGN_ENTITLEMENTS: D3 Transactions Today Extension/D3 Transactions Today Extension.entitlements

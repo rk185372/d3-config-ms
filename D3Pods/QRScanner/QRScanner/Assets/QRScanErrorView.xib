@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QRScanErrorView" customModule="QRScanner" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="8oe-Jv-iHZ" id="KL2-7q-LYM"/>
+                <outlet property="descriptionLabel" destination="gHj-t7-T5b" id="ZKB-cO-LGN"/>
+                <outlet property="scanAgainButton" destination="OFf-OE-bR7" id="hnS-tt-jgn"/>
+                <outlet property="titleLabel" destination="xoG-gN-JS3" id="UJw-0z-tSj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oe-Jv-iHZ" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="16" y="802" width="382" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="j8d-gD-dPp"/>
+                    </constraints>
+                    <state key="normal" title="Cancel"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOutlineOnSecondary"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="qr.scan.btn.cancel"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancelPressed" destination="-1" eventType="touchUpInside" id="c91-kp-hia"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFf-OE-bR7" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="16" y="746" width="382" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="KgW-Kj-Yn2"/>
+                    </constraints>
+                    <state key="normal" title="Scan again!"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonCta"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="qr.scan.btn.tryAgain"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="retryPressed" destination="-1" eventType="touchUpInside" id="Bdc-1L-70U"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHj-t7-T5b">
+                    <rect key="frame" x="16" y="693.5" width="382" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h3OnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoG-gN-JS3">
+                    <rect key="frame" x="16" y="644.5" width="382" height="29"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exclamationmark.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sf9-W3-nV9">
+                    <rect key="frame" x="183" y="565" width="48" height="47"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="6A2-ES-MZE"/>
+                        <constraint firstAttribute="width" constant="48" id="Z5o-6k-ArY"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75291359830064852" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OFf-OE-bR7" secondAttribute="trailing" constant="16" id="3xs-E6-J9d"/>
+                <constraint firstItem="Sf9-W3-nV9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="Cex-ou-dPu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xoG-gN-JS3" secondAttribute="trailing" constant="16" id="IcP-VM-msi"/>
+                <constraint firstItem="8oe-Jv-iHZ" firstAttribute="top" secondItem="OFf-OE-bR7" secondAttribute="bottom" constant="16" id="JXz-nZ-zYo"/>
+                <constraint firstItem="OFf-OE-bR7" firstAttribute="top" secondItem="gHj-t7-T5b" secondAttribute="bottom" constant="32" id="Jlo-4H-WBR"/>
+                <constraint firstItem="OFf-OE-bR7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="TaS-BA-iYR"/>
+                <constraint firstItem="gHj-t7-T5b" firstAttribute="top" secondItem="xoG-gN-JS3" secondAttribute="bottom" constant="20" id="Waa-Ou-6J2"/>
+                <constraint firstItem="gHj-t7-T5b" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="X2S-Co-L49"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8oe-Jv-iHZ" secondAttribute="trailing" constant="16" id="Yqy-Sd-Aqi"/>
+                <constraint firstItem="xoG-gN-JS3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="YuT-mY-ZSx"/>
+                <constraint firstItem="Sf9-W3-nV9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jx6-mq-WC2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gHj-t7-T5b" secondAttribute="trailing" constant="16" id="sQp-tX-LnJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8oe-Jv-iHZ" secondAttribute="bottom" constant="20" id="stV-6U-9W5"/>
+                <constraint firstItem="xoG-gN-JS3" firstAttribute="top" secondItem="Sf9-W3-nV9" secondAttribute="bottom" constant="32" id="yOh-9w-n2O"/>
+                <constraint firstItem="8oe-Jv-iHZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="yiG-Gg-FQS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="85"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="exclamationmark.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

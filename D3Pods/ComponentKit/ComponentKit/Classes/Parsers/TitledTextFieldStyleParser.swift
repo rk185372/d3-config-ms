@@ -1,0 +1,22 @@
+//
+//  TitledTextFieldStyleParser.swift
+//  ComponentKit
+//
+//  Created by Branden Smith on 1/24/19.
+//
+
+import Foundation
+
+public final class TitledTextFieldStyleParser: StyleParser {
+    public var handledKeys: [String] {
+        return TitledTextFieldStyleKey.allCases.map { $0.rawValue }
+    }
+
+    public init() { }
+
+    public func parse(key: String, json: Data, decoder: JSONDecoder) throws -> StyleParseResult {
+        let style = try decoder.decode(TitledTextFieldStyle.self, from: json)
+
+        return StyleParseResult(mapKey: key, mapValue: style)
+    }
+}

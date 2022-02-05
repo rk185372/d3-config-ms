@@ -1,0 +1,361 @@
+{
+	"profiles": [{
+		"loginId": "janedoe",
+		"enrolled": true,
+		"firstName": "Jane",
+		"middleName": "h",
+		"lastName": "Doe",
+		"taxIdExists": true,
+		"dateOfBirth": "1966-01-25",
+		"emailAddresses": [{
+			"id": 85,
+			"type": "EMAIL",
+			"label": "PRIMARY",
+			"value": "jane.doe@d3banking.com",
+			"primary": true,
+			"outOfBand": true,
+			"readOnly": false,
+			"verified": false,
+			"alternate": false,
+			"subType": "PRIMARY"
+		}, {
+			"id": 86,
+			"type": "EMAIL",
+			"label": "ALTERNATE",
+			"value": "jane.doe@lodosoftware.com",
+			"primary": false,
+			"outOfBand": false,
+			"readOnly": false,
+			"verified": false,
+			"alternate": true,
+			"subType": "ALTERNATE"
+		}],
+		"phoneNumbers": [{
+			"id": 87,
+			"type": "PHONE",
+			"label": "MOBILE",
+			"value": "4021237069",
+			"primary": false,
+			"outOfBand": false,
+			"readOnly": false,
+			"verified": false,
+			"sms": true,
+			"subType": "MOBILE"
+		}, {
+			"id": 88,
+			"type": "PHONE",
+			"label": "HOME",
+			"value": "4025457231",
+			"primary": false,
+			"outOfBand": false,
+			"readOnly": false,
+			"verified": false,
+			"sms": true,
+			"subType": "HOME"
+		}, {
+			"id": 89,
+			"type": "PHONE",
+			"label": "WORK",
+			"value": "4025018378",
+			"primary": false,
+			"outOfBand": false,
+			"readOnly": false,
+			"verified": false,
+			"sms": true,
+			"subType": "WORK"
+		}],
+		"inbox": {
+			"id": 83,
+			"type": "INBOX",
+			"label": "INBOX",
+			"value": "Inbox",
+			"primary": false,
+			"outOfBand": false,
+			"readOnly": false,
+			"verified": false
+		},
+		"push": {
+			"id": 84,
+			"type": "PUSH",
+			"label": "PUSH",
+			"value": "Push",
+			"primary": false,
+			"outOfBand": false,
+			"readOnly": false,
+			"verified": false
+		},
+		"mailingAddress": {
+			"line1": "9437 Moss View Ln",
+			"city": "Vancouver",
+			"state": "WA",
+			"countryCode": "US",
+			"postalCode": "98660",
+			"latitude": 1.00000000,
+			"longitude": 1.00000000
+		},
+		"physicalAddress": {
+			"line1": "2156 W 134th St",
+			"city": "Modesto",
+			"state": "CA",
+			"countryCode": "US",
+			"postalCode": "95352",
+			"latitude": 1.00000000,
+			"longitude": 1.00000000
+		},
+		"attributes": {
+			"preferredAcctId": "INTERNAL:494",
+			"bpEnrollmentStatus": "ACTIVE"
+		},
+		"validEmailTypes": [{
+			"interfaceName": "PRIMARY",
+			"internalName": "PRIMARY",
+			"order": 1,
+			"repeatable": false,
+			"destinationType": "EMAIL"
+		}, {
+			"interfaceName": "ALTERNATE",
+			"internalName": "ALTERNATE",
+			"order": 2,
+			"repeatable": false,
+			"destinationType": "EMAIL"
+		}, {
+			"interfaceName": "ADDITIONAL",
+			"internalName": "ADDITIONAL",
+			"order": 3,
+			"repeatable": true,
+			"destinationType": "EMAIL"
+		}],
+		"validPhoneTypes": [{
+			"interfaceName": "HOME",
+			"internalName": "HOME",
+			"repeatable": false,
+			"destinationType": "PHONE",
+			"mobileType": false
+		}, {
+			"interfaceName": "MOBILE",
+			"internalName": "MOBILE",
+			"repeatable": false,
+			"destinationType": "PHONE",
+			"mobileType": true
+		}, {
+			"interfaceName": "WORK",
+			"internalName": "WORK",
+			"repeatable": false,
+			"destinationType": "PHONE",
+			"mobileType": false
+		}],
+		"validProfileModes": ["CONSUMER"],
+		"type": "PRIMARY",
+		"servicePermissions": {
+			"settings.dashboard": {
+				"access": ["READ", "UPDATE"]
+			},
+			"dashboard.plan": {
+				"access": ["READ"]
+			},
+			"money-movement": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"settings.alerts": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"accounts.stop-payment": {
+				"access": ["READ", "UPDATE", "CREATE", "DELETE"]
+			},
+			"money-movement.schedule": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"money-movement.external-p2p": {
+				"access": ["READ", "UPDATE", "CREATE", "DELETE"]
+			},
+			"money-movement.transfer-now.enroll": {
+				"access": ["READ", "UPDATE", "CREATE", "DELETE"]
+			},
+			"self-service.faq": {
+				"access": ["READ"]
+			},
+			"settings.rules": {
+				"access": ["READ", "DELETE"]
+			},
+			"settings.usermanagement": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"settings.security": {
+				"access": ["READ", "UPDATE"]
+			},
+			"money-movement.zelle": {
+				"access": []
+			},
+			"messages.secure": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"self-service": {
+				"access": ["READ"]
+			},
+			"settings.accounts": {
+				"access": ["READ", "UPDATE"]
+			},
+			"money-movement.external-a2a": {
+				"access": ["READ"]
+			},
+			"accounts.mrdc": {
+				"access": ["READ", "UPDATE", "CREATE", "DELETE"]
+			},
+			"money-movement.recipients": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"planning.budget": {
+				"access": []
+			},
+			"dashboard": {
+				"access": ["READ"]
+			},
+			"money-movement.sso-p2p": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"settings.categories": {
+				"access": ["READ", "DELETE", "UPDATE"]
+			},
+			"settings": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"user.security.reset-mfa": {
+				"access": []
+			},
+			"money-movement.multiple": {
+				"access": ["READ", "CREATE"]
+			},
+			"self-service.request-forms": {
+				"access": []
+			},
+			"money-movement.payment-approvals": {
+				"access": []
+			},
+			"transactions.positive-pay": {
+				"access": []
+			},
+			"settings.mobile": {
+				"access": ["READ", "DELETE", "UPDATE"]
+			},
+			"planning.goals": {
+				"access": []
+			},
+			"transactions": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"money-movement.enroll": {
+				"access": []
+			},
+			"dashboard.manage": {
+				"access": ["READ"]
+			},
+			"messages.notices": {
+				"access": ["READ", "DELETE"]
+			},
+			"money-movement.ebills": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"planning": {
+				"access": []
+			},
+			"accounts.check-order": {
+				"access": ["READ", "UPDATE", "CREATE", "DELETE"]
+			},
+			"settings.business.profile": {
+				"access": []
+			},
+			"settings.profile": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"messages": {
+				"access": ["READ", "DELETE", "CREATE", "UPDATE"]
+			},
+			"accounts": {
+				"access": ["READ", "UPDATE", "CREATE", "DELETE"]
+			},
+			"money-movement.ach-upload": {
+				"access": []
+			}
+		},
+		"profileType": "CONSUMER",
+		"authorizedApprovalTypes": [],
+		"previousLogin": "Thursday, Jan 09, 2020 8:43 PM GMT"
+	}],
+	"csrfToken": "f164986660493fe85e2ad1047ce441fc",
+	"tos": [],
+	"rdcAllowed": true,
+	"startupKey": 96,
+	"activeProfileType": "CONSUMER",
+	"selectedProfileIndex": 0,
+	"validProfileTypes": ["CONSUMER"],
+	"userDeviceId": 2431,
+	"serverTime": "2020-01-09T20:43:29.717Z",
+	"syncOps": [{
+		"profileId": 0,
+		"syncOps": [{
+			"id": 23451,
+			"retryNumber": 0,
+			"operation": "BILL_PAY_ACCT_ADD",
+			"service": "BILL_PAY",
+			"status": "ACTIVE",
+			"trackingId": "61bf26c4-a9f8-42da-bc1a-9684a4eddf46"
+		}, {
+			"id": 23452,
+			"retryNumber": 0,
+			"operation": "BILL_PAY_RECIPIENT_AND_PAYMENT",
+			"service": "BILL_PAY",
+			"status": "ACTIVE",
+			"trackingId": "61bf26c4-a9f8-42da-bc1a-9684a4eddf46"
+		}, {
+			"id": 23453,
+			"retryNumber": 0,
+			"operation": "AGGREGATION_SYNC",
+			"service": "AGGREGATION",
+			"status": "ACTIVE",
+			"trackingId": "61bf26c4-a9f8-42da-bc1a-9684a4eddf46"
+		}, {
+			"id": 23454,
+			"retryNumber": 0,
+			"operation": "CORE_LIVE_INTRA_DAY",
+			"service": "CORE_LIVE",
+			"status": "ACTIVE",
+			"trackingId": "61bf26c4-a9f8-42da-bc1a-9684a4eddf46"
+		}]
+	}],
+	"promptForElectronicTaxDocuments": false,
+	"paperlessPromptAccounts": [{
+		"userAccountId": 495,
+		"accountNumber": "************4496",
+		"accountName": "My Deposit - Savings Account"
+	}, {
+		"userAccountId": 496,
+		"accountNumber": "************5438",
+		"accountName": "My Investment - Individual Retirement Account (ira) Account"
+	}, {
+		"userAccountId": 497,
+		"accountNumber": "************3176",
+		"accountName": "My Credit Card Account"
+	}, {
+		"userAccountId": 498,
+		"accountNumber": "************4830",
+		"accountName": "My Loan - Line Of Credit Account"
+	}, {
+		"userAccountId": 499,
+		"accountNumber": "************4613",
+		"accountName": "My Loan - Loan Account"
+	}, {
+		"userAccountId": 500,
+		"accountNumber": "************2396",
+		"accountName": "My Loan - Mortgage Account"
+	}, {
+		"userAccountId": 1086,
+		"accountNumber": "*********8948",
+		"accountName": "Deposit - Checking"
+	}, {
+		"userAccountId": 3174,
+		"accountNumber": "*********7983",
+		"accountName": "Deposit - Checking"
+    }],
+    "estatementPromptAccounts": [],
+    "accountNoticePromptAccounts": []
+}

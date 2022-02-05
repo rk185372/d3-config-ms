@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChallengeButtonView" customModule="Authentication">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-p1-NHd" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="5" y="5" width="365" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Y2R-r3-P7d"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonPrimary"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ChZ-p1-NHd" secondAttribute="trailing" constant="5" id="NSd-4a-dCh"/>
+                <constraint firstItem="ChZ-p1-NHd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="UIz-Yn-O0P"/>
+                <constraint firstItem="ChZ-p1-NHd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="pUp-JR-Z43"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ChZ-p1-NHd" secondAttribute="bottom" constant="5" id="wuQ-Tm-p5K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="button" destination="ChZ-p1-NHd" id="C4C-LW-cb7"/>
+            </connections>
+            <point key="canvasLocation" x="23.199999999999999" y="-13.943028485757123"/>
+        </view>
+    </objects>
+</document>

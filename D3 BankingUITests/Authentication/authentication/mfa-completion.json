@@ -1,0 +1,9 @@
+{
+    "challenge": {
+        "type": "MFA_ENROLL_COMPLETE",
+        "items": []
+    },
+    "isAuthenticated": false,
+    "token": "token",
+    "previousItems": []
+}

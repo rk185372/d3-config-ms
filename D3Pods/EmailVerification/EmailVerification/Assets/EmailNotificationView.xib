@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailNotificationViewController" customModule="EmailVerification" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="GGa-rf-EYA" id="jCJ-3b-rEJ"/>
+                <outlet property="contentStackView" destination="0bf-2b-fWz" id="qjg-Hv-77N"/>
+                <outlet property="emailLabel" destination="FIC-Dp-wbM" id="BkN-Qu-bVm"/>
+                <outlet property="emailLabelView" destination="KNk-Qs-uF9" id="aWp-px-taB"/>
+                <outlet property="submitButton" destination="QtQ-Bp-eme" id="HIV-tf-j4G"/>
+                <outlet property="titleLabelView" destination="kVr-Fj-7Ib" id="Hgo-aO-1QW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="j6P-94-g4Q">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfw-pq-Kgj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0bf-2b-fWz">
+                            <rect key="frame" x="20" y="20" width="335" height="627"/>
+                        </stackView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="hr0-Py-yQz"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="0bf-2b-fWz" firstAttribute="top" secondItem="Cfw-pq-Kgj" secondAttribute="top" constant="20" id="2Bj-1M-0sd"/>
+                        <constraint firstItem="0bf-2b-fWz" firstAttribute="leading" secondItem="hr0-Py-yQz" secondAttribute="leading" constant="20" id="ALu-UE-woq"/>
+                        <constraint firstAttribute="bottom" secondItem="0bf-2b-fWz" secondAttribute="bottom" constant="20" id="WLH-6G-TzU"/>
+                        <constraint firstItem="hr0-Py-yQz" firstAttribute="trailing" secondItem="0bf-2b-fWz" secondAttribute="trailing" constant="20" id="kSL-hy-mNY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="sim-1t-rti"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Cfw-pq-Kgj" firstAttribute="top" secondItem="j6P-94-g4Q" secondAttribute="top" id="0wc-0A-xnb"/>
+                <constraint firstAttribute="bottom" secondItem="Cfw-pq-Kgj" secondAttribute="bottom" id="2TL-2V-Jj9"/>
+                <constraint firstAttribute="trailing" secondItem="Cfw-pq-Kgj" secondAttribute="trailing" id="6eV-zP-SoH"/>
+                <constraint firstItem="Cfw-pq-Kgj" firstAttribute="width" secondItem="j6P-94-g4Q" secondAttribute="width" id="CoI-v9-X13"/>
+                <constraint firstItem="Cfw-pq-Kgj" firstAttribute="leading" secondItem="j6P-94-g4Q" secondAttribute="leading" id="mXX-Yn-aN3"/>
+                <constraint firstItem="Cfw-pq-Kgj" firstAttribute="bottom" secondItem="sim-1t-rti" secondAttribute="bottom" id="nLK-Y3-oX5"/>
+            </constraints>
+            <point key="canvasLocation" x="-686" y="-421"/>
+        </scrollView>
+        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QtQ-Bp-eme" customClass="UIButtonComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="35"/>
+            <constraints>
+                <constraint firstAttribute="height" constant="35" id="II6-It-xmS"/>
+            </constraints>
+            <state key="normal" title="Button"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonCta"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="primaryEmailVerification.btn.submit"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <action selector="submitButtonTouched:" destination="-1" eventType="touchUpInside" id="OML-Iy-aXo"/>
+            </connections>
+            <point key="canvasLocation" x="100.8" y="-191.1544227886057"/>
+        </button>
+        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGa-rf-EYA" customClass="UIButtonComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="35"/>
+            <constraints>
+                <constraint firstAttribute="height" constant="35" id="fgo-Kx-38t"/>
+            </constraints>
+            <state key="normal" title="Button"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOutlineOnDefault"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="primaryEmailVerification.btn.cancel"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <action selector="cancelButtonTouched:" destination="-1" eventType="touchUpInside" id="Zvu-P5-ITu"/>
+            </connections>
+            <point key="canvasLocation" x="100.8" y="-105.69715142428787"/>
+        </button>
+        <view contentMode="scaleToFill" id="kVr-Fj-7Ib">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNX-GU-lVv" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="0.0" y="15" width="375" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="primaryEmailVerification.title"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="999" verticalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N53-M6-xS5" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="0.0" y="45.5" width="375" height="42.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="primaryEmailVerification.sub-title"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h3OnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fgV-l2-fB8"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="N53-M6-xS5" firstAttribute="top" secondItem="pNX-GU-lVv" secondAttribute="bottom" constant="10" id="H6T-g6-egh"/>
+                <constraint firstItem="fgV-l2-fB8" firstAttribute="trailing" secondItem="N53-M6-xS5" secondAttribute="trailing" id="Hce-kS-AvS"/>
+                <constraint firstItem="pNX-GU-lVv" firstAttribute="top" secondItem="fgV-l2-fB8" secondAttribute="top" constant="15" id="KPg-Gy-3BB"/>
+                <constraint firstItem="fgV-l2-fB8" firstAttribute="trailing" secondItem="pNX-GU-lVv" secondAttribute="trailing" id="hQv-dq-2sT"/>
+                <constraint firstItem="N53-M6-xS5" firstAttribute="leading" secondItem="fgV-l2-fB8" secondAttribute="leading" id="teA-HL-fsK"/>
+                <constraint firstItem="pNX-GU-lVv" firstAttribute="leading" secondItem="fgV-l2-fB8" secondAttribute="leading" id="wZc-HF-9nk"/>
+                <constraint firstItem="fgV-l2-fB8" firstAttribute="bottom" secondItem="N53-M6-xS5" secondAttribute="bottom" constant="10" id="xz3-ib-znI"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="69.599999999999994" y="-856.37181409295363"/>
+        </view>
+        <view contentMode="scaleToFill" id="KNk-Qs-uF9">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="28"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIC-Dp-wbM" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="0.0" y="0.0" width="387" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefaultLight"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="primaryEmailVerification.maskedEmailLabel"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="5es-5Z-WKJ"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FIC-Dp-wbM" firstAttribute="leading" secondItem="5es-5Z-WKJ" secondAttribute="leading" id="0kx-w2-K9q"/>
+                <constraint firstItem="5es-5Z-WKJ" firstAttribute="trailing" secondItem="FIC-Dp-wbM" secondAttribute="trailing" id="7Tz-wV-NSJ"/>
+                <constraint firstItem="5es-5Z-WKJ" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="FIC-Dp-wbM" secondAttribute="bottom" id="QaE-lM-lN3"/>
+                <constraint firstItem="FIC-Dp-wbM" firstAttribute="top" secondItem="5es-5Z-WKJ" secondAttribute="top" id="Zly-oS-kmj"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="69.599999999999994" y="-733.13343328335839"/>
+        </view>
+    </objects>
+</document>

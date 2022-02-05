@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="71" id="ugi-GC-Hpg" customClass="TwoButtonCell" customModule="AccountsPresentation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ugi-GC-Hpg" id="s3Z-LF-hKu">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="S0L-ce-XOH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Up-2e-Rj2">
+                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="71.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfj-zH-kNa" customClass="UIButtonComponent" customModule="ComponentKit">
+                                        <rect key="frame" x="8" y="10.5" width="171.5" height="51"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Rfj-zH-kNa" firstAttribute="centerY" secondItem="9Up-2e-Rj2" secondAttribute="centerY" id="2UG-w7-Oud"/>
+                                    <constraint firstAttribute="height" constant="71" id="aDZ-bS-upn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rfj-zH-kNa" secondAttribute="trailing" constant="8" id="ef2-Xq-M4I"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rfj-zH-kNa" secondAttribute="bottom" constant="10" id="kAC-34-Baq"/>
+                                    <constraint firstItem="Rfj-zH-kNa" firstAttribute="leading" secondItem="9Up-2e-Rj2" secondAttribute="leading" constant="8" id="l27-un-ghU"/>
+                                    <constraint firstItem="Rfj-zH-kNa" firstAttribute="top" secondItem="9Up-2e-Rj2" secondAttribute="top" constant="10" id="mUO-YM-pTN"/>
+                                    <constraint firstItem="Rfj-zH-kNa" firstAttribute="centerX" secondItem="9Up-2e-Rj2" secondAttribute="centerX" id="nbd-Od-SOF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AC2-d3-7uo">
+                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="71.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="kHw-fT-vDe">
+                                        <rect key="frame" x="-1" y="0.0" width="1" height="71.5"/>
+                                        <color key="backgroundColor" red="0.86357182264328003" green="0.86339545249938965" blue="0.87402379512786865" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="DvL-Gg-sya"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTZ-9c-zMv" customClass="UIButtonComponent" customModule="ComponentKit">
+                                        <rect key="frame" x="8" y="10.5" width="171.5" height="51"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="kHw-fT-vDe" firstAttribute="leading" secondItem="AC2-d3-7uo" secondAttribute="leading" constant="-1" id="EO1-25-PPx"/>
+                                    <constraint firstItem="wTZ-9c-zMv" firstAttribute="centerX" secondItem="AC2-d3-7uo" secondAttribute="centerX" id="Eb4-Ph-9mB"/>
+                                    <constraint firstItem="wTZ-9c-zMv" firstAttribute="top" secondItem="AC2-d3-7uo" secondAttribute="top" constant="10" id="G2A-sN-YPX"/>
+                                    <constraint firstAttribute="bottom" secondItem="wTZ-9c-zMv" secondAttribute="bottom" constant="10" id="JnC-Hh-xRH"/>
+                                    <constraint firstAttribute="height" constant="71" id="SBM-Lg-F3b"/>
+                                    <constraint firstAttribute="trailing" secondItem="wTZ-9c-zMv" secondAttribute="trailing" constant="8" id="U0i-vY-1f4"/>
+                                    <constraint firstItem="kHw-fT-vDe" firstAttribute="top" secondItem="AC2-d3-7uo" secondAttribute="top" id="Wkc-wc-CBz"/>
+                                    <constraint firstItem="wTZ-9c-zMv" firstAttribute="centerY" secondItem="AC2-d3-7uo" secondAttribute="centerY" id="dKx-oE-MAz"/>
+                                    <constraint firstItem="wTZ-9c-zMv" firstAttribute="leading" secondItem="AC2-d3-7uo" secondAttribute="leading" constant="8" id="jyN-Ed-zGD"/>
+                                    <constraint firstAttribute="bottom" secondItem="kHw-fT-vDe" secondAttribute="bottom" id="zGb-OT-uUd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S0L-ce-XOH" firstAttribute="leading" secondItem="s3Z-LF-hKu" secondAttribute="leading" id="0zt-Rq-nw5"/>
+                    <constraint firstAttribute="trailing" secondItem="S0L-ce-XOH" secondAttribute="trailing" id="8qD-yH-jHd"/>
+                    <constraint firstAttribute="bottom" secondItem="S0L-ce-XOH" secondAttribute="bottom" id="cu2-j1-aOk"/>
+                    <constraint firstItem="S0L-ce-XOH" firstAttribute="top" secondItem="s3Z-LF-hKu" secondAttribute="top" id="oyC-4z-ssb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dividerView" destination="kHw-fT-vDe" id="cze-Ek-zhl"/>
+                <outlet property="leftButton" destination="Rfj-zH-kNa" id="9NP-bc-WNu"/>
+                <outlet property="leftButtonView" destination="9Up-2e-Rj2" id="vmE-rN-57k"/>
+                <outlet property="rightButton" destination="wTZ-9c-zMv" id="lHd-Z9-Lc3"/>
+                <outlet property="rightButtonView" destination="AC2-d3-7uo" id="1gd-j3-U5W"/>
+            </connections>
+            <point key="canvasLocation" x="16.5" y="-37.5"/>
+        </tableViewCell>
+    </objects>
+</document>

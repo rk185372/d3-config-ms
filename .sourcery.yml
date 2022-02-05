@@ -1,0 +1,7 @@
+sources:
+  - D3 Banking
+  - D3Pods
+templates:
+  - Templates/Sourcery
+output:
+  D3 Banking/Generated

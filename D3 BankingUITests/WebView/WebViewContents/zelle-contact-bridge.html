@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <script>
+     function handleSelectedContact(json) {
+         document.getElementById('bridge_result').innerHTML = json;
+     };
+     </script>
+ </head>
+ <body>
+     <h2>WebView File</h2>
+     <text id="text_id">Test</text>
+     <br/>
+     <a id="zelle_bridge" href="FTKiOSInterface://FTKImportContact">Zelle Bridge</a>
+     <br/>
+     <a id="perform_timeout" href="FTKiOSInterface://FTKTimeOut">Perform Timeout</a>
+     <br/>
+     <text id="bridge_result"></text>
+ </body>
+</html>

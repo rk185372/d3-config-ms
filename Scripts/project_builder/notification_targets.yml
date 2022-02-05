@@ -1,0 +1,22 @@
+D3 Banking Notification Service Extension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - D3 Banking NotificationServiceExtension
+    dependencies:
+      - framework: Pods/CardAppPushNotificationExtensionFramework/PushNotificationExtensions.xcframework
+        embed: true
+    configFiles:
+      Debug: environment/config/notificationservice.debug.xcconfig
+      Release: environment/config/notificationservice.xcconfig
+  D3 Banking Notification Content Extension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - D3 Banking NotificationContentExtension
+    dependencies:
+      - framework: Pods/CardAppPushNotificationExtensionFramework/PushNotificationExtensions.xcframework
+        embed: true
+    configFiles:
+      Debug: environment/config/notificationcontent.debug.xcconfig
+      Release: environment/config/notificationcontent.xcconfig

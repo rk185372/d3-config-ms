@@ -1,0 +1,3 @@
+componentsPath: webComponents
+templateFile: Templates/WebComponentBuilder/webcomponent.stencil
+outputFile: D3 Banking/Generated/WebComponent.swift

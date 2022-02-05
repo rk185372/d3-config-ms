@@ -1,0 +1,58 @@
+*.pbxuser
+.DS_Store
+d3_build_id
+build/
+D3 Banking.xcodeproj/project.xcworkspace/xcuserdata/*
+D3 Banking.xcodeproj/xcuserdata/*
+D3 Banking.xcworkspace/xcuserdata/*
+Pods/*
+D3 Banking.xcworkspace/xcshareddata/*
+D3 Banking/Generated/*
+D3 Banking Snapshot Test/FailureDiffs/*
+D3 Banking/Assets.xcassets/AppIcon.appiconset/*.png
+D3Pods/AppConfiguration/AppConfiguration/Classes/AppConfiguration.swift
+/D3Pods/Web/Web/Assets/theme.json
+/D3Pods/Web/Web/Assets/WebLocalizable.json
+/D3Pods/Web/Web/Assets/extension.json
+D3 Banking/D3 Banking.entitlements
+D3 Intents Extension/D3 Intents Extension.entitlements
+D3 Today Extension/D3 Today Extension.entitlements
+D3 Transactions Today Extension/D3 Transactions Today Extension.entitlements
+environment/*
+environment.zip
+webComponents/*
+/D3 Banking/Localizable.json
+/D3 Banking/WebLocalizable.json
+*.ipa
+*.app.dSYM.zip
+fastlane/report.xml
+fastlane/Appfile
+fastlane/README.md
+/PodfileExtensionRemote.rb
+/D3 Banking/Themes.json
+/D3 Banking/Assets.xcassets/LogoMark.imageset/LogoMark.pdf
+/D3 Banking/Assets.xcassets/FullLogo.imageset/FullLogo.pdf
+/D3 Banking/Assets.xcassets/LaunchLogo.imageset/LaunchLogo.pdf
+/D3 Banking/Assets.xcassets/Background.imageset/backgroundImage_Iphone@3x.jpg
+/D3 Banking/Assets.xcassets/Background.imageset/backgroundImage_Ipad@2x.jpg
+/D3 Banking Watchkit App Extension/Localizable.json
+/D3 Banking Watchkit App Extension/D3 Banking WatchKit App Extension.entitlements
+/D3 Banking Watchkit App/D3 Banking Watchkit App.entitlements
+D3Pods/mRDC/mRDC/Assets/Assets.xcassets/LandingBG.imageset/MRDC_bg_ipad.jpg
+D3Pods/mRDC/mRDC/Assets/Assets.xcassets/LandingBG.imageset/MRDC_bg_iphone.jpg
+featureTour/*
+!featureTour/.gitkeep
+/D3 Banking/GoogleService-Info.plist
+*.xcodeproj
+Podfile
+project.yml
+
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/Complete.imageset/iPad-2732×2732.jpg
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/Complete.imageset/iPhone-1242×2688.jpg
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/Logo.imageset/logo-lockup.png
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/Splash.imageset/splash-iPad-2732×2732.jpg
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/Splash.imageset/splash-iPhone-1242 × 2688.jpg
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/SplashText.imageset/splash-text-Welcome-to-My-Synovus.png
+D3Pods/FeatureTour/FeatureTour/Synovus/Assets/Assets.xcassets/Tagline.imageset/Here-for-you.png
+
+/navigation.json

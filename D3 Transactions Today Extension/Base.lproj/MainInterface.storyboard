@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Transactions Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController storyboardIdentifier="TodayViewController" id="M4Y-Lb-cyx" customClass="TransactionsTodayViewController" customModule="D3_Transactions_Today_Extension" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="76h-gD-55q" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="20" y="10" width="280" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Tzh-E9-Dz0">
+                                <rect key="frame" x="150" y="8.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EUj-vH-ds6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Tzh-E9-Dz0" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="4vu-vg-eKP"/>
+                            <constraint firstItem="EUj-vH-ds6" firstAttribute="bottom" secondItem="ssy-KU-ocm" secondAttribute="bottom" id="8cx-2A-Wej"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="76h-gD-55q" secondAttribute="trailing" constant="20" id="Evh-jc-xjL"/>
+                            <constraint firstItem="76h-gD-55q" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="20" id="L66-FU-5e2"/>
+                            <constraint firstItem="76h-gD-55q" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="10" id="YSe-cJ-3Tk"/>
+                            <constraint firstItem="Tzh-E9-Dz0" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="cKb-zk-Zxi"/>
+                            <constraint firstItem="EUj-vH-ds6" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="hiS-FX-Oac"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="EUj-vH-ds6" secondAttribute="trailing" id="qz5-4A-rE6"/>
+                            <constraint firstItem="EUj-vH-ds6" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" id="r8e-gJ-sOI"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="bottom" secondItem="76h-gD-55q" secondAttribute="bottom" constant="10" id="rac-ex-WZU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="37"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Tzh-E9-Dz0" id="20j-3Z-U1D"/>
+                        <outlet property="errorLabel" destination="76h-gD-55q" id="vWh-m4-cIf"/>
+                        <outlet property="tableView" destination="EUj-vH-ds6" id="YAj-oN-0K8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.8" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

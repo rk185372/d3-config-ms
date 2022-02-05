@@ -1,0 +1,49 @@
+[{
+	"locationType": "ATM",
+	"name": "D3 Banking ATM",
+	"phoneNumber": 4023217875,
+	"distanceDescription": "1.5 Mi",
+	"todaysSchedule": "11:00am - 5:00pm",
+	"fullSchedule": "",
+	"address": {
+		"street": "4705 N 163rd St",
+		"city": "Omaha",
+		"state": "NE",
+		"zip": 68116
+	},
+	"coordinate": {
+		"latitude": 41.252363,
+		"longitude": -95.997988
+	}
+}, {
+	"locationType": "BRANCH",
+	"name": "D3 Banking Branch",
+	"phoneNumber": 4023217875,
+	"distanceDescription": "2.5 Mi",
+	"todaysSchedule": "11:00am - 5:00pm",
+	"fullSchedule": "",
+	"address": {
+		"street": "4705 N 163rd St",
+		"city": "Omaha",
+		"state": "NE",
+		"zip": 68116
+	},
+	"coordinate": {
+		"latitude": 41.243058,
+		"longitude": -96.005487
+	}
+}, {
+	"locationType": "ATM",
+	"name": "Yet Another ATM",
+	"distanceDescription": "3.0 Mi",
+	"address": {
+		"street": "4705 N 163rd St",
+		"city": "Omaha",
+		"state": "NE",
+		"zip": 68116
+	},
+	"coordinate": {
+		"latitude": 41.239729,
+		"longitude": -95.959761
+	}
+}]

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpgradeViewController" customModule="AppInitialization" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnLogin"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="backgroundImageView" destination="dQM-W2-iGA" id="ffv-TV-3Vx"/>
+                <outlet property="messageLabel" destination="5fB-8t-ask" id="Jlr-uP-qAy"/>
+                <outlet property="skipButton" destination="qT1-4l-ao7" id="UV8-YE-fZ1"/>
+                <outlet property="titleLabel" destination="gqg-gI-JrM" id="7QB-jT-1rY"/>
+                <outlet property="updateButton" destination="N28-il-Du8" id="xIy-bc-jjF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="dQM-W2-iGA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtX-A3-xLH" customClass="UIViewComponent" customModule="ComponentKit">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundOverlay"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jj-Oe-36z">
+                    <rect key="frame" x="20" y="263.5" width="335" height="160"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tr5-pH-cX1">
+                            <rect key="frame" x="8" y="8" width="319" height="144"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqg-gI-JrM" customClass="UILabelComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="0.0" width="319" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnLogin"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fB-8t-ask" customClass="UILabelComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="20.5" width="319" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnLogin"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIV-ev-UfL" userLabel="spacer">
+                                    <rect key="frame" x="0.0" y="41" width="319" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="fZU-BL-BY0"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N28-il-Du8" customClass="UIButtonComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="61" width="319" height="30"/>
+                                    <state key="normal" title="Update"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonCta"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                                            <real key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="updateButtonTapped:" destination="-1" eventType="touchUpInside" id="20z-j1-tGB"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNL-JE-VP4" userLabel="spacer">
+                                    <rect key="frame" x="0.0" y="91" width="319" height="23"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="23" id="KHV-6b-nCS"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT1-4l-ao7" customClass="UIButtonComponent" customModule="ComponentKit">
+                                    <rect key="frame" x="0.0" y="114" width="319" height="30"/>
+                                    <state key="normal" title="Maybe Later"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOutlineOnLogin"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                                            <real key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="skipButtonTapped:" destination="-1" eventType="touchUpInside" id="jiP-EP-2zQ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="tr5-pH-cX1" secondAttribute="trailing" constant="8" id="1dr-Fh-5HL"/>
+                        <constraint firstItem="tr5-pH-cX1" firstAttribute="leading" secondItem="3jj-Oe-36z" secondAttribute="leading" constant="8" id="4Cg-sY-abd"/>
+                        <constraint firstItem="tr5-pH-cX1" firstAttribute="top" secondItem="3jj-Oe-36z" secondAttribute="top" constant="8" id="ieh-xb-P2r"/>
+                        <constraint firstAttribute="bottom" secondItem="tr5-pH-cX1" secondAttribute="bottom" constant="8" id="yjP-Ea-IQ4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xtX-A3-xLH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2pj-QW-379"/>
+                <constraint firstItem="3jj-Oe-36z" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="HSu-Gl-EBR"/>
+                <constraint firstItem="xtX-A3-xLH" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="Ogs-OS-2Jc"/>
+                <constraint firstItem="dQM-W2-iGA" firstAttribute="bottom" secondItem="xtX-A3-xLH" secondAttribute="bottom" id="TaI-Cg-yvp"/>
+                <constraint firstItem="xtX-A3-xLH" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="Vjc-3J-ufn"/>
+                <constraint firstItem="dQM-W2-iGA" firstAttribute="top" secondItem="xtX-A3-xLH" secondAttribute="top" id="dYD-EZ-Zjy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3jj-Oe-36z" secondAttribute="trailing" constant="20" id="fMX-r9-9iX"/>
+                <constraint firstItem="3jj-Oe-36z" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="hMN-Ru-deS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3jj-Oe-36z" secondAttribute="bottom" constant="20" id="iZE-Dp-Ufc"/>
+                <constraint firstItem="xtX-A3-xLH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rmp-O6-958"/>
+                <constraint firstItem="dQM-W2-iGA" firstAttribute="trailing" secondItem="xtX-A3-xLH" secondAttribute="trailing" id="ryH-5x-o9i"/>
+                <constraint firstItem="dQM-W2-iGA" firstAttribute="leading" secondItem="xtX-A3-xLH" secondAttribute="leading" id="ubL-vo-8W6"/>
+                <constraint firstItem="3jj-Oe-36z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="vtp-cq-4DP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Background" width="499" height="333"/>
+    </resources>
+</document>

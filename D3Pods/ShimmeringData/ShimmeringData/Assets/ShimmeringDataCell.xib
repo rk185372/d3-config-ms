@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ShimmeringDataCell" rowHeight="121" id="GE9-bq-dNx" customClass="ShimmeringDataCell" customModule="ShimmeringData" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GE9-bq-dNx" id="DXS-Jb-ZWR">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="120.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="b2t-0C-M3x">
+                        <rect key="frame" x="25" y="30" width="325" height="33"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jc8-ob-ycw" customClass="FBShimmeringView">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4d-0D-BW4">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="5"/>
+                                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="G4d-0D-BW4" secondAttribute="bottom" id="CQi-ah-fZ3"/>
+                                    <constraint firstAttribute="trailing" secondItem="G4d-0D-BW4" secondAttribute="trailing" id="Mhh-ei-Uau"/>
+                                    <constraint firstItem="G4d-0D-BW4" firstAttribute="top" secondItem="jc8-ob-ycw" secondAttribute="top" id="OWq-k7-xQR"/>
+                                    <constraint firstAttribute="width" constant="200" id="afB-mg-FXA"/>
+                                    <constraint firstAttribute="height" constant="5" id="lBP-I9-yaE"/>
+                                    <constraint firstItem="G4d-0D-BW4" firstAttribute="leading" secondItem="jc8-ob-ycw" secondAttribute="leading" id="oDN-ia-SG0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYs-Ex-q6Z" customClass="FBShimmeringView">
+                                <rect key="frame" x="0.0" y="14" width="305" height="5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="one-o8-Bye">
+                                        <rect key="frame" x="0.0" y="0.0" width="305" height="5"/>
+                                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="one-o8-Bye" secondAttribute="trailing" id="2r6-KM-gYA"/>
+                                    <constraint firstItem="one-o8-Bye" firstAttribute="leading" secondItem="MYs-Ex-q6Z" secondAttribute="leading" id="SxO-N1-fsD"/>
+                                    <constraint firstAttribute="bottom" secondItem="one-o8-Bye" secondAttribute="bottom" id="U4M-3s-cTP"/>
+                                    <constraint firstItem="one-o8-Bye" firstAttribute="top" secondItem="MYs-Ex-q6Z" secondAttribute="top" id="rd6-B0-Qu4"/>
+                                    <constraint firstAttribute="height" constant="5" id="sdD-Pa-1s9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLo-mZ-RdT" customClass="FBShimmeringView">
+                                <rect key="frame" x="0.0" y="28" width="280" height="5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxc-id-dYm">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="5"/>
+                                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zxc-id-dYm" firstAttribute="top" secondItem="YLo-mZ-RdT" secondAttribute="top" id="9A0-BQ-Zwx"/>
+                                    <constraint firstAttribute="trailing" secondItem="zxc-id-dYm" secondAttribute="trailing" id="Bv3-yZ-KLH"/>
+                                    <constraint firstItem="zxc-id-dYm" firstAttribute="leading" secondItem="YLo-mZ-RdT" secondAttribute="leading" id="HJf-y3-Iv9"/>
+                                    <constraint firstAttribute="height" constant="5" id="vzP-K4-Fau"/>
+                                    <constraint firstAttribute="bottom" secondItem="zxc-id-dYm" secondAttribute="bottom" id="z2E-l4-FQc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YLo-mZ-RdT" secondAttribute="trailing" constant="45" id="4DE-wY-azU"/>
+                            <constraint firstItem="YLo-mZ-RdT" firstAttribute="leading" secondItem="b2t-0C-M3x" secondAttribute="leading" id="QSA-vN-GSC"/>
+                            <constraint firstAttribute="trailing" secondItem="MYs-Ex-q6Z" secondAttribute="trailing" constant="20" id="VHE-2K-Bzy"/>
+                            <constraint firstItem="MYs-Ex-q6Z" firstAttribute="leading" secondItem="b2t-0C-M3x" secondAttribute="leading" id="pVa-vU-a3p"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="b2t-0C-M3x" firstAttribute="top" secondItem="DXS-Jb-ZWR" secondAttribute="top" constant="30" id="WCe-aY-ApH"/>
+                    <constraint firstItem="b2t-0C-M3x" firstAttribute="leading" secondItem="DXS-Jb-ZWR" secondAttribute="leading" constant="25" id="e7c-6u-QC3"/>
+                    <constraint firstAttribute="bottom" secondItem="b2t-0C-M3x" secondAttribute="bottom" priority="999" constant="30" id="gdC-0L-HpF"/>
+                    <constraint firstAttribute="trailing" secondItem="b2t-0C-M3x" secondAttribute="trailing" constant="25" id="pGH-4i-fzW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="stackView" destination="b2t-0C-M3x" id="owD-xQ-WTO"/>
+            </connections>
+            <point key="canvasLocation" x="-10.5" y="-81.5"/>
+        </tableViewCell>
+    </objects>
+</document>

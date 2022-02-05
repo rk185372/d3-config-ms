@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="210" id="sxL-Ev-5de" customClass="SetUpInfoCell" customModule="OutOfBand" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="210"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sxL-Ev-5de" id="r9T-X0-097">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="210"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VN-RF-Eyg" customClass="UILabelComponent" customModule="ComponentKit">
+                        <rect key="frame" x="20" y="15" width="284" height="180"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="credentials.oob-reset.setup.ratio"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7VN-RF-Eyg" firstAttribute="leading" secondItem="r9T-X0-097" secondAttribute="leading" constant="20" id="57e-rR-vAN"/>
+                    <constraint firstAttribute="trailing" secondItem="7VN-RF-Eyg" secondAttribute="trailing" constant="20" id="MFX-P0-vn3"/>
+                    <constraint firstItem="7VN-RF-Eyg" firstAttribute="top" secondItem="r9T-X0-097" secondAttribute="top" constant="15" id="VXG-Tp-zkh"/>
+                    <constraint firstAttribute="bottom" secondItem="7VN-RF-Eyg" secondAttribute="bottom" constant="15" id="gvj-Ns-gcp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="SEO-cZ-S65"/>
+            <point key="canvasLocation" x="124.6376811594203" y="84.375"/>
+        </tableViewCell>
+    </objects>
+</document>

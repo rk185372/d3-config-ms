@@ -1,0 +1,9 @@
+{
+    "upgradeNotification": {
+        "upgradeText": "It's time to upgrade",
+        "titleText": "ALERT",
+        "upgradeActionText": "Upgrade",
+        "cancelActionText": "Cancel",
+        "notificationType": "OPTIONAL"
+    }
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="FeatureTourSynovus" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnDefault"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="oMP-cb-Nav" id="YQD-gV-nyM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMP-cb-Nav">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="751" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="epK-fe-iqi">
+                    <rect key="frame" x="192" y="921" width="384" height="103"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rea-IZ-5Q8">
+                            <rect key="frame" x="0.0" y="0.0" width="384" height="103"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="150" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="hNL-6W-MHv">
+                                    <rect key="frame" x="20" y="0.0" width="344" height="88"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSD-vA-l1z" customClass="UIButtonComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="0.0" width="344" height="35"/>
+                                            <color key="backgroundColor" red="0.2784313725" green="0.65098039220000004" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="35" id="JN4-O7-cr1"/>
+                                            </constraints>
+                                            <state key="normal" title="See What's New">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonCta"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="feature-tour.welcome.see-whats-new"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="goToNextPressed:" destination="-1" eventType="touchUpInside" id="Dmg-NN-bWP"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djn-dl-9Wg" customClass="UIButtonComponent" customModule="ComponentKit">
+                                            <rect key="frame" x="0.0" y="53" width="344" height="35"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="35" id="vxz-Yf-Llt"/>
+                                            </constraints>
+                                            <state key="normal" title="Go to Login">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonNoOutlineOnDefault"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="feature-tour.welcome.go-to-login"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="goToLoginPressed:" destination="-1" eventType="touchUpInside" id="17c-7o-jfo"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="hNL-6W-MHv" secondAttribute="bottom" constant="15" id="1ZZ-Og-ZI3"/>
+                                <constraint firstItem="hNL-6W-MHv" firstAttribute="top" secondItem="Rea-IZ-5Q8" secondAttribute="top" id="E3e-y1-b19"/>
+                                <constraint firstItem="hNL-6W-MHv" firstAttribute="leading" secondItem="Rea-IZ-5Q8" secondAttribute="leading" constant="20" id="Rri-GR-dVn"/>
+                                <constraint firstAttribute="trailing" secondItem="hNL-6W-MHv" secondAttribute="trailing" constant="20" id="ztz-XH-Iiq"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="eWr-O1-Ids"/>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="epK-fe-iqi" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="497-bg-EXR"/>
+                <constraint firstAttribute="bottom" secondItem="oMP-cb-Nav" secondAttribute="bottom" id="Y1X-6T-u0A"/>
+                <constraint firstItem="epK-fe-iqi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZHa-S0-Ayl"/>
+                <constraint firstItem="oMP-cb-Nav" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="amt-92-4ad"/>
+                <constraint firstItem="epK-fe-iqi" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="h4r-Yd-0IS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="epK-fe-iqi" secondAttribute="bottom" id="iG9-P1-uqQ"/>
+                <constraint firstItem="epK-fe-iqi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kfE-bU-gJg"/>
+                <constraint firstItem="oMP-cb-Nav" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="seo-aT-RIT"/>
+                <constraint firstAttribute="trailing" secondItem="oMP-cb-Nav" secondAttribute="trailing" id="ugI-US-s8c"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="497-bg-EXR"/>
+                    <exclude reference="kfE-bU-gJg"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="497-bg-EXR"/>
+                    <exclude reference="ZHa-S0-Ayl"/>
+                    <exclude reference="h4r-Yd-0IS"/>
+                    <include reference="kfE-bU-gJg"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

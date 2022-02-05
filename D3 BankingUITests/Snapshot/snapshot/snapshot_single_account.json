@@ -1,0 +1,59 @@
+{
+  "syncStatus": "SUCCESS",
+  "accounts": [
+    {
+      "id": 480,
+      "name": "My Deposit - Checking Account",
+      "nickname": "My Deposit - Checking Account -- Nicknamed",
+      "number": "******7445",
+      "balance": {
+        "amount": 1200,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-08-18"
+      },
+      "balance2": {
+        "amount": 125000,
+        "type": "LEDGER",
+        "asOfDate": "2020-08-20"
+      },
+      "balance3": {
+        "amount": 125000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-08-19"
+      },
+      "group": "Checking & Savings",
+      "transactions": [
+        {
+          "pending": true,
+          "postDate": "2020-08-18",
+          "type": "CREDIT",
+          "description": "Buffalo Wild Wings",
+          "amount": 90,
+          "category": "Dining"
+        },
+        {
+          "pending": false,
+          "postDate": "2020-08-18",
+          "type": "CREDIT",
+          "description": "GAP",
+          "amount": 203.83,
+          "category": "Clothing"
+        },
+        {
+          "pending": false,
+          "postDate": "2020-08-13",
+          "type": "CREDIT",
+          "description": "Autozone",
+          "amount": 23.89,
+          "category": "Gas"
+        }
+      ],
+      "currencyCode": "USD",
+      "links": {
+        "transactions": {
+          "href": "/v4/anon/view/quick/userAccounts/480/transactions"
+        }
+      }
+    }
+  ]
+}

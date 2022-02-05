@@ -1,0 +1,11 @@
+framework module FISDigitalPaymentsSDK {
+  umbrella header "FISDigitalPaymentsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FISDigitalPaymentsSDK.Swift {
+    header "FISDigitalPaymentsSDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoItemsView" customModule="Views" customModuleProvider="target">
+            <connections>
+                <outlet property="infoLabel" destination="ZQO-Hk-xQA" id="vmL-lk-lre"/>
+                <outlet property="refreshIcon" destination="rtA-rI-vbI" id="YU3-J7-lOc"/>
+                <outlet property="tryAgainButton" destination="MYo-Km-y05" id="A8W-K4-6hD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Failed to load accounts." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQO-Hk-xQA" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="272" width="335" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RefreshIcon" translatesAutoresizingMaskIntoConstraints="NO" id="rtA-rI-vbI">
+                    <rect key="frame" x="178.5" y="322.5" width="18" height="22.5"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="Jhc-DW-M0J"/>
+                        <constraint firstAttribute="height" constant="22.5" id="gRs-8G-fE0"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYo-Km-y05" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="153.5" y="355" width="68" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <state key="normal" title="Try Again">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonNoOutlineOnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rtA-rI-vbI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="7HU-i7-KIl"/>
+                <constraint firstItem="ZQO-Hk-xQA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="8Fp-mp-8bQ"/>
+                <constraint firstItem="rtA-rI-vbI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GwS-IT-7vk"/>
+                <constraint firstItem="ZQO-Hk-xQA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="JdR-Lb-4oY"/>
+                <constraint firstItem="rtA-rI-vbI" firstAttribute="top" secondItem="ZQO-Hk-xQA" secondAttribute="bottom" constant="30" id="b2J-Xg-Q1J"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ZQO-Hk-xQA" secondAttribute="trailing" constant="20" id="eGl-oO-fTP"/>
+                <constraint firstItem="MYo-Km-y05" firstAttribute="top" secondItem="rtA-rI-vbI" secondAttribute="bottom" constant="10" id="htJ-bk-UEp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MYo-Km-y05" secondAttribute="bottom" constant="20" id="l9x-Je-izh"/>
+                <constraint firstItem="MYo-Km-y05" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sWo-rr-G3W"/>
+                <constraint firstItem="ZQO-Hk-xQA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="w1i-SM-bTt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-13" y="38"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="RefreshIcon" width="18" height="22.5"/>
+    </resources>
+</document>

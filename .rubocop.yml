@@ -1,0 +1,31 @@
+# Enforce a sane ruby version
+AllCops:
+  TargetRubyVersion: 2.4
+
+# To make editing files in Xcode easier
+Layout/IndentationWidth:
+  Width: 4
+
+# Allow some more leeway
+Metrics/AbcSize:
+  Max: 30
+
+# Allow long block to accommodate pod targets
+Metrics/BlockLength:
+  Max: 100
+
+# Allow some more leeway
+Metrics/MethodLength:
+  Max: 30
+
+# 140 to match swiftlint settings
+Metrics/LineLength:
+  Max: 140
+
+# YOLO
+Style/Documentation:
+  Enabled: false
+
+Style/FileName:
+  Exclude:
+    - '**/*.podspec'

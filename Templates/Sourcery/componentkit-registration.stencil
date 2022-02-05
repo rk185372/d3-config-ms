@@ -1,0 +1,12 @@
+import Foundation
+import ComponentKit
+
+extension ThemeParser {
+    var parsers: [StyleParser] {
+        return [
+            {% for type in types.implementing.StyleParser %}
+                {{ type.name }}(){% if not forloop.last %},{% endif %}
+            {% endfor %}
+        ]
+    }
+}

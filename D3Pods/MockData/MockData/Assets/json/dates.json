@@ -1,0 +1,18 @@
+{
+    "quickDates": [{
+        "date": "2017-04-17T19:33:38+00:00",
+        "display": "4/17/2017 - Today",
+        "shortDisplay": "4/17/2017",
+        "analyticsName": "Today"
+    }, {
+        "date": "2017-05-01T19:33:38+00:00",
+        "display": "5/1/2017 - Due Date",
+        "shortDisplay": "5/1/2017",
+        "analyticsName": "DueDate"
+    }, {
+        "date": "2017-05-17T19:33:38+00:00",
+        "display": "5/17/2017",
+        "shortDisplay": "5/17/2017",
+        "analyticsName": "Other"
+    }]
+}

@@ -1,0 +1,41 @@
+{
+  "palette":{
+    "callToAction": {
+      "contrastText": "#FFFFFF",
+      "dark": "#4fae91",
+      "light": "#72bfa7",
+      "main": "#60b79c"
+    },
+    "common": {
+      "black": "#000000",
+      "white": "#FFFFFF"
+    },
+    "default": {
+      "contrastText": "#000000",
+      "main": "#FFFFFF"
+    },
+    "error": {
+      "contrastText": "#FFFFFF",
+      "dark": "#020101",
+      "light": "#dc5959",
+      "main": "#d32f2f"
+    },
+    "grey": {
+      "dark": "#7c7c7c",
+      "light": "#d5d5d5",
+      "main": "#bcbcbc"
+    },
+    "primary": {
+      "contrastText": "#FFFFFF",
+      "dark": "#0f6d8c",
+      "light": "#1591ba",
+      "main": "#127fa3"
+    },
+    "secondary": {
+      "contrastText": "#FFFFFF",
+      "dark": "#007376",
+      "light": "#009b9e",
+      "main": "#008285"
+    }
+  }
+}

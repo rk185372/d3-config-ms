@@ -1,0 +1,8 @@
+framework module APIGuard {
+    umbrella header "APIGuard.h"
+    export *
+    
+    module * {
+        export *
+    }
+}

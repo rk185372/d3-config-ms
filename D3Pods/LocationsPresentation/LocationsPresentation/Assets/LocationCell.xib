@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationCell" rowHeight="92" id="3FU-F6-NLJ" customClass="LocationCell" customModule="LocationsPresentation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3FU-F6-NLJ" id="xWp-jh-Nrt">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Wo8-ov-gLU">
+                        <rect key="frame" x="20" y="18" width="235" height="55.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XFz-SG-hMh">
+                                <rect key="frame" x="0.0" y="0.0" width="235" height="55.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqU-nx-qTb" customClass="UILabelComponent" customModule="ComponentKit">
+                                        <rect key="frame" x="0.0" y="0.0" width="235" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h3OnDefault"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imO-jL-mOp" customClass="UILabelComponent" customModule="ComponentKit">
+                                        <rect key="frame" x="0.0" y="20.5" width="235" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h3OnDefault"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSk-4o-NJS">
+                                        <rect key="frame" x="0.0" y="38.5" width="235" height="17"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGb-rt-Mxn">
+                        <rect key="frame" x="265" y="0.0" width="30" height="91.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncT-Dm-w5N" customClass="UIButtonComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="13.5" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Vo1-ay-G7v"/>
+                                    <constraint firstAttribute="height" constant="30" id="xqG-gS-INd"/>
+                                </constraints>
+                                <state key="normal" image="PhoneIcon"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonNoOutlineCtaOnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOt-gZ-q1l" customClass="UIButtonComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="48.5" width="30" height="24"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Call"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonNoOutlineCtaOnDefault"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="launchPage.geolocation.button.call"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" button="YES"/>
+                            <bool key="isElement" value="NO"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="ncT-Dm-w5N" firstAttribute="bottom" secondItem="EGb-rt-Mxn" secondAttribute="centerY" constant="-2.5" id="3jm-Nm-Pk3"/>
+                            <constraint firstItem="QOt-gZ-q1l" firstAttribute="top" secondItem="EGb-rt-Mxn" secondAttribute="centerY" constant="2.5" id="6Gk-zP-ZQq"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="QOt-gZ-q1l" secondAttribute="bottom" id="9sg-hi-UDk"/>
+                            <constraint firstItem="QOt-gZ-q1l" firstAttribute="leading" secondItem="ncT-Dm-w5N" secondAttribute="leading" id="Bcs-JK-PHs"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ncT-Dm-w5N" secondAttribute="trailing" id="Dvh-an-GUq"/>
+                            <constraint firstItem="ncT-Dm-w5N" firstAttribute="centerX" secondItem="EGb-rt-Mxn" secondAttribute="centerX" id="FfJ-ZD-SLC"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="30" id="Gip-u7-BW5"/>
+                            <constraint firstAttribute="trailing" secondItem="QOt-gZ-q1l" secondAttribute="trailing" id="K0u-OM-6tv"/>
+                            <constraint firstItem="QOt-gZ-q1l" firstAttribute="leading" secondItem="EGb-rt-Mxn" secondAttribute="leading" id="XT3-dV-XSU"/>
+                            <constraint firstItem="ncT-Dm-w5N" firstAttribute="top" relation="greaterThanOrEqual" secondItem="EGb-rt-Mxn" secondAttribute="top" id="cIM-K3-nac"/>
+                            <constraint firstItem="ncT-Dm-w5N" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EGb-rt-Mxn" secondAttribute="leading" id="z4j-lh-5PJ"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCO-WV-z2s">
+                        <rect key="frame" x="305" y="0.0" width="50" height="91.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9N-3D-rOk" customClass="UIButtonComponent" customModule="ComponentKit">
+                                <rect key="frame" x="10" y="13.5" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Xap-fb-BsL"/>
+                                    <constraint firstAttribute="width" constant="30" id="mrN-WI-VqV"/>
+                                </constraints>
+                                <state key="normal" image="DirectionsIcon"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonNoOutlineCtaOnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFz-OI-5Ku" customClass="UIButtonComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="48.5" width="50" height="24"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Directions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonNoOutlineCtaOnDefault"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="launchPage.geolocation.button.directions"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" button="YES"/>
+                            <bool key="isElement" value="NO"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="aFz-OI-5Ku" firstAttribute="leading" secondItem="bCO-WV-z2s" secondAttribute="leading" id="02h-Cv-ki5"/>
+                            <constraint firstItem="aFz-OI-5Ku" firstAttribute="centerX" secondItem="bCO-WV-z2s" secondAttribute="centerX" id="0ms-bj-vTh"/>
+                            <constraint firstItem="aFz-OI-5Ku" firstAttribute="top" secondItem="bCO-WV-z2s" secondAttribute="centerY" constant="2.5" id="1Hn-rs-4hB"/>
+                            <constraint firstItem="M9N-3D-rOk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bCO-WV-z2s" secondAttribute="leading" id="DyC-SB-BYu"/>
+                            <constraint firstAttribute="trailing" secondItem="aFz-OI-5Ku" secondAttribute="trailing" id="VkC-rL-xOq"/>
+                            <constraint firstItem="M9N-3D-rOk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bCO-WV-z2s" secondAttribute="top" id="YKy-y0-zHv"/>
+                            <constraint firstItem="M9N-3D-rOk" firstAttribute="bottom" secondItem="bCO-WV-z2s" secondAttribute="centerY" constant="-2.5" id="eTu-ew-4AA"/>
+                            <constraint firstAttribute="bottom" secondItem="aFz-OI-5Ku" secondAttribute="bottom" constant="19" id="giH-fM-gkD"/>
+                            <constraint firstItem="M9N-3D-rOk" firstAttribute="centerX" secondItem="bCO-WV-z2s" secondAttribute="centerX" id="jlT-ch-yMW"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="aFz-OI-5Ku" secondAttribute="bottom" id="jnW-GQ-qxr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M9N-3D-rOk" secondAttribute="trailing" id="l1H-gZ-ncd"/>
+                            <constraint firstAttribute="width" constant="50" id="lkI-si-zRb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="bCO-WV-z2s" firstAttribute="centerY" secondItem="xWp-jh-Nrt" secondAttribute="centerY" id="0d9-og-bEP"/>
+                    <constraint firstItem="bCO-WV-z2s" firstAttribute="leading" secondItem="EGb-rt-Mxn" secondAttribute="trailing" constant="10" id="6EZ-Uk-14L"/>
+                    <constraint firstItem="EGb-rt-Mxn" firstAttribute="leading" secondItem="Wo8-ov-gLU" secondAttribute="trailing" constant="10" id="DLM-dW-F8m"/>
+                    <constraint firstAttribute="bottom" secondItem="EGb-rt-Mxn" secondAttribute="bottom" id="SVa-F3-IYL"/>
+                    <constraint firstItem="EGb-rt-Mxn" firstAttribute="centerY" secondItem="xWp-jh-Nrt" secondAttribute="centerY" id="Up9-lw-icm"/>
+                    <constraint firstItem="bCO-WV-z2s" firstAttribute="top" secondItem="xWp-jh-Nrt" secondAttribute="top" id="gsm-as-z8e"/>
+                    <constraint firstAttribute="trailing" secondItem="bCO-WV-z2s" secondAttribute="trailing" constant="20" id="inu-cx-hio"/>
+                    <constraint firstAttribute="bottom" secondItem="Wo8-ov-gLU" secondAttribute="bottom" constant="18" id="mJs-Si-3Wl"/>
+                    <constraint firstAttribute="bottom" secondItem="bCO-WV-z2s" secondAttribute="bottom" id="pP6-Mx-zbX"/>
+                    <constraint firstItem="EGb-rt-Mxn" firstAttribute="top" secondItem="xWp-jh-Nrt" secondAttribute="top" id="tOe-hB-BV6"/>
+                    <constraint firstItem="Wo8-ov-gLU" firstAttribute="leading" secondItem="xWp-jh-Nrt" secondAttribute="leading" constant="20" id="uvx-dt-9Q6"/>
+                    <constraint firstItem="Wo8-ov-gLU" firstAttribute="top" secondItem="xWp-jh-Nrt" secondAttribute="top" constant="18" id="y25-8q-UdW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="callButton" destination="QOt-gZ-q1l" id="vs6-Uo-CJq"/>
+                <outlet property="callImageButton" destination="ncT-Dm-w5N" id="xFB-Dm-RGA"/>
+                <outlet property="directionsButton" destination="aFz-OI-5Ku" id="ANS-ls-FzR"/>
+                <outlet property="directionsImageButton" destination="M9N-3D-rOk" id="bTy-ey-XMV"/>
+                <outlet property="nameLabel" destination="RqU-nx-qTb" id="V3g-0d-Vgz"/>
+                <outlet property="subtitleLabel" destination="imO-jL-mOp" id="Yhn-rN-u71"/>
+            </connections>
+            <point key="canvasLocation" x="-285.60000000000002" y="-73.763118440779621"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DirectionsIcon" width="90" height="90"/>
+        <image name="PhoneIcon" width="90" height="90"/>
+    </resources>
+</document>

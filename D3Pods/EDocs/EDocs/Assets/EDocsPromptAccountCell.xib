@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="TWf-yb-arZ" customClass="EDocsPromptAccountCell" customModule="EDocs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="131"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TWf-yb-arZ" id="Owc-br-n62">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="131"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JaT-wP-kfr">
+                        <rect key="frame" x="20" y="45" width="313" height="41"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJQ-mv-yDQ" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="0.0" width="313" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRl-Dz-rkQ" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="20.5" width="313" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uoo-YU-nEC" customClass="UICheckboxComponent" customModule="ComponentKit">
+                        <rect key="frame" x="341" y="52" width="27" height="27"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="MMb-Q7-kEH"/>
+                            <constraint firstAttribute="width" constant="27" id="eQW-Mo-Ry3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="checkboxOnDefault"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uoo-YU-nEC" firstAttribute="centerY" secondItem="Owc-br-n62" secondAttribute="centerY" id="6jP-Fz-Ox6"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="JaT-wP-kfr" secondAttribute="bottom" constant="16" id="F9s-Z1-Gni"/>
+                    <constraint firstItem="JaT-wP-kfr" firstAttribute="leading" secondItem="Owc-br-n62" secondAttribute="leading" constant="20" id="QHQ-ap-JhE"/>
+                    <constraint firstAttribute="trailing" secondItem="uoo-YU-nEC" secondAttribute="trailing" constant="20" id="TjT-Xw-dFY"/>
+                    <constraint firstItem="uoo-YU-nEC" firstAttribute="leading" secondItem="JaT-wP-kfr" secondAttribute="trailing" constant="8" id="idU-wZ-tIl"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="uoo-YU-nEC" secondAttribute="bottom" constant="23" id="k0r-4y-TAH"/>
+                    <constraint firstItem="JaT-wP-kfr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Owc-br-n62" secondAttribute="top" constant="16" id="mqc-M4-iPX"/>
+                    <constraint firstItem="uoo-YU-nEC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Owc-br-n62" secondAttribute="top" constant="23" id="oEP-xF-vwE"/>
+                    <constraint firstItem="JaT-wP-kfr" firstAttribute="centerY" secondItem="Owc-br-n62" secondAttribute="centerY" id="t8H-qx-b6M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accountNameLabel" destination="gJQ-mv-yDQ" id="Ynr-1z-ps2"/>
+                <outlet property="accountNumberLabel" destination="TRl-Dz-rkQ" id="8Ww-2Y-9Bq"/>
+                <outlet property="checkbox" destination="uoo-YU-nEC" id="1Oo-Wf-mQ2"/>
+            </connections>
+            <point key="canvasLocation" x="-106" y="109.5"/>
+        </tableViewCell>
+    </objects>
+</document>

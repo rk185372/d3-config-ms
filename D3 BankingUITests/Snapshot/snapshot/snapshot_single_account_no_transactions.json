@@ -1,0 +1,29 @@
+{
+  "syncStatus": "SUCCESS",
+  "accounts": [
+    {
+      "id": 480,
+      "name": "My Deposit - Checking Account",
+      "nickname": "My Deposit - Checking Account -- Nicknamed",
+      "number": "******7445",
+      "transactions": [],
+      "balance": {
+        "amount": 1200,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-08-18"
+      },
+      "balance2": {
+        "amount": 125000,
+        "type": "LEDGER",
+        "asOfDate": "2020-08-20"
+      },
+      "balance3": {
+        "amount": 125000,
+        "type": "AVAILABLE",
+        "asOfDate": "2020-08-19"
+      },
+      "group": "Checking & Savings",
+      "currencyCode": "USD"
+    }
+  ]
+}

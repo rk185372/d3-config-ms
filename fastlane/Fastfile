@@ -1,0 +1,107 @@
+fastlane_require 'xcodeproj'
+
+require_relative '../Scripts/script_helper_factory'
+require_relative '../Scripts/git_helper'
+
+# You must pass in active template id to run fastlane i.e fastlane ios release active_template_id:4
+
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.101.1"
+
+default_platform :ios
+
+platform :ios do
+  def jarvisSetup(options)
+    template_id = @script_helper.template_id_for_active_template(options[:active_template_id])
+    @build_id = @script_helper.create_build(template_id, GitHelper.current_branch, GitHelper.current_commit)
+  end
+
+  before_all do |lane, options|
+    @script_helper = create_script_helper
+
+    if (lane != :bot_post_build)
+      jarvisSetup(options)
+      Dir.chdir ".." do
+        puts 'Downloading environment zip'
+        @script_helper.download_environment_zip_for_build(@build_id)
+      end
+    end
+
+    @app_name = get_xcconfig_value(
+      path: 'environment/config/mobileapp.xcconfig',
+      name: 'APP_NAME'
+    )
+
+    cocoapods(
+      repo_update: true
+    )
+
+  end
+
+  desc "Runs all the tests, requires Jarvis to be run before this"
+  lane :test do
+    scan
+  end
+
+  desc "Submit a new build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :bot_post_build do |options|
+    if options[:archive_path]
+
+      # build = get_build_number(xcodeproj: "D3 Banking.xcodeproj")
+      # version = get_version_number(xcodeproj: "D3 Banking.xcodeproj")
+
+      gym(skip_build_archive:true, archive_path:options[:archive_path])
+      pilot(skip_waiting_for_build_processing:true)
+    end
+  end
+
+  desc "Deploy a new version to Apple Testflight, requires Jarvis to be run before this"
+  lane :release do
+    gym(export_method: "app-store", scheme: 'D3 Banking', output_name: @app_name)
+    pilot(skip_waiting_for_build_processing:true)
+  end
+
+  desc "This can be run without any setup, will run Jarvis for you"
+  lane :manual do
+    gym(export_method: "app-store", output_name: @app_name)
+    pilot(skip_waiting_for_build_processing:true)
+  end
+
+  # You can define as many lanes as you want
+
+  after_all do |lane, options|
+    if lane != :bot_post_build
+      output_file = "../#{@app_name}.ipa"
+      @script_helper.report_build(@build_id, 'success', output_file )
+    end
+    # This block is called, only if the executed lane was successful
+
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+
+  error do |lane, exception|
+    @script_helper.report_build(@build_id, 'failure', nil)
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://docs.fastlane.tools/actions
+
+# fastlane reports which actions are used. No personal data is recorded.
+# Learn more at https://github.com/fastlane/fastlane#metrics

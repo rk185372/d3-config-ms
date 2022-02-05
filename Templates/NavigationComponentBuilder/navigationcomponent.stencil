@@ -1,0 +1,381 @@
+// Generated
+
+import AccountsFactory
+import Dashboard
+import Dip
+import Foundation
+import LocationsPresentation
+import Logout
+import mRDC
+import Permissions
+import UIKit
+import Utilities
+import Web
+import InAppRating
+
+public enum NavigationItem: CaseIterable {
+    {% for item in navItems %}
+    {% if item.enabled %}
+    case {{ item.name }}
+    {% endif %}
+    {% endfor %}
+
+    var titleL10nKey: String {
+        switch self {
+        {% for item in navItems %}
+        case .{{ item.name }}:
+        {% if item.name == "accounts" %}
+            return "nav.accounts"
+        {% elif item.name == "locations" %}
+            return "launchPage.geolocation.title"
+        {% elif item.name == "logout" %}
+            return "header.logout"
+        {% elif item.name == "rdc" %}
+            return "dashboard.widget.deposit.btn"
+        {% elif item.name == "feedback" %}
+            return "header.feedback"
+        {% else %}
+            return "{{ item.web.title }}"
+        {% endif %}
+        {% endfor %}
+        }
+    }
+
+    var icon: UIImage? {
+        switch self {
+        {% for item in navItems %}
+        case .{{ item.name }}:
+        {% if item.name == "accounts" %}
+            return UIImage(named: "AccountsTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "locations" %}
+            return UIImage(named: "LocationsTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "logout" %}
+            return UIImage(named: "LogoutTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "financialWellness" %}
+            return UIImage(named: "fwTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "rdc" %}
+            return UIImage(named: "RdcTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "moneyMovement" or item.name == "transfers" %}
+            return UIImage(named: "PayTransferTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "messages" %}
+            return UIImage(named: "MessagesTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "planning" %}
+            return UIImage(named: "PlanningTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "selfService" %}
+            return UIImage(named: "SelfServiceTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "payments" %}
+            return UIImage(named: "PaymentsTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "transfers" %}
+            return UIImage(named: "TransfersTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "documents" %}
+            return UIImage(named: "eDocsIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "feedback" %}
+            return UIImage(named: "feedbackIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "alerts" %}
+            return UIImage(named: "AlertsTabIcon", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% elif item.name == "approvals" %}
+            return UIImage(named: "Approvals", in: DashboardBundle.bundle, compatibleWith: nil)
+        {% endif %}
+        {% endfor %} 
+        }
+    }
+
+    func viewControllerFactory(givenDependencyContainer container: DependencyContainer) -> ViewControllerFactory? {
+        func factory(navigation: WebComponentNavigation) throws -> WebComponentViewControllerFactory {
+            return try WebComponentViewControllerFactory(
+                l10nProvider: try container.resolve(),
+                componentStyleProvider: try container.resolve(),
+                permissionsManager: try container.resolve(),
+                webViewControllerFactory: try container.resolve(),
+                navigation: navigation,
+                userSession: try container.resolve()
+            )
+        }
+
+        switch self {
+        {% for item in navItems %}
+        case .{{ item.name }}:
+        {% if item.name == "accounts" %}
+            return try? container.resolve() as AccountsViewControllerFactory
+        {% elif item.name == "locations" %}
+            return try? container.resolve() as LocationsNavigationControllerFactory
+        {% elif item.name == "logout" %}
+            return try? container.resolve() as LogoutMenuViewControllerFactory
+        {% elif item.name == "rdc" %}
+            return try? container.resolve() as RDCNavigationControllerFactory
+        {% elif item.name == "feedback" %}
+            return try? container.resolve() as FeedbackViewControllerFactory
+        {% else %}
+            return try? factory(navigation: WebComponent.{{ item.name }})
+        {% endif %}
+        {% endfor %}
+        }
+    }
+}
+
+public enum WebComponent {
+    {% for item in navItems %}
+    {% if item.web %}
+    public static let {{ item.name }} = WebComponentNavigation(
+        title: "{{ item.web.title }}",
+        path: "{{ item.web.href }}",
+        role: UserRole(value: "{{ item.web.role }}"),
+        showsUserProfile: {% if item.web.title == "nav.accounts" and item.web.href == "accounts" %}true{% else %}false{% endif %},
+        sections: [
+            {% if item.web.subsections %}
+            {% for subSection in item.web.subsections %}
+                WebComponentNavigation.Section(
+                    title: "{{ subSection.title }}",
+                    items: [
+                    {% if subSection.subitems %}
+                    {% for subItem in subSection.subitems %}
+                        WebComponentNavigation.Item(
+                            title: "{{ subItem.title }}",
+                            component: "{{ item.href }}",
+                            path: "{{ subItem.href }}",
+                            role: UserRole(value: "{{ subItem.role }}"),
+                            imageName: 
+                                {% if subItem.href == "accounts/documents/notices" %}
+                                "NoticesIcon"
+                                {% elif subItem.href == "accounts/documents/tax" %}
+                                "TaxIcon"
+                                {% elif subItem.href == "accounts/documents/estatements" %}
+                                "EStatementIcon"
+                                {% elif subItem.href == "money-movement/approvals" %}
+                                "PaymentApprovals"
+                                {% elif subItem.href == "money-movement/transfers" %}
+                                "PaymentsAndTransfers"
+                                {% elif subItem.href == "money-movement/multiple" %}
+                                "PayMultiple"
+                                {% elif subItem.href == "money-movement/recipients" %}
+                                "Recipients"
+                                {% elif subItem.href == "money-movement/history" %}
+                                "History"
+                                {% elif subItem.href == "money-movement/ebills" %}
+                                "Ebills"
+                                {% elif subItem.href == "money-movement/reports" %}
+                                "Ebills"
+                                {% elif subItem.href == "money-movement/payees" %}
+                                "PayeesIcon"
+                                {% elif subItem.href == "transfers/schedule" %}
+                                "TransfersSchedule"
+                                {% elif subItem.href == "transfers/history" %}
+                                "TrasnfersHistory"
+                                {% elif subItem.href == "transfers/wire-templates" %}
+                                "WireTransfer"
+                                {% elif subItem.href == "transfers/transfer-accounts" %}
+                                "TransferAccountsIcon"
+                                {% elif subItem.href == "transfers/approvals" %}
+                                "ApprovalsIcon"
+                                {% elif subItem.href == "planning/budget" %}
+                                "Budget"
+                                {% elif subItem.href == "planning/goals" %}
+                                "Goals"
+                                {% elif subItem.href == "planning/plan" %}
+                                "Plan"
+                                {% elif subItem.href == "self-service/faq" %}
+                                "FAQ"
+                                {% elif subItem.href == "self-service/request-forms" %}
+                                "RequestForms"
+                                {% elif subItem.href == "self-service/tax-forms" %}
+                                "SelfServiceTaxForms"
+                                {% elif subItem.href == "self-service/card-controls" %}
+                                "CardControls"
+                                {% elif subItem.href == "settings/profile" %}
+                                "Profile"
+                                {% elif subItem.href == "settings/address" %}
+                                "AddressIcon"
+                                {% elif subItem.href == "settings/business-profile" %}
+                                "BusinessProfile"
+                                {% elif subItem.href == "settings/accounts" %}
+                                "Accounts"
+                                {% elif subItem.href == "dashboard" %}
+                                nil
+                                {% elif subItem.href == "alert-management" %}
+                                "Alerts"
+                                {% elif subItem.href == "preferences" %}
+                                "Categories"
+                                {% elif subItem.href == "preferences/rules" %}
+                                "Rules"
+                                {% elif subItem.href == "settings/security" %}
+                                "Security"
+                                {% elif subItem.href == "settings/mobile" %}
+                                "Mobile"
+                                {% elif subItem.href == "user-management" %}
+                                "Users"
+                                {% elif subItem.href == "settings/payment-approvals" %}
+                                "Approvals"
+                                {% elif subItem.href == "money-movement/create-payment" %}
+                                "MakeAPayment"
+                                {% elif subItem.href == "money-movement/upcoming-payments" %}
+                                "PaymentsAndTransfers"
+                                {% elif subItem.href == "money-movement/historical-payments" %}
+                                "History"
+                                {% elif subItem.href == "financial-wellness/money-map" %}
+                                "MoneyMap"
+                                {% elif subItem.href == "financial-wellness/pulse" %}
+                                "Pulse"
+                                {% elif subItem.href == "financial-wellness/dashboard" %}
+                                "Dashboard"
+                                {% elif subItem.href == "approvals/payments-transfers" %}
+                                "PaymentTransfer"
+                                {% elif subItem.href == "approvals/ach-templates" %}
+                                "ACHTemplates"
+                                {% elif subItem.href == "approvals/stop-payments" %}
+                                "StopPayments"
+                                {% else %}
+                                nil
+                                {% endif %}
+                        ){% if not forloop.last %},{% endif %}
+                    {% endfor %}
+                    {% endif %}
+                    ]
+                ){% if not forloop.last %},{% endif %}
+            {% endfor %}
+            {% endif %}
+        ],
+        items: [
+        {% if item.web.subitems %}
+        {% for subItem in item.web.subitems %}
+            WebComponentNavigation.Item(
+                title: "{{ subItem.title }}",
+                component: "{{ item.href }}",
+                path: "{{ subItem.href }}",
+                role: UserRole(value: "{{ subItem.role }}"),
+                imageName: 
+                    {% if subItem.href == "accounts/documents/notices" %}
+                    "NoticesIcon"
+                    {% elif subItem.href == "accounts/documents/tax" %}
+                    "TaxIcon"
+                    {% elif subItem.href == "accounts/documents/estatements" %}
+                    "EStatementIcon"
+                    {% elif subItem.href == "money-movement/approvals" %}
+                    "PaymentApprovals"
+                    {% elif subItem.href == "money-movement/transfers" %}
+                    "PaymentsAndTransfers"
+                    {% elif subItem.href == "money-movement/multiple" %}
+                    "PayMultiple"
+                    {% elif subItem.href == "money-movement/recipients" %}
+                    "Recipients"
+                    {% elif subItem.href == "money-movement/history" %}
+                    "History"
+                    {% elif subItem.href == "money-movement/ebills" %}
+                    "Ebills"
+                    {% elif subItem.href == "money-movement/reports" %}
+                    "Ebills"
+                    {% elif subItem.href == "money-movement/payees" %}
+                    "PayeesIcon"
+                    {% elif subItem.href == "transfers/schedule" %}
+                    "TransfersSchedule"
+                    {% elif subItem.href == "transfers/history" %}
+                    "TrasnfersHistory"
+                    {% elif subItem.href == "transfers/wire-templates" %}
+                    "WireTransfer"
+                    {% elif subItem.href == "transfers/transfer-accounts" %}
+                    "TransferAccountsIcon"
+                    {% elif subItem.href == "transfers/approvals" %}
+                    "ApprovalsIcon"
+                    {% elif subItem.href == "planning/budget" %}
+                    "Budget"
+                    {% elif subItem.href == "planning/goals" %}
+                    "Goals"
+                    {% elif subItem.href == "planning/plan" %}
+                    "Plan"
+                    {% elif subItem.href == "self-service/faq" %}
+                    "FAQ"
+                    {% elif subItem.href == "self-service/request-forms" %}
+                    "RequestForms"
+                    {% elif subItem.href == "self-service/tax-forms" %}
+                    "SelfServiceTaxForms"
+                    {% elif subItem.href == "self-service/card-controls" %}
+                    "CardControls"
+                    {% elif subItem.href == "settings/profile" %}
+                    "Profile"
+                    {% elif subItem.href == "settings/address" %}
+                    "AddressIcon"
+                    {% elif subItem.href == "settings/business-profile" %}
+                    "BusinessProfile"
+                    {% elif subItem.href == "settings/accounts" %}
+                    "Accounts"
+                    {% elif subItem.href == "dashboard" %}
+                    nil
+                    {% elif subItem.href == "alert-management" %}
+                    "Alerts"
+                    {% elif subItem.href == "preferences" %}
+                    "Categories"
+                    {% elif subItem.href == "preferences/rules" %}
+                    "Rules"
+                    {% elif subItem.href == "settings/security" %}
+                    "Security"
+                    {% elif subItem.href == "settings/mobile" %}
+                    "Mobile"
+                    {% elif subItem.href == "user-management" %}
+                    "Users"
+                    {% elif subItem.href == "settings/payment-approvals" %}
+                    "Approvals"
+                    {% elif subItem.href == "money-movement/create-payment" %}
+                    "MakeAPayment"
+                    {% elif subItem.href == "money-movement/upcoming-payments" %}
+                    "PaymentsAndTransfers"
+                    {% elif subItem.href == "money-movement/historical-payments" %}
+                    "History"
+                    {% elif subItem.href == "financial-wellness/money-map" %}
+                    "MoneyMap"
+                    {% elif subItem.href == "financial-wellness/pulse" %}
+                    "Pulse"
+                    {% elif subItem.href == "financial-wellness/dashboard" %}
+                    "Dashboard"
+                    {% elif subItem.href == "approvals/payments-transfers" %}
+                    "PaymentTransfer"
+                    {% elif subItem.href == "approvals/ach-templates" %}
+                    "ACHTemplates"
+                    {% elif subItem.href == "approvals/stop-payments" %}
+                    "StopPayments"
+                    {% else %}
+                    nil
+                    {% endif %}
+            ){% if not forloop.last %},{% endif %}
+        {% endfor %}
+        {% endif %}
+        ])
+    {% endif %}
+    {% endfor %}
+
+    public static func rules() -> [Feature: PermissionsRule] {
+        let navigations = [
+            {% for item in navItems %}
+            {% if item.web %}
+            {{ item.name }}{% if not forloop.last %},{% endif %}
+            {% endif %}
+            {% endfor %}
+        ]
+        return navigations.reduce(into: [:]) { (rules, navigation) in
+            let rule = PermissionsRule(roles: navigation.roles, subfeatures: navigation.items.map { $0.feature })
+            rules[navigation.feature] = rule
+            for item in navigation.items {
+                let rule = PermissionsRule(roles: item.roles)
+                rules[item.feature] = rule
+            }
+        }
+    }
+}
+
+extension WebComponentNavigation {
+    var roles: Set<UserRole> {
+        if let role = role {
+            return [role]
+        } else {
+            return []
+        }
+    }
+}
+
+extension WebComponentNavigation.Item {
+    var roles: Set<UserRole> {
+        if let role = role {
+            return [role]
+        } else {
+            return []
+        }
+    }
+}

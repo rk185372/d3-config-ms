@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaintenanceViewController" customModule="Maintenance" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnPrimary"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="centerIconView" destination="fPC-CH-bM5" id="yyE-9h-Qov"/>
+                <outlet property="logoImageView" destination="J06-3K-gUy" id="oKO-nB-OzU"/>
+                <outlet property="messageLabel" destination="2a6-CD-lSH" id="TLh-rI-t0I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIViewComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MOr-p8-tUW" customClass="UIViewComponent" customModule="ComponentKit">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-iS-805">
+                            <rect key="frame" x="0.0" y="44" width="375" height="76"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" image="FullLogo" translatesAutoresizingMaskIntoConstraints="NO" id="J06-3K-gUy" userLabel="logo">
+                                    <rect key="frame" x="20" y="0.0" width="335" height="76"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="J06-3K-gUy" secondAttribute="trailing" constant="20" id="19s-ZB-X6N"/>
+                                <constraint firstItem="J06-3K-gUy" firstAttribute="top" secondItem="zI0-iS-805" secondAttribute="top" id="CIE-4U-WgR"/>
+                                <constraint firstAttribute="bottom" secondItem="J06-3K-gUy" secondAttribute="bottom" id="Rzh-rU-aJB"/>
+                                <constraint firstItem="J06-3K-gUy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zI0-iS-805" secondAttribute="leading" constant="20" id="g1a-hd-7P9"/>
+                                <constraint firstItem="J06-3K-gUy" firstAttribute="centerX" secondItem="zI0-iS-805" secondAttribute="centerX" id="qsK-8C-wDu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="zI0-iS-805" secondAttribute="bottom" id="1Ea-wU-czg"/>
+                        <constraint firstAttribute="height" constant="120" id="HgN-1L-R9g"/>
+                        <constraint firstItem="zI0-iS-805" firstAttribute="leading" secondItem="MOr-p8-tUW" secondAttribute="leading" id="n8s-fm-bhP"/>
+                        <constraint firstAttribute="trailing" secondItem="zI0-iS-805" secondAttribute="trailing" id="xB9-YC-dYP"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundPrimary"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPC-CH-bM5" customClass="CenterIconView" customModule="ComponentKit">
+                    <rect key="frame" x="87.666666666666686" y="306" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="EhU-75-VcI"/>
+                        <constraint firstAttribute="height" constant="200" id="NUd-Qq-rSN"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="centerIconSecondary"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2a6-CD-lSH" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="506" width="335" height="272"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h3OnDefault"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="general.maintenance.message"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2a6-CD-lSH" secondAttribute="bottom" id="U7j-LG-UEb"/>
+                <constraint firstItem="MOr-p8-tUW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iJc-Cg-Wuu"/>
+                <constraint firstAttribute="trailing" secondItem="MOr-p8-tUW" secondAttribute="trailing" id="iUp-BW-IaX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="zI0-iS-805" secondAttribute="top" id="ltj-u3-J9B"/>
+                <constraint firstItem="MOr-p8-tUW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nMG-N9-cjA"/>
+                <constraint firstItem="2a6-CD-lSH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="nR7-Uy-vd6"/>
+                <constraint firstItem="fPC-CH-bM5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="pFU-Oh-2sY"/>
+                <constraint firstItem="fPC-CH-bM5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vui-s4-mLF"/>
+                <constraint firstItem="2a6-CD-lSH" firstAttribute="top" secondItem="fPC-CH-bM5" secondAttribute="bottom" id="wkJ-yX-PZw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2a6-CD-lSH" secondAttribute="trailing" constant="20" id="zlQ-q9-ViG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundDefault"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FullLogo" width="365" height="123"/>
+    </resources>
+</document>

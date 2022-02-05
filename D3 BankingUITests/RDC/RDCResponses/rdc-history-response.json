@@ -1,0 +1,19 @@
+[{
+	"transactionId": "430850",
+	"formattedTransactionDateTime": "2018-07-30T20:10:21.052Z",
+	"description": "",
+	"confirmationNumber": "",
+	"postedAmount": 50.00,
+	"currentAmount": 50.00,
+	"status": "SUBMITTED",
+	"type": "CREDIT"
+}, {
+	"transactionId": "430851",
+	"formattedTransactionDateTime": "2020-04-16T19:52:45.203090Z",
+	"description": "",
+	"confirmationNumber": "",
+	"postedAmount": 75.00,
+	"currentAmount": 75.00,
+	"status": "SUBMITTED",
+	"type": "CREDIT"
+}]

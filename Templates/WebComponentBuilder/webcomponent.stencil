@@ -1,0 +1,66 @@
+// Generated
+
+import Permissions
+import Web
+
+public enum WebComponent {
+    {% for componentNavigation in componentNavigations %}
+        {% for item in componentNavigation.navItems.navigation %}
+            public static let {{ item.href|snakecase }} = WebComponentNavigation(
+                title: "{{ item.title }}",
+                path: "{{ item.href }}",
+                role: UserRole(value: "{{ item.role }}"),
+                items: [
+                    {% if item.subitems %}
+                    {% for subItem in item.subitems %}
+                        WebComponentNavigation.Item(
+                            title: "{{ subItem.title }}",
+                            component: "{{ item.href }}",
+                            path: "{{ subItem.href }}",
+                            role: UserRole(value: "{{ subItem.role }}")
+                        ){% if not forloop.last %},{% endif %}
+                    {% endfor %}
+                    {% endif %}
+                ]
+            )
+        {% endfor %}
+    {% endfor %}
+
+    public static func rules() -> [Feature: PermissionsRule] {
+        let navigations = [
+            {% for componentNavigation in componentNavigations %}
+                {% for item in componentNavigation.navItems.navigation %}
+                    {{ item.href|snakecase }},
+                {% endfor %}
+            {% endfor %}
+        ]
+        return navigations.reduce(into: [:]) { (rules, navigation) in
+            let rule = PermissionsRule(roles: navigation.roles, subfeatures: navigation.items.map { $0.feature })
+            rules[navigation.feature] = rule
+            for item in navigation.items {
+                let rule = PermissionsRule(roles: item.roles)
+                rules[item.feature] = rule
+            }
+        }
+    }
+}
+
+extension WebComponentNavigation {
+    var roles: Set<UserRole> {
+        if let role = role {
+            return [role]
+        } else {
+            return []
+        }
+    }
+}
+
+extension WebComponentNavigation.Item {
+    var roles: Set<UserRole> {
+        if let role = role {
+            return [role]
+        } else {
+            return []
+        }
+    }
+}

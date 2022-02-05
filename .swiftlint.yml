@@ -1,0 +1,56 @@
+disabled_rules: # rule identifiers to exclude from running
+  - comma
+  - control_statement
+  - type_body_length
+  - file_length
+  - type_name
+  - variable_name
+  - trailing_whitespace
+  - function_body_length
+  - cyclomatic_complexity
+  - force_cast
+  - todo
+  - superfluous_disable_command
+  - fallthrough
+  - operator_whitespace
+  - force_try
+  - function_parameter_count
+opt_in_rules: # some rules are only opt-in
+  - empty_count
+  - operator_usage_whitespace
+  - modifier_order
+  # Find all the available rules by running:
+  # swiftlint rules
+included: # paths to include during linting. `--path` is ignored if present.
+  - D3 Banking
+  - D3 Banking Test
+  - D3 Banking WatchKit Extension
+  - D3 BankingUITests
+  - D3 BankingUnitTests
+  - Shared Testing
+  - D3Pods
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - D3 Banking/Generated
+  - D3Pods/LocationsPresentation/LocationsPresentation/Classes/Generated
+
+# configurable rules can be customized from this configuration file
+empty_count: warning
+implicit_getter: error
+legacy_constructor: error
+legacy_constant: error
+legacy_cggeometry_functions: error
+colon:
+  severity: error
+  flexible_right_spacing: false
+line_length:
+  warning: 139
+  error: 140
+unused_closure_parameter: error
+nesting:
+  type_level:
+    warning: 5
+  statement_level:
+    warning: 10
+modifier_order:
+  severity: error
+  preferred_modifier_order: ["acl","override","setterACL","dynamic","mutators","lazy","final","required","convenience","typeMethods","owned"]

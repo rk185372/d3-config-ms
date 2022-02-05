@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShimmeringAccountDetailsHeader" customModule="AccountsPresentation" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="179"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBm-eY-tui" customClass="FBShimmeringView">
+                    <rect key="frame" x="30" y="30" width="226" height="5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9a-D3-rwI">
+                            <rect key="frame" x="0.0" y="0.0" width="226" height="5"/>
+                            <color key="backgroundColor" red="0.11372549019607843" green="0.59607843137254901" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="5kN-W3-HFb"/>
+                        <constraint firstItem="M9a-D3-rwI" firstAttribute="leading" secondItem="dBm-eY-tui" secondAttribute="leading" id="CKh-cV-nuN"/>
+                        <constraint firstAttribute="trailing" secondItem="M9a-D3-rwI" secondAttribute="trailing" id="Gax-5B-4xD"/>
+                        <constraint firstAttribute="bottom" secondItem="M9a-D3-rwI" secondAttribute="bottom" id="Jh1-kH-Zga"/>
+                        <constraint firstItem="M9a-D3-rwI" firstAttribute="top" secondItem="dBm-eY-tui" secondAttribute="top" id="Lrz-SR-r30"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F53-2g-2bF" customClass="FBShimmeringView">
+                    <rect key="frame" x="30" y="51" width="150" height="5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFU-we-dhq">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="5"/>
+                            <color key="backgroundColor" red="0.11372549019607843" green="0.59607843137254901" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="EFU-we-dhq" firstAttribute="top" secondItem="F53-2g-2bF" secondAttribute="top" id="5Ha-XL-eyd"/>
+                        <constraint firstAttribute="width" constant="150" id="ACC-rS-LSJ"/>
+                        <constraint firstAttribute="trailing" secondItem="EFU-we-dhq" secondAttribute="trailing" id="MwG-mu-hjy"/>
+                        <constraint firstAttribute="height" constant="5" id="OG4-bd-cHO"/>
+                        <constraint firstAttribute="bottom" secondItem="EFU-we-dhq" secondAttribute="bottom" id="XwQ-Fc-Fs3"/>
+                        <constraint firstItem="EFU-we-dhq" firstAttribute="leading" secondItem="F53-2g-2bF" secondAttribute="leading" id="kwU-TC-llP"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWe-eb-9DH" customClass="FBShimmeringView">
+                    <rect key="frame" x="247" y="51" width="100" height="5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXv-sl-RPR">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="5"/>
+                            <color key="backgroundColor" red="0.11372549019607843" green="0.59607843137254901" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="xXv-sl-RPR" firstAttribute="leading" secondItem="EWe-eb-9DH" secondAttribute="leading" id="0IH-bi-CYF"/>
+                        <constraint firstAttribute="trailing" secondItem="xXv-sl-RPR" secondAttribute="trailing" id="64B-Jz-BuR"/>
+                        <constraint firstAttribute="bottom" secondItem="xXv-sl-RPR" secondAttribute="bottom" id="BOA-S4-1vn"/>
+                        <constraint firstItem="xXv-sl-RPR" firstAttribute="top" secondItem="EWe-eb-9DH" secondAttribute="top" id="Sm1-Iq-Eve"/>
+                        <constraint firstAttribute="width" constant="100" id="sKp-1B-ti5"/>
+                        <constraint firstAttribute="height" constant="5" id="whm-iW-ff8"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6w-oA-KAu" customClass="FBShimmeringView">
+                    <rect key="frame" x="30" y="72" width="150" height="5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YEy-Kk-caW">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="5"/>
+                            <color key="backgroundColor" red="0.11372549019607843" green="0.59607843137254901" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="OtA-Id-UkJ"/>
+                        <constraint firstItem="YEy-Kk-caW" firstAttribute="leading" secondItem="b6w-oA-KAu" secondAttribute="leading" id="ZP4-mp-6Qx"/>
+                        <constraint firstAttribute="trailing" secondItem="YEy-Kk-caW" secondAttribute="trailing" id="ZtC-lB-Nhg"/>
+                        <constraint firstAttribute="bottom" secondItem="YEy-Kk-caW" secondAttribute="bottom" id="chb-8W-pmr"/>
+                        <constraint firstItem="YEy-Kk-caW" firstAttribute="top" secondItem="b6w-oA-KAu" secondAttribute="top" id="lXJ-f0-gNP"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVQ-nd-o9c" customClass="FBShimmeringView">
+                    <rect key="frame" x="247" y="72" width="100" height="5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NX-WF-jXO">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="5"/>
+                            <color key="backgroundColor" red="0.11372549019607843" green="0.59607843137254901" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9NX-WF-jXO" secondAttribute="trailing" id="1HC-3C-1ms"/>
+                        <constraint firstItem="9NX-WF-jXO" firstAttribute="leading" secondItem="SVQ-nd-o9c" secondAttribute="leading" id="biS-tA-ze4"/>
+                        <constraint firstAttribute="bottom" secondItem="9NX-WF-jXO" secondAttribute="bottom" id="gcf-Bg-jmQ"/>
+                        <constraint firstAttribute="height" constant="5" id="yai-In-v8z"/>
+                        <constraint firstItem="9NX-WF-jXO" firstAttribute="top" secondItem="SVQ-nd-o9c" secondAttribute="top" id="zdb-wx-EB1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="dBm-eY-tui" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="3QT-r2-4kd"/>
+                <constraint firstItem="b6w-oA-KAu" firstAttribute="width" secondItem="F53-2g-2bF" secondAttribute="width" id="3tE-es-MNW"/>
+                <constraint firstItem="F53-2g-2bF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="AsD-vj-gUw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SVQ-nd-o9c" secondAttribute="trailing" constant="28" id="KYP-Ax-X2D"/>
+                <constraint firstItem="SVQ-nd-o9c" firstAttribute="width" secondItem="EWe-eb-9DH" secondAttribute="width" id="Qf4-ph-1Nr"/>
+                <constraint firstItem="b6w-oA-KAu" firstAttribute="top" secondItem="F53-2g-2bF" secondAttribute="bottom" constant="16" id="biJ-L1-j2P"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="EWe-eb-9DH" secondAttribute="trailing" constant="28" id="dkF-cm-k55"/>
+                <constraint firstItem="dBm-eY-tui" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="dns-a8-bhY"/>
+                <constraint firstItem="F53-2g-2bF" firstAttribute="top" secondItem="dBm-eY-tui" secondAttribute="bottom" constant="16" id="mzI-gj-cud"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dBm-eY-tui" secondAttribute="trailing" constant="119" id="ukj-iz-C7S"/>
+                <constraint firstItem="b6w-oA-KAu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="wJb-yC-TNs"/>
+                <constraint firstItem="EWe-eb-9DH" firstAttribute="centerY" secondItem="F53-2g-2bF" secondAttribute="centerY" id="xCF-fk-aQc"/>
+                <constraint firstItem="SVQ-nd-o9c" firstAttribute="centerY" secondItem="b6w-oA-KAu" secondAttribute="centerY" id="xR0-L3-Ko9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="129.5" y="-189.5"/>
+        </view>
+    </objects>
+</document>

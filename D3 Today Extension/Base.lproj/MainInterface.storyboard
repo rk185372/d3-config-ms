@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Accounts Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="AccountsTodayViewController" customModule="D3_Today_Extension" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-5p-QtF" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="20" y="10" width="280" height="173"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="xOb-Tj-DP9">
+                                <rect key="frame" x="150" y="86.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-gk-Ejd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qhf-gk-Ejd" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="6tA-82-KJS"/>
+                            <constraint firstItem="qhf-gk-Ejd" firstAttribute="width" secondItem="S3S-Oj-5AN" secondAttribute="width" id="EYs-1n-5db"/>
+                            <constraint firstAttribute="trailing" secondItem="Uik-5p-QtF" secondAttribute="trailing" constant="20" id="KLb-gT-qYh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qhf-gk-Ejd" secondAttribute="trailing" constant="-16" id="LXE-Bh-oUi"/>
+                            <constraint firstItem="qhf-gk-Ejd" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="-16" id="OGf-cv-Qc9"/>
+                            <constraint firstItem="xOb-Tj-DP9" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="WUQ-sh-pls"/>
+                            <constraint firstItem="xOb-Tj-DP9" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="Xkx-81-s1k"/>
+                            <constraint firstItem="Uik-5p-QtF" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="10" id="di1-YF-IQf"/>
+                            <constraint firstItem="qhf-gk-Ejd" firstAttribute="height" secondItem="S3S-Oj-5AN" secondAttribute="height" id="ekN-MW-eQn"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="Uik-5p-QtF" secondAttribute="bottom" constant="10" id="ldQ-OY-XzG"/>
+                            <constraint firstItem="Uik-5p-QtF" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="20" id="prI-gx-cMR"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="qhf-gk-Ejd" secondAttribute="bottom" id="wTI-p3-C6P"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="193"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="xOb-Tj-DP9" id="PmI-vk-wdA"/>
+                        <outlet property="errorLabel" destination="Uik-5p-QtF" id="rkh-Fe-tTr"/>
+                        <outlet property="tableView" destination="qhf-gk-Ejd" id="ffC-2a-zqJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51.200000000000003" y="-65.217391304347828"/>
+        </scene>
+    </scenes>
+</document>

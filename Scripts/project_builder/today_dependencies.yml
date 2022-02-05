@@ -1,0 +1,4 @@
+- target: D3 Today Extension
+        embed: true
+      - target: D3 Transactions Today Extension
+        embed: true

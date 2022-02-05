@@ -1,0 +1,772 @@
+{
+    "sessionActive": false,
+    "startupKey": 95,
+    "settings": {
+        "businessAuthentication.businessTab.enabled": true,
+        "businessAuthentication.selfenrollment.launchPage.url": "https://google.com",
+        "consumerAuthentication.loginHelp.launchPage.url": "https://coreqa.d3vcloud.com/#pre-auth/forgot-username",
+        "businessAuthentication.selfenrollment.enabled": true,
+        "settings.mobileNav.mobile.enabled": true,
+        "settings.profile.allow.name.change": true,
+        "moneyMovement.routes.ach.eta": "schedule.routes.ach.eta",
+        "settings.profile.phoneNumber.limit": 0,
+        "self-service.support.contact.email": "support@d3banking.com",
+        "transactions.quickbooks.mobile.enabled": false,
+        "moneyMovement.onUsTransfer.minimum.amount": 1.00,
+        "settings.business.profile.allow.mailingAddress.change": true,
+        "nao.newCustomer.banking.url": "https://www.aimco.com/",
+        "moneyMovement.ach.ppd.prenote.required": true,
+        "transactions.quicken.intubid": "8019",
+        "moneyMovement.ach.crd.enabled": true,
+        "settings.categories.enabled": true,
+        "accounts.stopPayment.history.enabled": true,
+        "transactions.ofx.directConnect.fi.customerSupport.phone": "999-999-9999",
+        "accounts.estatement.goPaperless.enabled": true,
+        "transactions.ofx.directConnect.server.url": "https://fi1-ofx.d3banking.com/",
+        "moneyMovement.ach.ppd.prenote.time": 259200000,
+        "planning.goals.enabled": true,
+        "transactions.mobile.enabled": true,
+        "messages.enabled": true,
+        "settings.rules.mobile.enabled": true,
+        "transactions.runningBalance.mobile.enabled": true,
+        "consumerAuthentication.selfenrollment.enabled": true,
+        "dashboard.plan.enabled": true,
+        "nao.crossSell.enabled": true,
+        "accounts.userAccountChangeAdapter.enabled": false,
+        "moneyMovement.routes.p2p.fee": 0.00,
+        "settings.security.outOfBandVerification.moneyMovement.recipient.person.enabled": true,
+        "consumerAuthentication.rememberDevice.enabled": true,
+        "consumerAuthentication.ldap.forgotPassword.enabled": true,
+        "moneyMovement.scheduledPay.mobile.enabled": true,
+        "transactions.ofx.directConnect.signon.spaces.enabled": true,
+        "accounts.overdraft.protection.enabled": true,
+        "planning.budgets.mobile.enabled": true,
+        "nao.control.api.proxy.url": "https://nao-coreops.d3vcloud.com/nao-control",
+        "nao.estatement.enrollment.default": "true",
+        "overdraft.protection.enrollment.code.pdf.url": "/OverdraftProtectionOptinCode.pdf",
+        "moneyMovement.calendar.workWeek.startDay": "MONDAY",
+        "moneyMovement.routes.p2p.eta": "schedule.routes.p2p.eta",
+        "moneyMovement.ach.a2a.prenote.time": 259200000,
+        "moneyMovement.ach.zel.enabled": true,
+        "nao.crossSell.customer.type": "ALL",
+        "settings.security.outOfBandVerification.moneyMovement.recipient.account.enabled": true,
+        "sync.moneyMovement.retry.attempts": -1,
+        "nao.marketing.consent.enabled": false,
+        "dashboard.smallBusiness.toggle.enabled": true,
+        "moneyMovement.ach.a2a.microdeposit.selected": "GENERAL_LEDGER",
+        "settings.security.outOfBandVerification.moneyMovement.recipient.company.enabled": true,
+        "transactions.ofx.directConnect.maxDays": 120,
+        "messages.secureMessage.mobile.enabled": true,
+        "nao.welcome.back.page.enabled": true,
+        "settings.accounts.enabled": true,
+        "settings.profile.emailAddress.limit": 0,
+        "accounts.stopPayment.enabled": true,
+        "settings.business.profile.allow.alternateEmailAddress.change": true,
+        "transactions.ofx.directConnect.signon.passwordLength.min": 4,
+        "transactions.quicken.mobile.enabled": false,
+        "consumerAuthentication.password.pattern": "^.*(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@!#$%^&*()+=]).*$",
+        "site.url": "http://www.d3banking.com",
+        "moneyMovement.showDisclosureLink.enabled": false,
+        "nao.existingCustomer.session.expired.url": "https://www.bing.com/",
+        "dashboard.manage.mobile.enabled": true,
+        "moneyMovement.billPay.minimum.amount": 1.00,
+        "consumerAuthentication.loginid.lookup.launchPage.url": "https://mock-url-to-make-forgotUsername-button-appear.com",
+        "consumerAuthentication.security.answer.length.max": 50,
+        "nao.pin.encryption.enabled": false,
+        "transactions.ofx.directConnect.signon.pinChange.enabled": false,
+        "accounts.accountOpening.enabled": true,
+        "accounts.checkOrder.mobile.enabled": true,
+        "moneyMovement.ach.ppd.enabled": true,
+        "moneyMovement.billPay.ebill.minimum.amount": 0.01,
+        "moneyMovement.payMultiple.mobile.enabled": true,
+        "settings.security.outOfBandVerification.maxCodes": 3,
+        "transactions.export.limit": 5000,
+        "accounts.estatement.pdf.verification.code": "springboard",
+        "self-service.request-forms.mobile.enabled": true,
+        "moneyMovement.routes.ach.fee": 0.00,
+        "sync.overlay.enabled": false,
+        "moneyMovement.fedwire.closed.dates.enabled": true,
+        "accounts.stopPayment.checkRanges.enabled": true,
+        "moneyMovement.transfer.internal.cutoffTime": "schedule.disclosure.funds.transfer.cutoff",
+        "settings.business.profile.enabled": true,
+        "settings.security.outOfBandVerification.login.enabled": false,
+        "nao.newCustomer.redirect.url": "https://www.google.com/",
+        "moneyMovement.transferNow.mobile.enabled": true,
+        "transactions.runningBalance.automaticDisplay.enabled": false,
+        "transactions.ofx.directConnect.signon.specialCharacters.enabled": true,
+        "moneyMovement.transferNow.enabled": true,
+        "system.successFailureMessages.successTimeout.secs": 3,
+        "dashboard.plan.mobile.enabled": true,
+        "dashboard.currentStatus.manage.enabled": true,
+        "settings.enabled": true,
+        "nao.employment.disallowed.occupation.codes": "13-1022",
+        "transactions.positivePay.cutoff": "16:00:00.000",
+        "settings.profile.enabled": true,
+        "settings.security.userDestinationVerification.codeLength": 5,
+        "moneyMovement.recipients.groups.mobile.enabled": false,
+        "nao.product.grouping": "CHECKING, SAVINGS",
+        "moneyMovement.ach.p2p.enabled": true,
+        "transactions.ofx.directConnect.fi.homePage.url": "http://www.mybank.com",
+        "settings.rules.enabled": true,
+        "moneyMovement.ach.a2a.microdeposit.try.count": 4,
+        "moneyMovement.routes": "ach,p2p,billPay",
+        "self-service.url": null,
+        "moneyMovement.ach.a2a.generate.prenote.record": true,
+        "dashboard.currentStatus.mobile.enabled": true,
+        "sync.initial.secs": 2,
+        "consumerAuthentication.password.length.max": 25,
+        "transactions.ofx.directConnect.intutimeout": 180,
+        "moneyMovement.quickPay.amounts": "50, 100, 200, 500",
+        "dashboard.netWorth.plan.enabled": true,
+        "moneyMovement.ach.web.prenote.time": 259200000,
+        "moneyMovement.billPay.ebill.enabled": true,
+        "locations.enabled": true,
+        "accounts.estatement.alternateEmail.enabled": false,
+        "self-service.faq.enabled": true,
+        "dashboard.currentStatus.enabled": true,
+        "dashboard.netWorth.mobile.enabled": true,
+        "self-service.support.contact.phoneNumber": "402-555-1234",
+        "transactions.ofx.directConnect.enabled": true,
+        "settings.dashboard.enabled": true,
+        "dashboard.manage.enabled": true,
+        "moneyMovement.ach.generate.balance.file": true,
+        "transactions.ofx.directConnect.recoveryFile.expiration": 30,
+        "transactions.ofx.directConnect.intubid": "8019",
+        "moneyMovement.p2p.popMoneyAdapter.routingNumberSource": "static",
+        "transactions.recentTransactions.max": 30,
+        "messages.mobile.enabled": true,
+        "moneyMovement.fedwire.enabled": true,
+        "planning.enabled": true,
+        "accounts.stopPayment.mobile.enabled": true,
+        "settings.business.profile.allow.phoneNumber.sms.change": true,
+        "settings.profile.allow.phoneNumber.sms.change": true,
+        "transactions.ofx.directConnect.fi.city": "Jacksonville",
+        "dashboard.manage.deposit.history.enabled": true,
+        "settings.alerts.sendSMS": false,
+        "dashboard.flipper.enabled": false,
+        "nao.employment.customer.type": "ALL",
+        "settings.security.outOfBandVerification.settings.profile.destinations.enabled": false,
+        "transactions.runningBalance.preferredWithPending": false,
+        "consumerAuthentication.selfenrollment.launchPage.url": "https://google.com",
+        "transactions.ofx.directConnect.signon.caseSensitive.enabled": true,
+        "accounts.brokerageAccess.enabled": true,
+        "security.maskPattern.pan": "*******9999",
+        "transactions.ofx.directConnect.fi.address2": null,
+        "transactions.ofx.directConnect.fi.address1": "123 Main St",
+        "transactions.ofx.directConnect.fi.postalCode": "555559999",
+        "transactions.ofx.directConnect.transportSecurity.enabled": true,
+        "dashboard.netWorth.manage.enabled": true,
+        "okta.username.pattern": "^[A-Za-z0-9@\\.\\-_]{3,128}$",
+        "moneyMovement.a2a.adapter.selected": "mockHttpRedirectionAdapter",
+        "planning.budgets.enabled": true,
+        "settings.alerts.mobile.enabled": true,
+        "settings.business.profile.allow.phoneNumber.change": true,
+        "accounts.estatement.prompt.enabled": true,
+        "moneyMovement.transfer.external.minimum.amount": 1.00,
+        "settings.profile.allow.physicalAddress.change": true,
+        "moneyMovement.ach.enabled": true,
+        "moneyMovement.transferNow.transfer.minimum.amount": 10.00,
+        "settings.business.profile.allow.physicalAddress.change": true,
+        "nao.achFunding.maxAmount": null,
+        "moneyMovement.p2p.enabled": true,
+        "settings.profile.email.address.max.length": 100,
+        "moneyMovement.billPay.ebill.mobile.enabled": true,
+        "accounts.aggregation.mobile.enabled": true,
+        "moneyMovement.ach.web.enabled": true,
+        "moneyMovement.ach.nao.enabled": true,
+        "transactions.ofx.directConnect.signon.characterType": "ALPHAORNUMERIC",
+        "moneyMovement.mobile.enabled": true,
+        "settings.profile.allow.alternateEmailAddress.change": true,
+        "consumerAuthentication.change.username.length.max": 20,
+        "accounts.estatement.enrollAll.default": true,
+        "accounts.estatement.paperAndElectronic.enabled": true,
+        "nao.order.checks.default.value": "true",
+        "settings.profile.mobile.enabled": true,
+        "settings.accounts.mobile.enabled": true,
+        "user.etaxDocument.default.enabled": true,
+        "accounts.notices.default.enabled": true,
+        "consumerAuthentication.passwordReset.enabled": true,
+        "sync.retry.secs": 4,
+        "dashboard.manage.accounts.enabled": true,
+        "dashboard.manage.recentTransactions.mobile.enabled": true,
+        "settings.business.profile.mobile.enabled": true,
+        "transactions.positivePay.adapter.selected": "cardinalCoreAdapter",
+        "accounts.estatement.mobile.enabled": true,
+        "moneyMovement.ach.web.prenote.required": true,
+        "settings.business.profile.one.phoneNumber.required": false,
+        "mobile.mobileNativeFeatureTutorial.enabled": false,
+        "moneyMovement.ach.ccd.prenote.time": 259200000,
+        "nao.citizenship.disallowed.country.codes": "CU,KN",
+        "dashboard.currentStatus.plan.enabled": true,
+        "settings.security.outOfBandVerification.codeExpiryDuration": 1200000,
+        "overdraft.protection.pdf.verification.enabled": true,
+        "accounts.overdraft.protection.mobile.enabled": true,
+        "accounts.estatement.enabled": true,
+        "moneyMovement.billPay.payee.search.autocomplete.enabled": true,
+        "nao.debit.card.request.default.value": "true",
+        "settings.categories.mobile.enabled": true,
+        "transactions.positivePay.enabled": true,
+        "transactions.quicken.enabled": true,
+        "self-service.mobile.enabled": true,
+        "moneyMovement.fedwire.transfer.cutoff": "16:00:00.000",
+        "settings.security.outOfBandVerification.enabled": false,
+        "moneyMovement.a2a.enabled": true,
+        "accounts.estatement.pdf.verification.enabled": false,
+        "consumerAuthentication.loginid.history.enabled": false,
+        "moneyMovement.recipients.groups.enabled": true,
+        "accounts.aggregation.enabled": true,
+        "moneyMovement.wire.enabled": true,
+        "settings.profile.allow.primaryEmailAddress.change": true,
+        "moneyMovement.fedwire.transfer.minimum.amount": 1.00,
+        "accounts.cardControls.enabled": true,
+        "settings.security.mobile.enabled": true,
+        "nao.existingCustomer.banking.url": "https://www.yahoo.com/",
+        "transactions.checkImage.mobile.enabled": true,
+        "dashboard.manage.recentTransactions.enabled": true,
+        "moneyMovement.billPay.showDisclosure": true,
+        "moneyMovement.ach.cie.prenote.time": 259200000,
+        "moneyMovement.payMultiple.templates.enabled": true,
+        "moneyMovement.transferNow.weekend.enabled": false,
+        "settings.mobile.enabled": true,
+        "sync.max.poll.attempts": 10,
+        "transactions.ofx.directConnect.fi.country": "USA",
+        "settings.alerts.enabled": true,
+        "settings.profile.allow.phoneNumber.change": true,
+        "transactions.ofx.directConnect.enrollment.url": "http://www.mybank.com/enroll",
+        "settings.security.allow.securityQuestions.change": true,
+        "moneyMovement.p2p.adapter.selected": "zelleAdapter",
+        "moneyMovement.transfer.mobile.enabled": true,
+        "dashboard.manage.accounts.mobile.enabled": true,
+        "biometricAuthentication.enabled": true,
+        "self-service.enabled": true,
+        "overdraft.protection.enrollment.code": "springboard",
+        "transactions.runningBalance.enabled": true,
+        "accounts.overdraft.protection.checks.enabled": true,
+        "settings.business.profile.allow.primaryEmailAddress.change": true,
+        "moneyMovement.billPay.enabled": true,
+        "rewards.enabled": true,
+        "settings.alerts.sendEmail": true,
+        "moneyMovement.fedwire.weekend.enabled": true,
+        "help.support.contact.url": "http://www.d3banking.com",
+        "moneyMovement.ach.ccd.prenote.required": true,
+        "moneyMovement.recipients.account.maskAccountNumber.enabled": false,
+        "moneyMovement.external.transfer.cutoff": "23:59:00.000",
+        "moneyMovement.p2p.maximum.amount": 500.00,
+        "consumerAuthentication.logout.url": null,
+        "dashboard.netWorth.enabled": true,
+        "settings.business.profile.emailAddress.limit": 0,
+        "settings.profile.one.phoneNumber.required": false,
+        "header.banner.ads.base.url": "https://insight-demotest.d3vcloud.com",
+        "moneyMovement.p2p.mobile.enabled": true,
+        "settings.profile.allow.foreign.address.change": true,
+        "settings.security.outOfBandVerification.codeLength": 5,
+        "moneyMovement.billPay.checkFreeAdapter.expeditedPayment.checkCutOff": "23:59:00.000",
+        "self-service.request-forms.enabled": true,
+        "accounts.estatement.unenroll.enabled": false,
+        "moneyMovement.ach.cie.enabled": true,
+        "moneyMovement.a2a.mobile.enabled": true,
+        "moneyMovement.transfer.internal.minimum.amount": 1.00,
+        "transactions.ofx.directConnect.signon.passwordLength.max": 19,
+        "consumerAuthentication.security.answer.length.min": 2,
+        "consumerAuthentication.security.answer.pattern": "^((?!\\?)(?![0-9]).)*$",
+        "nao.pin.entry.enabled": true,
+        "moneyMovement.transferNow.showDisclosure": true,
+        "moneyMovement.recipients.multiple.providers.enabled": false,
+        "dashboard.manage.deposit.enabled": true,
+        "planning.goals.mobile.enabled": true,
+        "nao.atm.card.request.default.value": "true",
+        "settings.profile.address.lines.allowed": 4,
+        "moneyMovement.schedule.defaultFromAccount.enabled": true,
+        "settings.profile.allow.mailingAddress.change": true,
+        "messages.secureMessage.enabled": true,
+        "sync.accounts.retry.attempts": 1,
+        "transactions.checkImage.enabled": true,
+        "moneyMovement.scheduledPay.enabled": true,
+        "transactions.ofx.directConnect.intubrokerid": "BROKERID",
+        "nao.existingCustomer.redirect.url": "https://www.westernunion.com/us/en/home.html",
+        "sync.overlay.opacity": 70,
+        "accounts.cardControls.mobile.enabled": true,
+        "dashboard.flipper.mobile.enabled": false,
+        "moneyMovement.internal.transfer.cutoff": "23:58:00.000",
+        "moneyMovement.transfer.limits.enforced": true,
+        "moneyMovement.routes.billPay.fee": 0.00,
+        "transactions.ofx.directConnect.signon.pinChangeRequired.enabled": false,
+        "consumerAuthentication.password.length.min": 7,
+        "moneyMovement.ach.a2a.enabled": true,
+        "bankingLogin.snapshot.enabled": true,
+        "moneyMovement.billPay.mobile.enabled": true,
+        "nao.identification.enabled": true,
+        "accounts.pastDueHighlighting.enabled": true,
+        "settings.security.userDestinationVerification.enabled": true,
+        "transactions.quickbooks.intubid": "8019",
+        "moneyMovement.transferNow.transfer.cutoff": "22:00:00.000",
+        "moneyMovement.routes.billPay.eta": "schedule.routes.billPay.eta",
+        "nao.identification.customer.type": "ALL",
+        "consumerAuthentication.passwordReset.launchPage.url": "https://coreops.d3vcloud.com/?pk_campaign=PI_Hub_Campaign&pk_kwd=pi_hub#pre-auth/forgot-password",
+        "settings.mobileNav.enabled": true,
+        "transactions.ofx.directConnect.fi.state": "FL",
+        "transactions.enabled": true,
+        "self-service.faq.mobile.enabled": true,
+        "moneyMovement.ach.ccd.enabled": true,
+        "moneyMovement.onUsTransfer.enabled": true,
+        "accounts.checkOrder.enabled": true,
+        "consumerAuthentication.loginid.lookup.enabled": true,
+        "transactions.ofx.directConnect.fi.technicalSupport.phone": "999-999-9999",
+        "moneyMovement.ach.weekend.enabled": true,
+        "nao.multifactor.enabled": true,
+        "moneyMovement.a2a.popMoneyAdapter.routingNumberSource": "static",
+        "moneyMovement.ach.cie.prenote.required": true,
+        "nao.newCustomer.session.expired.url": "https://www.bellco.com/",
+        "settings.usermanagement.enabled": true,
+        "system.successFailureMessages.failureTimeout.secs": 0,
+        "accounts.mobileEnrollment.enabled": true,
+        "nao.employment.enabled": true,
+        "moneyMovement.ach.closed.dates.enabled": true,
+        "consumerAuthentication.cancel.url": null,
+        "transactions.quickbooks.enabled": true,
+        "moneyMovement.enabled": true,
+        "settings.alerts.sendMobile": true,
+        "accounts.estatement.pdf.verification.url": null,
+        "consumerAuthentication.change.username.length.min": 3,
+        "accounts.brokerageAccess.mobile.enabled": false,
+        "moneyMovement.transfer.enabled": true,
+        "consumerAuthentication.session.inactivity.minutes": 15,
+        "settings.security.allow.loginId.change": true,
+        "moneyMovement.billPay.adapter.selected": "checkFreeAdapter",
+        "transactions.ofx.directConnect.fi.customerSupport.email": "support@mybank.com",
+        "moneyMovement.p2p.minimum.amount": 1.00,
+        "moneyMovement.transferNow.closed.dates.enabled": false,
+        "settings.security.allow.password.change": true,
+        "transactions.ofx.directConnect.fi.name": "MYBANK",
+        "transactions.runningBalance.forPostedOnly.enabled": true,
+        "moneyMovement.payMultiple.enabled": true,
+        "settings.security.enabled": true,
+        "planning.mobile.enabled": true,
+        "overdraft.protection.disclosure.pdf.url": "/OverdraftProtectionDisclosure.pdf",
+        "settings.security.outOfBandVerification.maxAttempts": 3,
+        "transactions.runningBalance.automaticDisplay.mobile.enabled": false
+    },
+    "calendarDates": [
+        {
+            "id": 163,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-05-29",
+            "description": "Memorial Day",
+            "type": "BOTH"
+        },
+        {
+            "id": 164,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-07-04",
+            "description": "Independence Day",
+            "type": "BOTH"
+        },
+        {
+            "id": 165,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-09-04",
+            "description": "Labor Day",
+            "type": "BOTH"
+        },
+        {
+            "id": 166,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-10-09",
+            "description": "Columbus Day",
+            "type": "HOLIDAY"
+        },
+        {
+            "id": 167,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-11-11",
+            "description": "Veterans Day",
+            "type": "HOLIDAY"
+        },
+        {
+            "id": 168,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-11-23",
+            "description": "Thanksgiving Day",
+            "type": "BOTH"
+        },
+        {
+            "id": 169,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2017-12-25",
+            "description": "Christmas Day",
+            "type": "BOTH"
+        },
+        {
+            "id": 228,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2019-05-27",
+            "description": "Memorial Day",
+            "type": "BOTH"
+        },
+        {
+            "id": 229,
+            "company": {
+                "id": 94,
+                "business": {
+                    "id": 913
+                },
+                "description": "System Owner",
+                "parent": {
+                    "id": 93,
+                    "structure": "INSTITUTION"
+                },
+                "structure": "ROOT",
+                "sourceCompanyId": "ROOT"
+            },
+            "date": "2019-07-04",
+            "description": "Independence Day",
+            "type": "BOTH"
+        }
+    ],
+    "states": [
+        {
+            "abbreviation": "AL",
+            "name": "Alabama"
+        },
+        {
+            "abbreviation": "AK",
+            "name": "Alaska"
+        },
+        {
+            "abbreviation": "AS",
+            "name": "American Samoa"
+        },
+        {
+            "abbreviation": "AZ",
+            "name": "Arizona"
+        },
+        {
+            "abbreviation": "AR",
+            "name": "Arkansas"
+        },
+        {
+            "abbreviation": "AA",
+            "name": "Armed Forces Americas"
+        },
+        {
+            "abbreviation": "AE",
+            "name": "Armed Forces Europe"
+        },
+        {
+            "abbreviation": "AP",
+            "name": "Armed Forces Pacific"
+        },
+        {
+            "abbreviation": "CA",
+            "name": "California"
+        },
+        {
+            "abbreviation": "CO",
+            "name": "Colorado"
+        },
+        {
+            "abbreviation": "CT",
+            "name": "Connecticut"
+        },
+        {
+            "abbreviation": "DE",
+            "name": "Delaware"
+        },
+        {
+            "abbreviation": "DC",
+            "name": "District of Columbia"
+        },
+        {
+            "abbreviation": "FM",
+            "name": "Federated States of Micronesia"
+        },
+        {
+            "abbreviation": "FL",
+            "name": "Florida"
+        },
+        {
+            "abbreviation": "GA",
+            "name": "Georgia"
+        },
+        {
+            "abbreviation": "GU",
+            "name": "Guam"
+        },
+        {
+            "abbreviation": "HI",
+            "name": "Hawaii"
+        },
+        {
+            "abbreviation": "ID",
+            "name": "Idaho"
+        },
+        {
+            "abbreviation": "IL",
+            "name": "Illinois"
+        },
+        {
+            "abbreviation": "IN",
+            "name": "Indiana"
+        },
+        {
+            "abbreviation": "IA",
+            "name": "Iowa"
+        },
+        {
+            "abbreviation": "KS",
+            "name": "Kansas"
+        },
+        {
+            "abbreviation": "KY",
+            "name": "Kentucky"
+        },
+        {
+            "abbreviation": "LA",
+            "name": "Lousiana"
+        },
+        {
+            "abbreviation": "ME",
+            "name": "Maine"
+        },
+        {
+            "abbreviation": "MH",
+            "name": "Marshall Islands"
+        },
+        {
+            "abbreviation": "MD",
+            "name": "Maryland"
+        },
+        {
+            "abbreviation": "MA",
+            "name": "Massachusetts"
+        },
+        {
+            "abbreviation": "MI",
+            "name": "Michigan"
+        },
+        {
+            "abbreviation": "MN",
+            "name": "Minnesota"
+        },
+        {
+            "abbreviation": "MS",
+            "name": "Mississippi"
+        },
+        {
+            "abbreviation": "MO",
+            "name": "Missouri"
+        },
+        {
+            "abbreviation": "MT",
+            "name": "Montana"
+        },
+        {
+            "abbreviation": "NE",
+            "name": "Nebraska"
+        },
+        {
+            "abbreviation": "NV",
+            "name": "Nevada"
+        },
+        {
+            "abbreviation": "NH",
+            "name": "New Hampshire"
+        },
+        {
+            "abbreviation": "NJ",
+            "name": "New Jersey"
+        },
+        {
+            "abbreviation": "NM",
+            "name": "New Mexico"
+        },
+        {
+            "abbreviation": "NY",
+            "name": "New York"
+        },
+        {
+            "abbreviation": "NC",
+            "name": "North Carolina"
+        },
+        {
+            "abbreviation": "ND",
+            "name": "North Dakota"
+        },
+        {
+            "abbreviation": "MP",
+            "name": "Northern Mariana Islands"
+        },
+        {
+            "abbreviation": "OH",
+            "name": "Ohio"
+        },
+        {
+            "abbreviation": "OK",
+            "name": "Oklahoma"
+        },
+        {
+            "abbreviation": "OR",
+            "name": "Oregon"
+        },
+        {
+            "abbreviation": "PW",
+            "name": "Palau"
+        },
+        {
+            "abbreviation": "PA",
+            "name": "Pennsylvania"
+        },
+        {
+            "abbreviation": "PR",
+            "name": "Puerto Rico"
+        },
+        {
+            "abbreviation": "RI",
+            "name": "Rhode Island"
+        },
+        {
+            "abbreviation": "SC",
+            "name": "South Carolina"
+        },
+        {
+            "abbreviation": "SD",
+            "name": "South Dakota"
+        },
+        {
+            "abbreviation": "TN",
+            "name": "Tennessee"
+        },
+        {
+            "abbreviation": "TX",
+            "name": "Texas"
+        },
+        {
+            "abbreviation": "UT",
+            "name": "Utah"
+        },
+        {
+            "abbreviation": "VT",
+            "name": "Vermont"
+        },
+        {
+            "abbreviation": "VI",
+            "name": "Virgin Islands"
+        },
+        {
+            "abbreviation": "VA",
+            "name": "Virginia"
+        },
+        {
+            "abbreviation": "WA",
+            "name": "Washington"
+        },
+        {
+            "abbreviation": "WV",
+            "name": "West Virginia"
+        },
+        {
+            "abbreviation": "WI",
+            "name": "Wisconsin"
+        },
+        {
+            "abbreviation": "WY",
+            "name": "Wyoming"
+        }
+    ]
+}

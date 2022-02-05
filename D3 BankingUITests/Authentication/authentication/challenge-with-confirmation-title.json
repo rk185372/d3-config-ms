@@ -1,0 +1,32 @@
+{
+    "challenge": {
+        "type": "MFA_ENROLL_ANOTHER",
+        "items": [
+            {
+                "type": "ACTION",
+                "id": 1,
+                "value": "true",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            },
+            {
+                "type": "ACTION",
+                "id": 2,
+                "value": "false",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            }
+        ]
+    },
+    "isAuthenticated": false,
+    "token": "token",
+    "previousItems": []
+}

@@ -1,0 +1,24 @@
+# Command to zip this up and ignore all else.
+# zip -r WatchAssets.zip . -x \*.json -x \*.DS_Store
+customerService.imageset/customerService.pdf
+location.imageset/location.pdf
+typeCredit.imageset/credit.pdf
+AppIcon.appiconset/Apple-watch-short-look-Icon-42mm-2X.png
+AppIcon.appiconset/watchIcon-40mm-2X.png
+AppIcon.appiconset/Apple-watch-short-look-Icon-38mm-2X.png
+AppIcon.appiconset/Apple-watch-app-store.png
+AppIcon.appiconset/Apple-watch-short-look-Icon-44mm-2X.png
+AppIcon.appiconset/Apple-watch-home-screen-Icon-40mm-2X.png
+AppIcon.appiconset/watchIcon-44mm-3X.png
+AppIcon.appiconset/Apple-watch-home-screen-Icon-44mm-2X.png
+AppIcon.appiconset/Apple-watch-home-screen-Icon-42mm-2X.png
+AppIcon.appiconset/watchIcon-44mm-2X.png
+AppIcon.appiconset/watchIcon-38mm-2X.png
+typeDeposit.imageset/deposit.pdf
+menuPhone.imageset/customerServiceIcon.pdf
+accounts.imageset/balance.pdf
+locationsAtm.imageset/atm.pdf
+menuLocation.imageset/location.pdf
+menuAccount.imageset/dollars.pdf
+locationsBank.imageset/bank.pdf
+menuTransaction.imageset/wallet.pdf

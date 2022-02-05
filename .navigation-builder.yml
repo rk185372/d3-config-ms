@@ -1,0 +1,4 @@
+navigation: navigation.json
+templatePath: Templates/NavigationComponentBuilder
+templateName: navigationcomponent.stencil
+output: D3 Banking/Generated/Navigation.swift

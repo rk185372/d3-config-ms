@@ -1,0 +1,9 @@
+output_dir: Locations/Classes/Generated/
+storyboards:
+  - paths: Locations
+    templatePath: storyboards-swift4.stencil
+    output: Storyboards.swift
+xcassets:
+  - paths: Locations/Assets/Assets.xcassets
+    templatePath: assets-swift4.stencil
+    output: Images.swift

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PagingViewController" customModule="ComponentKit" customModuleProvider="target">
+            <connections>
+                <outlet property="pageControl" destination="uFu-Da-7Sf" id="fY7-6Z-2vY"/>
+                <outlet property="scrollView" destination="8dj-sc-kZw" id="wDf-oo-5vj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dj-sc-kZw">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Yzk-RG-PPb"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="uFu-Da-7Sf" customClass="UIPageControlComponent" customModule="ComponentKit" customModuleProvider="target">
+                    <rect key="frame" x="168" y="590" width="39" height="37"/>
+                    <connections>
+                        <action selector="pageControlTapped:" destination="-1" eventType="valueChanged" id="vwI-MQ-78I"/>
+                    </connections>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8dj-sc-kZw" secondAttribute="trailing" id="5tX-mf-Stb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="uFu-Da-7Sf" secondAttribute="bottom" constant="40" id="EoU-T1-53U"/>
+                <constraint firstItem="8dj-sc-kZw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OvL-jo-A6x"/>
+                <constraint firstItem="8dj-sc-kZw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nSX-2C-1pT"/>
+                <constraint firstAttribute="bottom" secondItem="8dj-sc-kZw" secondAttribute="bottom" id="tiD-xW-goX"/>
+                <constraint firstItem="uFu-Da-7Sf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uTR-Op-yaJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133.59999999999999" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>

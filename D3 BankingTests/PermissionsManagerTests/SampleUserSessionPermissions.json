@@ -1,0 +1,256 @@
+{
+    "profiles": [
+        {
+            "loginId": "janedoe",
+            "enrolled": true,
+            "firstName": "Jane",
+            "middleName": "",
+            "lastName": "Doe",
+            "taxIdExists": true,
+            "dateOfBirth": "1944-06-01",
+            "emailAddresses": [
+                {
+                    "id": 85,
+                    "type": "EMAIL",
+                    "label": "PRIMARY",
+                    "value": "Coreqa11-jane.doe@d3banking.com",
+                    "primary": true,
+                    "outOfBand": false,
+                    "readOnly": false,
+                    "verified": false,
+                    "alternate": false,
+                    "subType": "PRIMARY"
+                },
+                {
+                    "id": 86,
+                    "type": "EMAIL",
+                    "label": "ALTERNATE",
+                    "value": "jane.doe@lodosoftware.com",
+                    "primary": false,
+                    "outOfBand": true,
+                    "readOnly": false,
+                    "verified": false,
+                    "alternate": true,
+                    "subType": "ALTERNATE"
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "id": 87,
+                    "type": "PHONE",
+                    "label": "MOBILE",
+                    "value": "4025361655",
+                    "primary": false,
+                    "outOfBand": true,
+                    "readOnly": false,
+                    "verified": false,
+                    "sms": true,
+                    "subType": "MOBILE"
+                },
+                {
+                    "id": 88,
+                    "type": "PHONE",
+                    "label": "PRIMARY",
+                    "value": "4029981057",
+                    "primary": false,
+                    "outOfBand": false,
+                    "readOnly": true,
+                    "verified": false,
+                    "sms": true,
+                    "subType": "PRIMARY"
+                },
+                {
+                    "id": 89,
+                    "type": "PHONE",
+                    "label": "WORK",
+                    "value": "4022368864",
+                    "primary": false,
+                    "outOfBand": false,
+                    "readOnly": false,
+                    "verified": false,
+                    "sms": true,
+                    "subType": "WORK"
+                }
+            ],
+            "inbox": {
+                "id": 83,
+                "type": "INBOX",
+                "label": "INBOX",
+                "value": "Inbox",
+                "primary": false,
+                "outOfBand": false,
+                "readOnly": false,
+                "verified": false
+            },
+            "push": {
+                "id": 84,
+                "type": "PUSH",
+                "label": "PUSH",
+                "value": "Push",
+                "primary": false,
+                "outOfBand": false,
+                "readOnly": false,
+                "verified": false
+            },
+            "mailingAddress": {
+                "line1": "5226 S 170th St",
+                "city": "Grand Blanc",
+                "state": "MI",
+                "countryCode": "US",
+                "postalCode": "48439",
+                "latitude": 1.00000000,
+                "longitude": 1.00000000
+            },
+            "physicalAddress": {
+                "line1": "11232 185th St",
+                "line2": "Apartment 3C",
+                "city": "Aurora",
+                "state": "SD",
+                "countryCode": "US",
+                "postalCode": "65605",
+                "latitude": 1.00000000,
+                "longitude": 1.00000000
+            },
+            "attributes": {
+                "preferredAcctId": "INTERNAL:494",
+                "bpEnrollmentStatus": "ACTIVE"
+            },
+            "validEmailTypes": [
+                {
+                    "interfaceName": "PRIMARY",
+                    "internalName": "PRIMARY",
+                    "order": 1,
+                    "repeatable": false,
+                    "destinationType": "EMAIL"
+                },
+                {
+                    "interfaceName": "ALTERNATE",
+                    "internalName": "ALTERNATE",
+                    "order": 2,
+                    "repeatable": false,
+                    "destinationType": "EMAIL"
+                },
+                {
+                    "interfaceName": "ADDITIONAL",
+                    "internalName": "ADDITIONAL",
+                    "order": 3,
+                    "repeatable": true,
+                    "destinationType": "EMAIL"
+                }
+            ],
+            "validPhoneTypes": [
+                {
+                    "interfaceName": "HOME",
+                    "internalName": "HOME",
+                    "repeatable": false,
+                    "destinationType": "PHONE",
+                    "mobileType": false
+                },
+                {
+                    "interfaceName": "MOBILE",
+                    "internalName": "MOBILE",
+                    "repeatable": false,
+                    "destinationType": "PHONE",
+                    "mobileType": true
+                },
+                {
+                    "interfaceName": "WORK",
+                    "internalName": "WORK",
+                    "repeatable": false,
+                    "destinationType": "PHONE",
+                    "mobileType": false
+                }
+            ],
+            "validProfileModes": [
+                "CONSUMER"
+            ],
+            "type": "PRIMARY",
+            "servicePermissions": {
+                "settings.dashboard": {
+                    "access": [
+                        "READ"
+                    ]
+                },
+                "dashboard.plan": {
+                    "access": [
+                        "READ",
+                        "UPDATE"
+                    ]
+                },
+                "money-movement": {
+                    "access": [
+                        "READ",
+                        "DELETE",
+                        "CREATE"
+                    ]
+                },
+                "settings.alerts": {
+                    "access": [
+                        "READ",
+                        "DELETE",
+                        "CREATE",
+                        "UPDATE"
+                    ]
+                },
+                "money-movement.schedule": {
+                    "access": [
+                    ]
+                }
+            },
+            "profileType": "CONSUMER",
+            "authorizedApprovalTypes": [],
+            "previousLogin": "Friday, Aug 09, 2019 3:03 PM GMT"
+        }
+    ],
+    "csrfToken": "adc11c8614e18504f97cb3dbba7d4b80",
+    "tos": [],
+    "rdcAllowed": true,
+    "startupKey": 96,
+    "activeProfileType": "CONSUMER",
+    "selectedProfileIndex": 0,
+    "validProfileTypes": [
+        "CONSUMER"
+    ],
+    "userDeviceId": 744,
+    "estatementPromptAccounts": [],
+    "serverTime": "2019-08-09T15:06:43.866Z",
+    "syncOps": [
+        {
+            "profileId": 0,
+            "syncOps": [
+                {
+                    "id": 2797,
+                    "retryNumber": 0,
+                    "operation": "BILL_PAY_ACCT_ADD",
+                    "service": "BILL_PAY",
+                    "status": "ACTIVE",
+                    "trackingId": "b1a3d072-daa5-433a-a0ee-5d4b5f61253e"
+                },
+                {
+                    "id": 2798,
+                    "retryNumber": 0,
+                    "operation": "BILL_PAY_RECIPIENT_AND_PAYMENT",
+                    "service": "BILL_PAY",
+                    "status": "ACTIVE",
+                    "trackingId": "b1a3d072-daa5-433a-a0ee-5d4b5f61253e"
+                },
+                {
+                    "id": 2799,
+                    "retryNumber": 0,
+                    "operation": "AGGREGATION_SYNC",
+                    "service": "AGGREGATION",
+                    "status": "ACTIVE",
+                    "trackingId": "b1a3d072-daa5-433a-a0ee-5d4b5f61253e"
+                },
+                {
+                    "id": 2800,
+                    "retryNumber": 0,
+                    "operation": "CORE_LIVE_INTRA_DAY",
+                    "service": "CORE_LIVE",
+                    "status": "ACTIVE",
+                    "trackingId": "b1a3d072-daa5-433a-a0ee-5d4b5f61253e"
+                }
+            ]
+        }
+    ]
+}

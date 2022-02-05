@@ -1,0 +1,12 @@
+{
+	"isAuthenticated": true,
+	"challenge": {
+		"items": [{
+			"type": "USER_NAME"
+		}, {
+			"type": "PASSWORD"
+		}],
+		"type": "USER_NAME_PASSWORD"
+	},
+	"previousItems": []
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDCDepositLandingViewController" customModule="mRDC" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImageView" destination="YHh-FW-eH6" id="Jk9-57-nwt"/>
+                <outlet property="depositStackedMenuView" destination="eEq-MW-n4I" id="BTS-Hl-Yqn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YHh-FW-eH6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEq-MW-n4I" customClass="StackedMenuView" customModule="ComponentKit">
+                    <rect key="frame" x="8" y="293.5" width="359" height="80"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Ecu-Oq-WEU"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="stackedMenuOnDefault"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="ecM-n4-BLC" appends="YES" id="myX-pE-hYc"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="YHh-FW-eH6" secondAttribute="bottom" id="9N5-aq-ntO"/>
+                <constraint firstItem="eEq-MW-n4I" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="Gsr-Ii-Zvy"/>
+                <constraint firstItem="YHh-FW-eH6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QjC-yX-Zuq"/>
+                <constraint firstItem="YHh-FW-eH6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bQF-fU-XXc"/>
+                <constraint firstItem="eEq-MW-n4I" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dka-EB-gjM"/>
+                <constraint firstAttribute="trailing" secondItem="YHh-FW-eH6" secondAttribute="trailing" id="kVI-O7-6D4"/>
+                <constraint firstItem="eEq-MW-n4I" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nYv-fo-Z8A"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eEq-MW-n4I" secondAttribute="trailing" constant="8" id="ykG-Ec-1Ac"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133.59999999999999" y="154.27286356821591"/>
+        </view>
+        <tapGestureRecognizer id="ecM-n4-BLC">
+            <connections>
+                <action selector="depositStackedMenuViewTapped:" destination="-1" id="tfr-Lb-xm0"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

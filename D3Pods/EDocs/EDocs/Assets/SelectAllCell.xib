@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="69" id="KGk-i7-Jjw" customClass="SelectAllCell" customModule="GoPaperless" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gSo-yo-pqG" customClass="UICheckboxComponent" customModule="ComponentKit">
+                        <rect key="frame" x="20" y="21" width="27" height="27"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="27" id="2WB-sk-lrt"/>
+                            <constraint firstAttribute="height" constant="27" id="bvh-LL-upK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="checkboxOnDefault"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4AZ-WK-Fnn" customClass="UILabelComponent" customModule="ComponentKit">
+                        <rect key="frame" x="57" y="24.5" width="243" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4AZ-WK-Fnn" firstAttribute="centerY" secondItem="gSo-yo-pqG" secondAttribute="centerY" id="BcK-eh-Ckz"/>
+                    <constraint firstAttribute="trailing" secondItem="4AZ-WK-Fnn" secondAttribute="trailing" constant="20" id="Dl6-ju-zT0"/>
+                    <constraint firstItem="gSo-yo-pqG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LxR-pw-flE"/>
+                    <constraint firstItem="gSo-yo-pqG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="P68-tJ-rVf"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gSo-yo-pqG" secondAttribute="bottom" constant="16" id="Pse-0l-jJN"/>
+                    <constraint firstItem="4AZ-WK-Fnn" firstAttribute="leading" secondItem="gSo-yo-pqG" secondAttribute="trailing" constant="10" id="RI3-Jf-8Cw"/>
+                    <constraint firstItem="gSo-yo-pqG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="bWQ-Po-cre"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4AZ-WK-Fnn" secondAttribute="bottom" constant="16" id="bnH-1p-UiE"/>
+                    <constraint firstItem="4AZ-WK-Fnn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="gwV-sh-ojc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkbox" destination="gSo-yo-pqG" id="cjy-nY-xLM"/>
+                <outlet property="titleLabel" destination="4AZ-WK-Fnn" id="Gn4-nH-se5"/>
+            </connections>
+            <point key="canvasLocation" x="41.600000000000001" y="50.824587706146929"/>
+        </tableViewCell>
+    </objects>
+</document>

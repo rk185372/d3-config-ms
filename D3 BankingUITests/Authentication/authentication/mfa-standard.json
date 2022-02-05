@@ -1,0 +1,37 @@
+{
+    "challenge": {
+        "type": "MFA_ENROLL",
+        "items": [
+            {
+                "type": "OTP",
+                "id": 1,
+                "value": "email",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            },
+            {
+                "type": "OTP",
+                "id": 2,
+                "value": "sms",
+                "field": {
+                    "type": "CHOICE",
+                    "disabled": false,
+                    "masked": false,
+                    "validation": ""
+                }
+            }
+        ]
+    },
+    "previousItems": [
+        {
+            "type": "USER_NAME",
+            "response": "vedaqatesting12"
+        }
+    ],
+    "token": "00Y3uwxcRxeP3eBaF0WyihKB-PHLXT97PBs511yppM",
+    "isAuthenticated": false
+}

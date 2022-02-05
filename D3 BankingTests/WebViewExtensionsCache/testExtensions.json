@@ -1,0 +1,23 @@
+{
+    "extensions": [{
+        "path": "/extensions/nao-redirect-extension.js",
+        "extensionId": 763,
+        "sourceAssetId": "298",
+        "assetType": "SCRIPT",
+        "disabled": false,
+        "id": 298,
+        "assetVersion": "1.2.3",
+        "async": true,
+        "loadOrder": 3
+    }, {
+        "path": "https://extensions-synovusqa.d3vcloud.com/credentials-extension.js",
+        "extensionId": 864,
+        "sourceAssetId": "399",
+        "assetType": "SCRIPT",
+        "disabled": false,
+        "id": 399,
+        "async": false,
+        "loadOrder": 5
+    }],
+    "fonts": []
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "pending": true,
+    "postDate": "2020-08-18",
+    "type": "CREDIT",
+    "description": "Buffalo Wild Wings",
+    "amount": 90,
+    "category": "Dining"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-18",
+    "type": "CREDIT",
+    "description": "GAP",
+    "amount": 203.83,
+    "category": "Clothing"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-13",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-12",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-11",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-10",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-08",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-08",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  },
+  {
+    "pending": false,
+    "postDate": "2020-08-07",
+    "type": "CREDIT",
+    "description": "Autozone",
+    "amount": 23.89,
+    "category": "Gas"
+  }
+]

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="57" id="5We-Ai-MdY" customClass="ToggleCell" customModule="AccountsPresentation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5We-Ai-MdY" id="E5e-02-z2e">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njm-qp-Imq" customClass="UILabelComponent" customModule="ComponentKit">
+                        <rect key="frame" x="20" y="23" width="278" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bzo-kP-SVf" customClass="UISwitchComponent" customModule="ComponentKit">
+                        <rect key="frame" x="306" y="13" width="51" height="31"/>
+                        <color key="onTintColor" red="0.31764705882352939" green="0.6705882352941176" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="brandingStyle" value="switchOnDefault"/>
+                        </userDefinedRuntimeAttributes>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="njm-qp-Imq" firstAttribute="leading" secondItem="E5e-02-z2e" secondAttribute="leading" constant="20" id="EZv-bA-d3a"/>
+                    <constraint firstItem="njm-qp-Imq" firstAttribute="top" secondItem="E5e-02-z2e" secondAttribute="top" constant="23" id="SHb-XH-b4V"/>
+                    <constraint firstItem="bzo-kP-SVf" firstAttribute="centerY" secondItem="njm-qp-Imq" secondAttribute="centerY" id="Sgy-8a-1bO"/>
+                    <constraint firstAttribute="bottom" secondItem="njm-qp-Imq" secondAttribute="bottom" constant="23" id="Zfy-iI-upj"/>
+                    <constraint firstAttribute="trailing" secondItem="bzo-kP-SVf" secondAttribute="trailing" constant="20" id="qIe-NU-cNz"/>
+                    <constraint firstItem="bzo-kP-SVf" firstAttribute="leading" secondItem="njm-qp-Imq" secondAttribute="trailing" constant="8" id="z1A-aE-IIU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="label" destination="njm-qp-Imq" id="cfl-P0-A5r"/>
+                <outlet property="uiSwitch" destination="bzo-kP-SVf" id="Vx7-Se-io8"/>
+            </connections>
+            <point key="canvasLocation" x="-163" y="-106"/>
+        </tableViewCell>
+    </objects>
+</document>

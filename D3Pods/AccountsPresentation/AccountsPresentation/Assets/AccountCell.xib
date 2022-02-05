@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AccountCell" rowHeight="72" id="jJi-gh-nWB" customClass="AccountCell" customModule="AccountsPresentation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="431" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jJi-gh-nWB" id="40d-XM-w6n">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qwV-2c-V6V">
+                        <rect key="frame" x="20" y="58.5" width="365" height="40"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvh-lR-tlG" customClass="AccountCircle" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="oEm-qB-s8W"/>
+                                    <constraint firstAttribute="width" constant="40" id="zSZ-Hn-vAP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRasterize" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="accountCircleOnDefault"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Lf-KU-tQV">
+                                <rect key="frame" x="48" y="0.0" width="317" height="40"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="o9x-qy-zuj">
+                                        <rect key="frame" x="0.0" y="3" width="317" height="34"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rR7-bu-G7E">
+                                                <rect key="frame" x="0.0" y="0.0" width="317" height="17"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Account Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5T-Ux-Dy5" customClass="UILabelComponent" customModule="ComponentKit">
+                                                        <rect key="frame" x="0.0" y="0.0" width="97" height="17"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="$1234.56" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEZ-2o-3f4" customClass="UILabelComponent" customModule="ComponentKit">
+                                                        <rect key="frame" x="105" y="-1" width="212" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnDefault"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="svH-yj-Pjr">
+                                                <rect key="frame" x="0.0" y="17" width="317" height="17"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="****5678" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qE6-f6-ZjT" customClass="UILabelComponent" customModule="ComponentKit">
+                                                        <rect key="frame" x="0.0" y="0.0" width="252" height="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Available" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feo-DJ-Y0L" customClass="UILabelComponent" customModule="ComponentKit">
+                                                        <rect key="frame" x="260" y="0.0" width="57" height="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnDefault"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="o9x-qy-zuj" firstAttribute="leading" secondItem="0Lf-KU-tQV" secondAttribute="leading" id="5Ls-Kd-tYb"/>
+                                    <constraint firstAttribute="trailing" secondItem="o9x-qy-zuj" secondAttribute="trailing" id="cZi-Vu-vh4"/>
+                                    <constraint firstItem="o9x-qy-zuj" firstAttribute="centerY" secondItem="0Lf-KU-tQV" secondAttribute="centerY" id="ugI-uz-MfI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Y3-TQ-P1F" userLabel="border" customClass="UIViewComponent" customModule="ComponentKit">
+                        <rect key="frame" x="20" y="156.5" width="425" height="0.5"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.70065106440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="1K7-yq-XTC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundSeparatorOnDefault"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="0Y3-TQ-P1F" secondAttribute="bottom" id="7sy-nu-Mrt"/>
+                    <constraint firstItem="qwV-2c-V6V" firstAttribute="top" relation="greaterThanOrEqual" secondItem="40d-XM-w6n" secondAttribute="top" constant="16" id="8TY-uX-5Im"/>
+                    <constraint firstItem="qwV-2c-V6V" firstAttribute="centerY" secondItem="40d-XM-w6n" secondAttribute="centerY" id="LSG-LV-cQE"/>
+                    <constraint firstAttribute="trailing" secondItem="0Y3-TQ-P1F" secondAttribute="trailing" constant="-40" id="R2O-vC-WDW"/>
+                    <constraint firstAttribute="trailing" secondItem="qwV-2c-V6V" secondAttribute="trailing" constant="20" id="Rkj-bL-a2p"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qwV-2c-V6V" secondAttribute="bottom" constant="16" id="cwi-s9-CAM"/>
+                    <constraint firstItem="qwV-2c-V6V" firstAttribute="leading" secondItem="40d-XM-w6n" secondAttribute="leading" constant="20" id="dC6-gF-Uf0"/>
+                    <constraint firstItem="0Y3-TQ-P1F" firstAttribute="leading" secondItem="40d-XM-w6n" secondAttribute="leading" constant="20" id="joJ-RY-UNy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accountCircle" destination="rvh-lR-tlG" id="S5j-0u-tDT"/>
+                <outlet property="accountNumberLabel" destination="qE6-f6-ZjT" id="cjA-jW-dMY"/>
+                <outlet property="balanceLabel" destination="KEZ-2o-3f4" id="E7a-wz-xzl"/>
+                <outlet property="balanceTypeLabel" destination="Feo-DJ-Y0L" id="mVL-dR-jQf"/>
+                <outlet property="nameLabel" destination="V5T-Ux-Dy5" id="0Su-tY-quw"/>
+            </connections>
+            <point key="canvasLocation" x="-127.5" y="27.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,8 @@
+{
+  "name": "themeLoaderPlugin",
+  "version": "0.0.1",
+  "description": "Tool that allows you to update the standard theme built into the white labeled D3 Apps",
+  "main": "index.js",
+  "author": "D3 Banking",
+  "license": "MIT"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADABalanceHeaderView" customModule="AccountsPresentation" customModuleProvider="target">
+            <connections>
+                <outlet property="accountNameLabel" destination="n5K-Jg-9HY" id="juZ-YF-opk"/>
+                <outlet property="accountNumberLabel" destination="SOe-B1-R9s" id="gvO-m9-5nO"/>
+                <outlet property="availableBalanceLeadingConstraint" destination="5Ye-ZI-nee" id="ccM-NQ-p47"/>
+                <outlet property="availableBalanceView" destination="TiV-5c-k94" id="eAY-S3-EzD"/>
+                <outlet property="balanceHeaderViewHeightConstraint" destination="7Ag-gZ-K3g" id="7Tz-L0-7SK"/>
+                <outlet property="balanceLabel" destination="OcP-KM-xxQ" id="Ais-M6-cy9"/>
+                <outlet property="balanceLabelBottomConstraint" destination="gZ7-kY-P8K" id="zYa-7F-89o"/>
+                <outlet property="manageButton" destination="8mM-Q8-ggI" id="JLF-W1-duu"/>
+                <outlet property="manageButtonTrailingConstraint" destination="ENJ-a1-Idv" id="0VR-Nf-EuU"/>
+                <outlet property="statusLabel" destination="Siq-rV-fHb" id="JII-Ye-HVm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FbT-If-2eN">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sarah's Checking Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5K-Jg-9HY" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="16" width="339" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnCta"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mM-Q8-ggI" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="284" y="129" width="71" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="71" id="yXA-2R-iRk"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                    <state key="normal" title="Manage">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOutlineOnSecondary"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TiV-5c-k94">
+                    <rect key="frame" x="20" y="52.5" width="93" height="23"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOe-B1-R9s" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="0.0" width="37.5" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnCta"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hu4-yq-O6F">
+                            <rect key="frame" x="45.5" y="1" width="2" height="21"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Sfj-wU-8Dj"/>
+                                <constraint firstAttribute="width" constant="2" id="mea-H5-U8g"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Siq-rV-fHb" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="55.5" y="0.0" width="37.5" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnCta"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Siq-rV-fHb" firstAttribute="leading" secondItem="hu4-yq-O6F" secondAttribute="trailing" constant="8" id="1A6-d4-MdH"/>
+                        <constraint firstItem="hu4-yq-O6F" firstAttribute="leading" secondItem="SOe-B1-R9s" secondAttribute="trailing" constant="8" id="33c-RL-Hd2"/>
+                        <constraint firstItem="Siq-rV-fHb" firstAttribute="top" secondItem="TiV-5c-k94" secondAttribute="top" id="N8T-Pd-cgS"/>
+                        <constraint firstItem="hu4-yq-O6F" firstAttribute="centerY" secondItem="TiV-5c-k94" secondAttribute="centerY" id="RdX-nu-DcK"/>
+                        <constraint firstAttribute="height" constant="23" id="XSB-OD-qTu"/>
+                        <constraint firstAttribute="bottom" secondItem="Siq-rV-fHb" secondAttribute="bottom" id="Y2h-Rq-aGq"/>
+                        <constraint firstItem="SOe-B1-R9s" firstAttribute="leading" secondItem="TiV-5c-k94" secondAttribute="leading" id="c7A-ca-RcG"/>
+                        <constraint firstAttribute="bottom" secondItem="SOe-B1-R9s" secondAttribute="bottom" id="fOZ-zM-dwd"/>
+                        <constraint firstItem="SOe-B1-R9s" firstAttribute="top" secondItem="TiV-5c-k94" secondAttribute="top" id="l6m-XJ-fk3"/>
+                        <constraint firstAttribute="trailing" secondItem="Siq-rV-fHb" secondAttribute="trailing" id="xX0-zA-oCn"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcP-KM-xxQ" customClass="UILabelComponent" customModule="ComponentKit">
+                    <rect key="frame" x="20" y="89.5" width="339" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="h1OnCta"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.074509803920000006" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="TiV-5c-k94" firstAttribute="leading" secondItem="FbT-If-2eN" secondAttribute="leading" constant="20" id="5Ye-ZI-nee"/>
+                <constraint firstAttribute="height" constant="175.5" id="7Ag-gZ-K3g"/>
+                <constraint firstItem="TiV-5c-k94" firstAttribute="top" secondItem="n5K-Jg-9HY" secondAttribute="bottom" constant="16" id="93v-Yg-M8S"/>
+                <constraint firstItem="EMN-WQ-ihT" firstAttribute="trailing" secondItem="OcP-KM-xxQ" secondAttribute="trailing" constant="16" id="9TF-xb-1fb"/>
+                <constraint firstItem="8mM-Q8-ggI" firstAttribute="top" secondItem="OcP-KM-xxQ" secondAttribute="bottom" priority="1" constant="24" id="B6v-q7-GyW"/>
+                <constraint firstItem="OcP-KM-xxQ" firstAttribute="top" secondItem="n5K-Jg-9HY" secondAttribute="bottom" priority="2" constant="53" id="C5S-Ej-fHS"/>
+                <constraint firstItem="EMN-WQ-ihT" firstAttribute="bottom" secondItem="8mM-Q8-ggI" secondAttribute="bottom" constant="16" id="Cb3-uk-bCe"/>
+                <constraint firstAttribute="trailing" secondItem="8mM-Q8-ggI" secondAttribute="trailing" constant="20" id="ENJ-a1-Idv"/>
+                <constraint firstItem="OcP-KM-xxQ" firstAttribute="leading" secondItem="EMN-WQ-ihT" secondAttribute="leading" constant="20" id="SDV-vy-ppf"/>
+                <constraint firstItem="n5K-Jg-9HY" firstAttribute="top" secondItem="FbT-If-2eN" secondAttribute="top" constant="16" id="TDF-ca-PuY"/>
+                <constraint firstItem="n5K-Jg-9HY" firstAttribute="leading" secondItem="FbT-If-2eN" secondAttribute="leading" constant="20" id="WLw-cj-S21"/>
+                <constraint firstItem="EMN-WQ-ihT" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TiV-5c-k94" secondAttribute="trailing" constant="16" id="Wnt-Od-1WB"/>
+                <constraint firstItem="EMN-WQ-ihT" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OcP-KM-xxQ" secondAttribute="bottom" constant="16" id="gZ7-kY-P8K"/>
+                <constraint firstItem="EMN-WQ-ihT" firstAttribute="trailing" secondItem="n5K-Jg-9HY" secondAttribute="trailing" constant="16" id="tCo-6C-rMX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EMN-WQ-ihT"/>
+            <point key="canvasLocation" x="35.5" y="-204.5"/>
+        </view>
+    </objects>
+</document>

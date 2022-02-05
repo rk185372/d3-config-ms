@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDCDepositImagesViewController" customModule="mRDC" customModuleProvider="target">
+            <connections>
+                <outlet property="pageControl" destination="Ncq-P9-OYn" id="asj-nP-gIH"/>
+                <outlet property="scrollView" destination="f9n-KE-xcl" id="zS0-Rx-jSZ"/>
+                <outlet property="stackView" destination="ErC-Xx-Wi7" id="Rmn-7Z-YIe"/>
+                <outlet property="view" destination="iN0-l3-epB" id="hm0-ED-LIY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9n-KE-xcl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="592"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ErC-Xx-Wi7">
+                            <rect key="frame" x="0.0" y="0.0" width="750" height="592"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ErC-Xx-Wi7" secondAttribute="bottom" id="PY9-xP-9HB"/>
+                        <constraint firstItem="ErC-Xx-Wi7" firstAttribute="height" secondItem="f9n-KE-xcl" secondAttribute="height" id="Pdu-4C-tB6"/>
+                        <constraint firstItem="ErC-Xx-Wi7" firstAttribute="top" secondItem="f9n-KE-xcl" secondAttribute="top" id="UtW-ko-pKl"/>
+                        <constraint firstItem="ErC-Xx-Wi7" firstAttribute="leading" secondItem="f9n-KE-xcl" secondAttribute="leading" id="dNA-9E-Ixr"/>
+                        <constraint firstAttribute="trailing" secondItem="ErC-Xx-Wi7" secondAttribute="trailing" id="f0W-fm-eWs"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="rv9-fI-dTp"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="Ncq-P9-OYn">
+                    <rect key="frame" x="62.5" y="600" width="250" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="PJm-iV-MFf"/>
+                        <constraint firstAttribute="width" constant="250" id="gDs-rr-qGr"/>
+                    </constraints>
+                </pageControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="f9n-KE-xcl" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="8a0-uB-RqT"/>
+                <constraint firstItem="f9n-KE-xcl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="KpC-CH-tEg"/>
+                <constraint firstItem="ErC-Xx-Wi7" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="2" id="RAD-de-iMf"/>
+                <constraint firstItem="f9n-KE-xcl" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-75" id="ZxO-gd-aBI"/>
+                <constraint firstItem="Ncq-P9-OYn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="boG-Iq-0uI"/>
+                <constraint firstItem="f9n-KE-xcl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sRb-nR-MVO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ncq-P9-OYn" secondAttribute="bottom" constant="30" id="tza-BW-7fc"/>
+            </constraints>
+            <point key="canvasLocation" x="34.399999999999999" y="52.623688155922046"/>
+        </view>
+    </objects>
+</document>

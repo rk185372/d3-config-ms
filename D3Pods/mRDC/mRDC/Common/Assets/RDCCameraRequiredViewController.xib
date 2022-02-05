@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDCCameraRequiredViewController" customModule="mRDC" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationTextStyle" value="navigationTitleOnPrimary"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="navigationStyle" value="navigationBarOnPrimary"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="statusBarStyle" value="statusBarOnPrimary"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="centerIconView" destination="Dhz-vz-Ahx" id="K7a-qb-irE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIViewComponent" customModule="ComponentKit">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Xnf-xM-TWn">
+                    <rect key="frame" x="87.5" y="178" width="200" height="311"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhz-vz-Ahx" customClass="CenterIconView" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="IOp-Pj-PrV"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Imu-7o-gyD"/>
+                                <constraint firstAttribute="width" constant="200" id="U7b-2o-K0R"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="kGc-bg-e5h"/>
+                            </constraints>
+                            <viewLayoutGuide key="safeArea" id="Exj-hd-HTQ"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="centerIconOnPrimary"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry, this function requires a camera to be enabled on your device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4g-ti-i8h" customClass="UILabelComponent" customModule="ComponentKit">
+                            <rect key="frame" x="0.0" y="250" width="200" height="61"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="style" value="h2OnPrimary"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="dashboard.widget.deposit.image.fail.permissions.message"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6l-77-KB2" customClass="UIButtonComponent" customModule="ComponentKit">
+                    <rect key="frame" x="12" y="608" width="351" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="1f4-1A-bEA"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l10nKey" value="dashboard.widget.deposit.image.fail.permissions.btn.close"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonOnPrimary"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="closeButtonTapped:" destination="-1" eventType="touchUpInside" id="aRm-tj-VBk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="c6l-77-KB2" secondAttribute="bottom" constant="24" id="0tK-Ko-NGb"/>
+                <constraint firstAttribute="trailing" secondItem="c6l-77-KB2" secondAttribute="trailing" constant="12" id="5Tt-VB-7RE"/>
+                <constraint firstItem="c6l-77-KB2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="5hV-Zh-jg3"/>
+                <constraint firstItem="Xnf-xM-TWn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QQI-qE-QIe"/>
+                <constraint firstItem="Xnf-xM-TWn" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="oWW-yy-8lV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="style" value="backgroundPrimary"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>
+        </view>
+    </objects>
+</document>

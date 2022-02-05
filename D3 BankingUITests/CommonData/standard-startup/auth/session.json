@@ -1,0 +1,416 @@
+{
+	"serverTime": "2019-05-02T20:06:10.934Z",
+	"systemNotification": {
+		"modifiedBy": "admin@d3banking.com",
+		"createdTimestamp": "2019-05-02T13:08:21.380Z",
+		"deleted": false,
+		"id": 419,
+		"content": "Testing broadcast for Team Beacon.",
+		"updatedTimestamp": "2019-05-02T13:08:21.380Z",
+		"version": 0,
+		"modifiedByType": "INTERNAL",
+		"startTimestamp": "2019-05-02T13:12:54.850Z",
+		"endTimestamp": "2019-05-03T13:12:54.850Z"
+	},
+	"tos": [
+
+	],
+	"syncOps": [
+
+	],
+	"selectedProfileIndex": 0,
+	"profiles": [{
+		"servicePermissions": {
+			"settings.security": {
+				"access": [
+					"READ",
+					"UPDATE"]
+			},
+			"money-movement.schedule": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.external-a2a": {
+				"access": [
+					"READ"]
+			},
+			"planning.budget": {
+				"access": [
+
+				]
+			},
+			"planning.goals": {
+				"access": [
+
+				]
+			},
+			"settings.accounts": {
+				"access": [
+					"READ",
+					"UPDATE"]
+			},
+			"user.security.reset-mfa": {
+				"access": [
+
+				]
+			},
+			"transactions.positive-pay": {
+				"access": [
+
+				]
+			},
+			"dashboard.manage": {
+				"access": [
+					"READ"]
+			},
+			"settings.business.profile": {
+				"access": [
+
+				]
+			},
+			"settings.profile": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"messages": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"accounts": {
+				"access": [
+					"READ",
+					"UPDATE",
+					"CREATE",
+					"DELETE"]
+			},
+			"settings.mobile": {
+				"access": [
+					"READ",
+					"DELETE",
+					"UPDATE"]
+			},
+			"money-movement.recipients": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.enroll": {
+				"access": [
+					"READ"]
+			},
+			"self-service.request-forms": {
+				"access": [
+					"READ"]
+			},
+			"self-service.faq": {
+				"access": [
+					"READ"]
+			},
+			"dashboard": {
+				"access": [
+					"READ"]
+			},
+			"messages.notices": {
+				"access": [
+					"READ",
+					"DELETE"]
+			},
+			"dashboard.plan": {
+				"access": [
+					"READ"]
+			},
+			"settings.usermanagement": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"settings.preferences": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.ebills": {
+				"access": [
+
+				]
+			},
+			"planning": {
+				"access": [
+
+				]
+			},
+			"money-movement.sso-p2p": {
+				"access": [
+
+				]
+			},
+			"settings": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.multiple": {
+				"access": [
+
+				]
+			},
+			"transactions": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.ach-upload": {
+				"access": [
+
+				]
+			},
+			"messages.secure": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.external-p2p": {
+				"access": [
+					"READ",
+					"UPDATE",
+					"CREATE",
+					"DELETE"]
+			},
+			"settings.alerts": {
+				"access": [
+					"READ",
+					"DELETE",
+					"CREATE",
+					"UPDATE"]
+			},
+			"money-movement.transfer-now.enroll": {
+				"access": [
+					"READ",
+					"UPDATE",
+					"CREATE",
+					"DELETE"]
+			},
+			"settings.rules": {
+				"access": [
+					"READ",
+					"DELETE"]
+			},
+			"self-service": {
+				"access": [
+					"READ"]
+			},
+			"money-movement.zelle": {
+				"access": [
+					"READ",
+					"UPDATE",
+					"CREATE",
+					"DELETE"]
+			},
+			"money-movement.payment-approvals": {
+				"access": [
+
+				]
+			},
+			"settings.dashboard": {
+				"access": [
+					"READ",
+					"UPDATE"]
+			},
+			"settings.categories": {
+				"access": [
+					"READ",
+					"DELETE",
+					"UPDATE"]
+			}
+		},
+		"physicalAddress": {
+			"city": "Tampa",
+			"longitude": 1,
+			"postalCode": "33661",
+			"countryCode": "US",
+			"latitude": 1,
+			"line1": "2064 Topoco Dr",
+			"state": "IA"
+		},
+		"loginId": "samueladamsiii",
+		"dateOfBirth": "1984-01-16",
+		"push": {
+			"readOnly": false,
+			"primary": false,
+			"id": 63,
+			"verified": false,
+			"label": "PUSH",
+			"type": "PUSH",
+			"value": "Push",
+			"outOfBand": false
+		},
+		"taxIdExists": true,
+		"previousLogin": "Thursday, May 02, 2019 7:02 PM GMT",
+		"authorizedApprovalTypes": [
+
+		],
+		"enrolled": true,
+		"type": "PRIMARY",
+		"profileType": "CONSUMER",
+		"phoneNumbers": [{
+			"readOnly": false,
+			"primary": false,
+			"subType": "MOBILE",
+			"id": 66,
+			"verified": false,
+			"label": "MOBILE",
+			"type": "PHONE",
+			"value": "4024486145",
+			"sms": true,
+			"outOfBand": false
+		}, {
+			"readOnly": true,
+			"primary": false,
+			"subType": "PRIMARY",
+			"id": 67,
+			"verified": false,
+			"label": "PRIMARY",
+			"type": "PHONE",
+			"value": "4028969459",
+			"sms": true,
+			"outOfBand": false
+		}, {
+			"readOnly": false,
+			"primary": false,
+			"subType": "WORK",
+			"id": 68,
+			"verified": false,
+			"label": "WORK",
+			"type": "PHONE",
+			"value": "4025646419",
+			"sms": true,
+			"outOfBand": false
+		}],
+		"validEmailTypes": [{
+			"internalName": "PRIMARY",
+			"order": 1,
+			"repeatable": false,
+			"destinationType": "EMAIL",
+			"interfaceName": "PRIMARY"
+		}, {
+			"internalName": "ALTERNATE",
+			"order": 2,
+			"repeatable": false,
+			"destinationType": "EMAIL",
+			"interfaceName": "ALTERNATE"
+		}, {
+			"internalName": "ADDITIONAL",
+			"order": 3,
+			"repeatable": true,
+			"destinationType": "EMAIL",
+			"interfaceName": "ADDITIONAL"
+		}],
+		"middleName": "Quincy",
+		"firstName": "Samuel",
+		"mailingAddress": {
+			"city": "Westminster",
+			"longitude": 1,
+			"postalCode": "21158",
+			"countryCode": "US",
+			"latitude": 1,
+			"line1": "6256 50th St",
+			"state": "MD"
+		},
+		"validPhoneTypes": [{
+			"internalName": "HOME",
+			"mobileType": false,
+			"repeatable": false,
+			"destinationType": "PHONE",
+			"interfaceName": "HOME"
+		}, {
+			"internalName": "MOBILE",
+			"mobileType": true,
+			"repeatable": false,
+			"destinationType": "PHONE",
+			"interfaceName": "MOBILE"
+		}, {
+			"internalName": "WORK",
+			"mobileType": false,
+			"repeatable": false,
+			"destinationType": "PHONE",
+			"interfaceName": "WORK"
+		}],
+		"validProfileModes": [
+			"CONSUMER"],
+		"emailAddresses": [{
+			"readOnly": false,
+			"primary": true,
+			"alternate": false,
+			"id": 64,
+			"subType": "PRIMARY",
+			"verified": false,
+			"label": "PRIMARY",
+			"type": "EMAIL",
+			"value": "samuel.adamsiii@d3banking.com",
+			"outOfBand": true
+		}, {
+			"readOnly": false,
+			"primary": false,
+			"alternate": true,
+			"id": 65,
+			"subType": "ALTERNATE",
+			"verified": false,
+			"label": "ALTERNATE",
+			"type": "EMAIL",
+			"value": "samuel.adamsiii@lodosoftware.com",
+			"outOfBand": false
+		}],
+		"lastName": "Adams III",
+		"attributes": {
+
+		},
+		"inbox": {
+			"readOnly": false,
+			"primary": false,
+			"id": 62,
+			"verified": false,
+			"label": "INBOX",
+			"type": "INBOX",
+			"value": "Inbox",
+			"outOfBand": false
+		}
+	}],
+	"csrfToken": "3f5646ad1b949798ee08653d787149ee",
+	"userDeviceId": 331,
+	"estatementPromptAccounts": [
+
+	],
+	"rdcAllowed": true,
+	"validProfileTypes": [
+		"CONSUMER"],
+	"startupKey": 95,
+	"activeProfileType": "CONSUMER"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="129" id="Ib8-Tk-1RZ" customClass="ADAAccountCell" customModule="D3_Today_Extension">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ib8-Tk-1RZ" id="Afd-88-IQZ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="128.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lXF-CQ-sBG">
+                        <rect key="frame" x="20" y="15" width="335" height="98.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcs-WE-JdO" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="0.0" width="335" height="49.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wS4-Lx-7lf" customClass="UILabelComponent" customModule="ComponentKit">
+                                <rect key="frame" x="0.0" y="49.5" width="335" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lXF-CQ-sBG" firstAttribute="top" secondItem="Afd-88-IQZ" secondAttribute="top" constant="15" id="DeV-se-bDT"/>
+                    <constraint firstItem="lXF-CQ-sBG" firstAttribute="leading" secondItem="Afd-88-IQZ" secondAttribute="leading" constant="20" id="WVz-qb-fWS"/>
+                    <constraint firstAttribute="bottom" secondItem="lXF-CQ-sBG" secondAttribute="bottom" constant="15" id="sdv-gv-NVH"/>
+                    <constraint firstAttribute="trailing" secondItem="lXF-CQ-sBG" secondAttribute="trailing" constant="20" id="zgS-xc-NXB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="balanceLabel" destination="wS4-Lx-7lf" id="CE8-1u-mp4"/>
+                <outlet property="nameLabel" destination="Tcs-WE-JdO" id="B38-MS-6HM"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="116.49175412293854"/>
+        </tableViewCell>
+    </objects>
+</document>
